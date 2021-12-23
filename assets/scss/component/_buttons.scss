@@ -1,0 +1,61 @@
+@import "../abstracts/mixin";
+@import "../abstracts/variables";
+
+.bg-wh-btn{
+    @include fonts($font1,16px,21px,600, $color2);
+    background: $color1;
+    border-radius: 25px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+
+
+.mainbanner-wh-btn{
+    @include fonts($font1,16px,1.1,600, $color4);
+    background: $color1;
+    border-radius: 25px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    &:hover{
+        background: $color3;
+        color: $color4;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+}
+.mainbanner-wh-btn-bgless{
+    @include fonts($font1,16px,1.1,600, $color1);
+    border-radius: 25px;
+    padding: 15px 35px;
+    background: transparent;
+    border: 1px solid $color1;
+    text-transform: uppercase;
+    transition: 0.3s;
+    &:hover{
+        background: $color3;
+        color: $color4;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+}
+
+.buy-btn-1{
+    @include fonts($font1,18px,32px,600, $color4);
+    background: $color1;
+    border-radius: 25px;
+    padding: 10px 40px;
+    text-transform:capitalize; 
+    &:hover{
+        color: $color1;
+    }
+
+   
+}
+
+.arrow{
+    border: 1px solid $color1;
+    background: transparent;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
