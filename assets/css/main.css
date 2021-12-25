@@ -499,7 +499,7 @@ body {
 
 .service .text h2 {
   font-family: "Open Sans", sans-serif;
-  font-size: 32px;
+  font-size: 38px;
   line-height: 45px;
   font-weight: 700;
   color: #DD3F3F;
@@ -513,6 +513,21 @@ body {
   font-weight: 500;
   color: #242424;
   text-align: justify;
+}
+
+.service .text i {
+  font-size: 28px;
+  margin-right: 10px;
+  color: #DD3F3F;
+  margin-top: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.service .text i:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .service .service-cards {

@@ -5,13 +5,24 @@
     .text{
         padding-right: 20px;
         h2{
-            @include fonts($font1, 32px, 45px, 700, $color2);
+            @include fonts($font1, 38px, 45px, 700, $color2);
             margin-bottom: 10px;
         }
         p{  
            
             @include fonts($font1, 14px, 25px, 500, $color4);
             text-align: justify;
+        }
+        i{
+            font-size: 28px;
+            margin-right: 10px;
+            color: $color2;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover{
+                transform: scale(1.2);
+            }
         }
     }
    .service-cards{
