@@ -176,7 +176,7 @@ body {
 .mainbanner-wh-btn {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.4;
   font-weight: 600;
   color: #242424;
   background: #FFFFFF;
@@ -197,7 +197,7 @@ body {
 .mainbanner-wh-btn-bgless {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.4;
   font-weight: 600;
   color: #FFFFFF;
   border-radius: 25px;
@@ -491,26 +491,27 @@ body {
   margin: 0 10px;
 }
 
-.service {
+.about {
   width: 100%;
   height: 600px;
   padding: 150px 0px;
 }
 
-.service .text {
+.about .text {
   padding-right: 20px;
+  position: relative;
 }
 
-.service .text h2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 38px;
+.about .text h2 {
+  font-family: "Lobster Two", cursive;
+  font-size: 42px;
   line-height: 45px;
   font-weight: 700;
   color: #DD3F3F;
   margin-bottom: 10px;
 }
 
-.service .text p {
+.about .text p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 25px;
@@ -519,7 +520,7 @@ body {
   text-align: justify;
 }
 
-.service .text i {
+.about .text i {
   font-size: 28px;
   margin-right: 10px;
   color: #DD3F3F;
@@ -529,12 +530,12 @@ body {
   transition: 0.3s;
 }
 
-.service .text i:hover {
+.about .text i:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-.service .service-cards {
+.about .service-cards {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -544,13 +545,13 @@ body {
           justify-content: flex-end;
 }
 
-.service .service-cards .posti {
+.about .service-cards .posti {
   position: relative;
   width: 26%;
   margin: 0 30px;
 }
 
-.service .service-cards .posti .service-card {
+.about .service-cards .posti .service-card {
   width: 220px;
   margin: 0 auto;
   height: 300px;
@@ -572,7 +573,7 @@ body {
           justify-content: center;
 }
 
-.service .service-cards .posti .service-card .circle {
+.about .service-cards .posti .service-card .circle {
   position: absolute;
   top: 10%;
   left: 50%;
@@ -584,12 +585,12 @@ body {
           transform: translateX(-50%);
 }
 
-.service .service-cards .posti .top {
+.about .service-cards .posti .top {
   position: absolute;
   top: -30px;
 }
 
-.service .service-cards .posti .bottom {
+.about .service-cards .posti .bottom {
   position: absolute;
   top: 30px;
 }
@@ -609,7 +610,7 @@ body {
 .mainbanner-wh-btn {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.4;
   font-weight: 600;
   color: #242424;
   background: #FFFFFF;
@@ -630,7 +631,7 @@ body {
 .mainbanner-wh-btn-bgless {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.4;
   font-weight: 600;
   color: #FFFFFF;
   border-radius: 25px;
@@ -798,7 +799,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 38px;
   line-height: 50px;
-  font-weight: 600;
+  font-weight: 700;
   color: #242424;
 }
 
@@ -1617,7 +1618,7 @@ body {
 .mainbanner-wh-btn {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.4;
   font-weight: 600;
   color: #242424;
   background: #FFFFFF;
@@ -1638,7 +1639,7 @@ body {
 .mainbanner-wh-btn-bgless {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.4;
   font-weight: 600;
   color: #FFFFFF;
   border-radius: 25px;
@@ -1806,7 +1807,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 38px;
   line-height: 50px;
-  font-weight: 600;
+  font-weight: 700;
   color: #242424;
 }
 
@@ -1861,7 +1862,7 @@ body {
 }
 
 .mobiles {
-  padding-bottom: 150px;
+  padding: 60px;
   position: relative;
 }
 
@@ -2560,7 +2561,7 @@ body {
 .mainbanner-wh-btn {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.4;
   font-weight: 600;
   color: #242424;
   background: #FFFFFF;
@@ -2581,7 +2582,7 @@ body {
 .mainbanner-wh-btn-bgless {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.4;
   font-weight: 600;
   color: #FFFFFF;
   border-radius: 25px;
@@ -2749,7 +2750,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 38px;
   line-height: 50px;
-  font-weight: 600;
+  font-weight: 700;
   color: #242424;
 }
 
@@ -3181,7 +3182,7 @@ body {
 .mainbanner-wh-btn {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.4;
   font-weight: 600;
   color: #242424;
   background: #FFFFFF;
@@ -3202,7 +3203,7 @@ body {
 .mainbanner-wh-btn-bgless {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.4;
   font-weight: 600;
   color: #FFFFFF;
   border-radius: 25px;
@@ -3370,7 +3371,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 38px;
   line-height: 50px;
-  font-weight: 600;
+  font-weight: 700;
   color: #242424;
 }
 
@@ -4094,7 +4095,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 38px;
   line-height: 50px;
-  font-weight: 600;
+  font-weight: 700;
   color: #242424;
 }
 
@@ -4146,29 +4147,6 @@ body {
     font-weight: 400;
     color: #424242;
   }
-}
-
-.about .blog-slider {
-  width: 100%;
-  background: red;
-}
-
-.about .blog-slider .blog-slider__img {
-  width: 100%;
-  background: #FFFFFF;
-  height: 500px;
-  border-radius: 15px;
-  -webkit-box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
-          box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
-}
-
-.about .blog-slider .blog-slider__content {
-  width: 100%;
-  background: #DD3F3F;
-  height: 500px;
-  border-radius: 15px;
-  -webkit-box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
-          box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
 }
 
 .ad-banner {

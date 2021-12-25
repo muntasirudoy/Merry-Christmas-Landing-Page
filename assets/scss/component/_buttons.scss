@@ -11,7 +11,7 @@
 
 
 .mainbanner-wh-btn{
-    @include fonts($font1,16px,1.1,600, $color4);
+    @include fonts($font1,16px,1.4,600, $color4);
     background: $color1;
     border-radius: 25px;
     padding: 15px 35px;
@@ -24,7 +24,7 @@
     }
 }
 .mainbanner-wh-btn-bgless{
-    @include fonts($font1,16px,1.1,600, $color1);
+    @include fonts($font1,16px,1.4,600, $color1);
     border-radius: 25px;
     padding: 15px 35px;
     background: transparent;

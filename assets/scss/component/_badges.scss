@@ -30,7 +30,7 @@
         }
     }
     h2{
-        @include fonts($font1,38px,50px,600, $color4);  
+        @include fonts($font1,38px,50px,700, $color4);  
     }
     .title-pra{
         @include fonts($font1,14px,19px,400, $color8);   
