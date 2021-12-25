@@ -67,15 +67,18 @@ body {
 }
 
 .navbar ul li a::after {
-  width: 0;
-  height: 3px;
+  width: 0%;
+  height: 2px;
   background: #FFD057;
   content: '';
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 50%;
   -webkit-transition: .4s;
   transition: .4s;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 1111;
 }
 
 .navbar ul li a::after:hover {
@@ -92,6 +95,7 @@ body {
 
 .navbar .nav-btn {
   margin-left: 225px;
+  font-size: 14px;
 }
 
 .navbar .nav-btn:hover {
@@ -408,8 +412,8 @@ body {
 }
 
 .main-banner .banner-text .text-box h1 {
-  font-family: "Rum Raisin", sans-serif;
-  font-size: 100px;
+  font-family: "Lobster Two", cursive;
+  font-size: 90px;
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -421,16 +425,16 @@ body {
 .main-banner .banner-text .text-box h4 {
   position: absolute;
   bottom: -36px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lobster Two", cursive;
   font-size: 90px;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 300;
   color: #FFD057;
 }
 
 .main-banner .banner-text .banner-timer {
   margin-top: 50px;
-  padding: 0 50px;
+  padding: 0 90px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -448,7 +452,7 @@ body {
 }
 
 .main-banner .banner-text .banner-timer .timer h2 {
-  font-family: "Rum Raisin", sans-serif;
+  font-family: "Lobster Two", cursive;
   font-size: 90px;
   line-height: 1;
   font-weight: 600;
@@ -853,24 +857,18 @@ body {
   position: relative;
 }
 
-.product-card::after {
-  background: url(../images/product-card/christmas-decoration1.png) no-repeat;
+.product-card .decoration-image-left {
   position: absolute;
   top: 0;
-  left: 20px;
-  content: '';
-  width: 205px;
-  height: 312px;
+  left: 0px;
+  width: 188px;
 }
 
-.product-card::before {
-  background: url(../images/product-card/christmas-decoration2.png) no-repeat;
+.product-card .decoration-image-right {
   position: absolute;
   top: 0;
-  right: 20px;
-  content: '';
-  width: 154px;
-  height: 290px;
+  right: 0px;
+  width: 188px;
 }
 
 .product-card .all-card {
@@ -1864,10 +1862,19 @@ body {
 
 .mobiles {
   padding-bottom: 150px;
+  position: relative;
 }
 
 .mobiles .title {
   margin-bottom: 50px;
+}
+
+.mobiles .decoration-tree-left {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  opacity: 0.06;
+  z-index: -1;
 }
 
 .mobiles .mobile-slider .all-items .first-row {
@@ -2813,7 +2820,7 @@ body {
 }
 
 .tv .tv-top-slider .tv-slider-items .top h3 {
-  font-family: "Rum Raisin", sans-serif;
+  font-family: "Lobster Two", cursive;
   font-size: 67px;
   line-height: 70px;
   font-weight: 400;
@@ -2884,7 +2891,7 @@ body {
     text-align: center;
   }
   .tv .tv-top-slider .tv-slider-items .top h3 {
-    font-family: "Rum Raisin", sans-serif;
+    font-family: "Lobster Two", cursive;
     font-size: 28px;
     line-height: 38px;
     font-weight: 400;
@@ -2956,7 +2963,7 @@ body {
     text-align: center;
   }
   .tv .tv-top-slider .tv-slider-items .top h3 {
-    font-family: "Rum Raisin", sans-serif;
+    font-family: "Lobster Two", cursive;
     font-size: 38px;
     line-height: 56px;
     font-weight: 400;
@@ -3028,7 +3035,7 @@ body {
     text-align: center;
   }
   .tv .tv-top-slider .tv-slider-items .top h3 {
-    font-family: "Rum Raisin", sans-serif;
+    font-family: "Lobster Two", cursive;
     font-size: 48px;
     line-height: 56px;
     font-weight: 400;
@@ -3100,7 +3107,7 @@ body {
     text-align: center;
   }
   .tv .tv-top-slider .tv-slider-items .top h3 {
-    font-family: "Rum Raisin", sans-serif;
+    font-family: "Lobster Two", cursive;
     font-size: 48px;
     line-height: 56px;
     font-weight: 400;
@@ -3421,26 +3428,94 @@ body {
   padding-top: 180px;
   padding-bottom: 160px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.testimonial::after {
-  background: url(../images/testimonial/christmas-deco3.png) no-repeat;
+.testimonial .decoration-left-2 {
   position: absolute;
-  top: 0;
-  left: 20px;
-  content: '';
-  width: 222px;
-  height: 350px;
+  left: 40px;
+  top: -50px;
+  width: 150px;
+  -webkit-animation: updown 3s infinite;
+          animation: updown 3s infinite;
+  z-index: -1;
+  -webkit-animation: updown2 3s 1s infinite;
+          animation: updown2 3s 1s infinite;
 }
 
-.testimonial::before {
-  background: url(../images/testimonial/christmas-deco4.png) no-repeat;
+@-webkit-keyframes updown2 {
+  0% {
+    -webkit-transform: translatey(0);
+            transform: translatey(0);
+  }
+  50% {
+    -webkit-transform: translatey(25px);
+            transform: translatey(25px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+@keyframes updown2 {
+  0% {
+    -webkit-transform: translatey(0);
+            transform: translatey(0);
+  }
+  50% {
+    -webkit-transform: translatey(25px);
+            transform: translatey(25px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+.testimonial .decoration-right-2 {
   position: absolute;
-  top: 0;
-  right: 20px;
-  content: '';
-  width: 205px;
-  height: 312px;
+  right: 40px;
+  top: -50px;
+  width: 150px;
+  -webkit-animation: updown 3s infinite;
+          animation: updown 3s infinite;
+  z-index: -1;
+}
+
+@-webkit-keyframes updown {
+  0% {
+    -webkit-transform: translatey(0);
+            transform: translatey(0);
+  }
+  50% {
+    -webkit-transform: translatey(25px);
+            transform: translatey(25px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+@keyframes updown {
+  0% {
+    -webkit-transform: translatey(0);
+            transform: translatey(0);
+  }
+  50% {
+    -webkit-transform: translatey(25px);
+            transform: translatey(25px);
+  }
+  100% {
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
 }
 
 .testimonial .title {
@@ -3456,76 +3531,69 @@ body {
   margin: auto;
 }
 
-.testimonial .testimonial-slider .testimonial-card {
-  background: #DD3F3F;
-  border-radius: 20px;
-  width: 610px !important;
-  padding: 100px 35px 80px 35px;
-  position: relative;
-  margin-top: 80px;
+.testimonial .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.testimonial .testimonial-slider .testimonial-card .photo-circle {
-  width: 155px;
-  height: 155px;
-  border-radius: 50%;
-  border: 4px solid #DD3F3F;
-  background: #FFFFFF;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-box-shadow: 0px 17px 39px 0px #00000040;
-          box-shadow: 0px 17px 39px 0px #00000040;
+.testimonial .all .testimonial-slider {
+  width: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.testimonial .testimonial-slider .testimonial-card .photo-circle img {
-  width: 100% !important;
-  height: 100% !important;
-  border-radius: 50%;
-}
-
-.testimonial .testimonial-slider .testimonial-card .testimonial-text {
+.testimonial .all .testimonial-slider .testimonial-card .testimonial-text {
   text-align: center;
 }
 
-.testimonial .testimonial-slider .testimonial-card .testimonial-text h4 {
+.testimonial .all .testimonial-slider .testimonial-card .testimonial-text h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   line-height: 32px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #DD3F3F;
   margin-bottom: 15px;
 }
 
-.testimonial .testimonial-slider .testimonial-card .testimonial-text .designation {
+.testimonial .all .testimonial-slider .testimonial-card .testimonial-text .designation {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 21px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #DD3F3F;
   margin-bottom: 30px;
 }
 
-.testimonial .testimonial-slider .testimonial-card .testimonial-text .details {
+.testimonial .all .testimonial-slider .testimonial-card .testimonial-text .details {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #DD3F3F;
 }
 
-.testimonial .prevbtn {
+.testimonial .all .prevbtn {
   position: absolute;
   top: -215px;
-  left: 28%;
+  left: 10%;
 }
 
-.testimonial .nextbtn {
+.testimonial .all .nextbtn {
   position: absolute;
   top: -215px;
-  right: 28%;
+  right: 10%;
 }
 
 @media (min-width: 320px) and (max-width: 379.98px) {
@@ -4107,6 +4175,14 @@ body {
   background: url(../images/ad_bg.png) no-repeat center;
   background-size: cover;
   height: 580px;
+  position: relative;
+}
+
+.ad-banner .decoration-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 178px;
 }
 
 .ad-banner .ad_slider .inn-slider {

@@ -165,7 +165,7 @@ $(window).scroll(function(){
     dots: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow:'<img class="prevbtn arrow2" src="./assets/images/testimonial/left-arrow-red.svg" alt="left-arrow">',
     nextArrow:' <img class="nextbtn arrow2" src="./assets/images/testimonial/right-arrow-red.svg" alt="right-arrow">',

@@ -7,29 +7,17 @@
     padding: 60px 0;
     position: relative;
     
-
-    &::after {
-        background: url(../images/product-card/christmas-decoration1.png) no-repeat;
+    .decoration-image-left{
         position: absolute;
         top: 0;
-        left: 20px;
-        content: '';
-        width: 205px;
-        height: 312px;
-
-
+        left: 0px;
+        width: 188px;
     }
-
-    &::before {
-        background: url(../images/product-card/christmas-decoration2.png) no-repeat;
+    .decoration-image-right{
         position: absolute;
         top: 0;
-        right: 20px;
-        content: '';
-        width: 154px;
-        height: 290px;
-
-
+        right: 0px;
+        width: 188px;
     }
 
     .all-card {

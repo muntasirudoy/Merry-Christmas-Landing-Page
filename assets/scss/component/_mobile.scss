@@ -7,9 +7,17 @@
 
 .mobiles {
     padding-bottom: 150px;
-
+    position: relative;
     .title {
         margin-bottom: 50px;
+    }
+
+    .decoration-tree-left{
+        position: absolute;
+        bottom: 0;
+        left: 40px;
+        opacity: 0.06;
+        z-index: -1;
     }
 
     .mobile-slider {
