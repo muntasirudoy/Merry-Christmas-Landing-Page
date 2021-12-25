@@ -108,26 +108,15 @@
         padding-bottom: 150px;
         position: relative;
         
-    
-        &::after {
-            top: 0;
-            left: 20px;
-            width: 205px;
-            height: 312px;
+        .decoration-image-left{
             display: none;
-    
-    
+        }
+        .decoration-image-right{
+            display: none;
         }
     
-        &::before {
-            top: 0;
-            right: 20px;
-            width: 154px;
-            height: 290px;
-            display: none;
     
-    
-        }
+        
     .title{
         margin-bottom: 100px;
     }

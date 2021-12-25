@@ -60,18 +60,18 @@
 
     .prevbtn {
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 0;
-        transform: translateY(-50%);
+        transform: translateY(-40%);
         z-index: 1;
 
     }
 
     .nextbtn {
         position: absolute;
-        top: 50%;
+        top: 40%;
         right: 0;
-      transform: translateY(-50%);
+      transform: translateY(-40%);
       z-index: 1;
 
     }
