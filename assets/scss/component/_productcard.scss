@@ -4,8 +4,7 @@
 
 
 .product-card {
-    padding-top: 100px;
-    padding-bottom: 150px;
+    padding: 60px 0;
     position: relative;
     
 
@@ -32,12 +31,11 @@
 
 
     }
-.title{
-    margin-bottom: 100px;
-}
+
     .all-card {
         display: flex;
         justify-content: space-between;
+        margin-top: 60px;
         .card-item {
             width: 400px !important;
             border: 1px solid $color10;
@@ -101,14 +99,14 @@
 
     .prevbtn {
         position: absolute;
-        top: -150px;
+        top: -110px;
         left: 28%;
 
     }
 
     .nextbtn {
         position: absolute;
-        top: -150px;
+        top: -110px;
         right: 28%;
 
     }

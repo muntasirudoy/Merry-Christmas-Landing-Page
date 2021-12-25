@@ -26,7 +26,7 @@ body {
   overflow-x: hidden;
 }
 
-.section-padding {
+.section-margin {
   margin: 40px 0px;
 }
 
@@ -489,23 +489,52 @@ body {
 
 .service {
   width: 100%;
-  height: 360px;
-  padding: 30px 0px;
+  height: 600px;
+  padding: 150px 0px;
+}
+
+.service .text {
+  padding-right: 20px;
+}
+
+.service .text h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #DD3F3F;
+  margin-bottom: 10px;
+}
+
+.service .text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #242424;
+  text-align: justify;
 }
 
 .service .service-cards {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .service .service-cards .posti {
   position: relative;
+  width: 26%;
+  margin: 0 30px;
 }
 
 .service .service-cards .posti .service-card {
-  width: 80%;
+  width: 220px;
   margin: 0 auto;
   height: 300px;
-  background: #FFFFFF;
   -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
           box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   position: absolute;
@@ -805,8 +834,7 @@ body {
 }
 
 .product-card {
-  padding-top: 100px;
-  padding-bottom: 150px;
+  padding: 60px 0;
   position: relative;
 }
 
@@ -830,10 +858,6 @@ body {
   height: 290px;
 }
 
-.product-card .title {
-  margin-bottom: 100px;
-}
-
 .product-card .all-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -841,6 +865,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 60px;
 }
 
 .product-card .all-card .card-item {
@@ -929,13 +954,13 @@ body {
 
 .product-card .prevbtn {
   position: absolute;
-  top: -150px;
+  top: -110px;
   left: 28%;
 }
 
 .product-card .nextbtn {
   position: absolute;
-  top: -150px;
+  top: -110px;
   right: 28%;
 }
 
@@ -1837,11 +1862,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 100px;
+  margin: 60px 40px;
 }
 
 .mobiles .mobile-slider .all-items .first-row .mobile-card-width {
-  width: 600px !important;
+  width: 570px !important;
 }
 
 .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card {

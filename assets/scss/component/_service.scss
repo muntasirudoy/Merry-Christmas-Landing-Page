@@ -1,18 +1,32 @@
 .service{
     width: 100%;
-    height: 360px;
-    padding: 30px 0px;
+    height: 600px;
+    padding: 150px 0px;
+    .text{
+        padding-right: 20px;
+        h2{
+            @include fonts($font1, 32px, 45px, 700, $color2);
+            margin-bottom: 10px;
+        }
+        p{  
+           
+            @include fonts($font1, 14px, 25px, 500, $color4);
+            text-align: justify;
+        }
+    }
    .service-cards{
        
        width: 100%;
+       display: flex;
+       justify-content: flex-end;
        .posti{
            position: relative;
-       
+           width: 26%;
+           margin: 0 30px;
        .service-card{
-            width: 80%;
+            width: 220px;
             margin: 0 auto;
             height: 300px;
-            background: $color1;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;;
             position: absolute;
             top: 0;
@@ -31,6 +45,7 @@
                 background: rgb(255, 242, 242);
                 transform: translateX(-50%);
             }
+            
        }
        .top{
           position:absolute;
