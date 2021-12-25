@@ -1,0 +1,640 @@
+@import "../abstracts/mixin";
+@import "../component/buttons";
+@import "../component/badges";
+
+.testimonial {
+    padding-top: 180px;
+    padding-bottom: 160px;
+
+    position: relative;
+
+    &::after {
+        background: url(../images/testimonial/christmas-deco3.png) no-repeat;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        content: '';
+        width: 222px;
+        height: 350px;
+      
+
+
+    }
+
+    &::before {
+        background: url(../images/testimonial/christmas-deco4.png) no-repeat;
+        position: absolute;
+        top: 0;
+        right: 20px;
+        content: '';
+        width: 205px;
+        height: 312px;
+      
+
+
+    }
+
+    .title {
+        margin-bottom: 100px;
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        .title-pra {
+            width: 635px;
+            margin: auto;
+        }
+    }
+
+    .testimonial-slider {
+
+
+        .testimonial-card {
+            background: $color7;
+            border-radius: 20px;
+            width: 610px !important;
+            padding: 100px 35px 80px 35px;
+            position: relative;
+            margin-top: 80px;
+
+            .photo-circle {
+                width: 155px;
+                height: 155px;
+                border-radius: 50%;
+                border: 4px solid $color7;
+                background: $color1;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                box-shadow: $shadow2;
+
+                img {
+                    width: 100% !important;
+                    height: 100% !important;
+                    border-radius: 50%;
+
+                }
+            }
+
+            .testimonial-text {
+                text-align: center;
+
+                h4 {
+                    @include fonts($font1, 24px, 32px, 600, $color1);
+                    margin-bottom: 15px
+                }
+
+                .designation {
+                    @include fonts($font1, 16px, 21px, 600, $color1);
+                    margin-bottom: 30px
+                }
+
+                .details {
+                    @include fonts($font1, 18px, 26px, 400, $color1);
+                }
+            }
+        }
+    }
+
+    .prevbtn {
+        position: absolute;
+        top: -215px;
+        left: 28%;
+
+
+    }
+
+    .nextbtn {
+        position: absolute;
+        top: -215px;
+        right: 28%;
+
+
+    }
+}
+
+
+@media (min-width: 320px) and (max-width:379.98px) {
+
+    .testimonial {
+        padding-top: 150px;
+        padding-bottom: 60px;
+        position: relative;
+
+        &::after {
+            top: 0;
+            left: 2px;
+            width: 75px;
+            height: 120px;
+            background-size: 70px;
+      
+
+
+        }
+
+        &::before {
+            top: 0;
+            right: 2px;
+            width: 70px;
+            height: 120px;
+            background-size: 70px;
+         
+
+        }
+
+        .title {
+            margin-bottom: 60px;
+
+            h2 {
+                margin-bottom: 30px;
+            }
+
+            .title-pra {
+                width: 336px;
+                margin: auto;
+            }
+        }
+        .testimonial-slider {
+            .testimonial-card {
+                width: auto !important;
+                padding: 80px 20px 40px 20px;
+                margin-top: 80px;
+                .photo-circle {
+                    width: 130px;
+                    height: 130px;
+                }
+
+                .testimonial-text {
+                    text-align: center;
+
+                    h4 {
+                        @include fonts($font1, 24px, 28px, 600, $color1);
+                        margin-bottom: 15px
+                    }
+
+                    .designation {
+                        @include fonts($font1, 16px, 18px, 600, $color1);
+                        margin-bottom: 20px
+                    }
+
+                    .details {
+                        @include fonts($font1, 14px, 26px, 400, $color1);
+                    }
+                }
+            }
+        }
+
+        .prevbtn {
+            position: absolute;
+            top: -210px;
+            left: -8px;
+
+
+        }
+
+        .nextbtn {
+            position: absolute;
+            top: -210px;
+            right: -8px;
+
+
+        }
+    }
+}
+@media (min-width: 380px) and (max-width:575.98px) {
+
+    .testimonial {
+        padding-top: 150px;
+        padding-bottom: 60px;
+        position: relative;
+
+        &::after {
+            top: 0;
+            left: 2px;
+            width: 75px;
+            height: 120px;
+            background-size: 70px;
+      
+
+
+        }
+
+        &::before {
+            top: 0;
+            right: 2px;
+            width: 75px;
+            height: 120px;
+            background-size: 70px;
+         
+
+        }
+
+        .title {
+            margin-bottom: 60px;
+
+            h2 {
+                margin-bottom: 30px;
+            }
+
+            .title-pra {
+                width: auto;
+                margin: auto;
+            }
+        }
+        .testimonial-slider {
+            .testimonial-card {
+                width: auto !important;
+                padding: 80px 20px 40px 20px;
+                margin-top: 80px;
+                .photo-circle {
+                    width: 130px;
+                    height: 130px;
+                }
+
+                .testimonial-text {
+                    text-align: center;
+
+                    h4 {
+                        @include fonts($font1, 24px, 28px, 600, $color1);
+                        margin-bottom: 15px
+                    }
+
+                    .designation {
+                        @include fonts($font1, 16px, 18px, 600, $color1);
+                        margin-bottom: 20px
+                    }
+
+                    .details {
+                        @include fonts($font1, 14px, 26px, 400, $color1);
+                    }
+                }
+            }
+        }
+
+        .prevbtn {
+            position: absolute;
+            top: -188px;
+            left: 0px;
+
+
+        }
+
+        .nextbtn {
+            position: absolute;
+            top: -188px;
+            right: 0px;
+
+
+        }
+    }
+}
+@media (min-width: 576px) and (max-width:767.98px) {
+
+    .testimonial {
+        padding-top: 150px;
+        padding-bottom: 60px;
+        position: relative;
+
+        &::after {
+            top: 0;
+            left: 50px;
+            width: 75px;
+            height: 120px;
+            background-size: 75px;
+      
+
+
+        }
+
+        &::before {
+            top: 0;
+            right: 50px;
+            width: 70px;
+            height: 120px;
+            background-size: 75px;
+         
+
+        }
+
+        .title {
+            margin-bottom: 60px;
+
+            h2 {
+                margin-bottom: 30px;
+            }
+
+            .title-pra {
+                width: auto;
+                margin: auto;
+            }
+        }
+        .testimonial-slider {
+            .testimonial-card {
+                width: auto !important;
+                padding: 80px 45px 50px 45px;
+                margin-top: 80px;
+                .photo-circle {
+                    width: 130px;
+                    height: 130px;
+                }
+
+                .testimonial-text {
+                    text-align: center;
+
+                    h4 {
+                        @include fonts($font1, 24px, 28px, 600, $color1);
+                        margin-bottom: 15px
+                    }
+
+                    .designation {
+                        @include fonts($font1, 16px, 18px, 600, $color1);
+                        margin-bottom: 20px
+                    }
+
+                    .details {
+                        @include fonts($font1, 14px, 26px, 400, $color1);
+                    }
+                }
+            }
+        }
+
+        .prevbtn {
+            position: absolute;
+            top: -175px;
+            left: 0px;
+
+
+        }
+
+        .nextbtn {
+            position: absolute;
+            top: -175px;
+            right: 0px;
+
+
+        }
+    }
+}
+@media (min-width: 768px) and (max-width:991.98px) {
+
+    .testimonial {
+        padding-top: 180px;
+        padding-bottom: 60px;
+        position: relative;
+
+        &::after {
+            top: 0;
+            left: 50px;
+            width: 90px;
+            height: 140px;
+            background-size: 90px;
+      
+
+
+        }
+
+        &::before {
+            top: 0;
+            right: 50px;
+            width: 90px;
+            height: 140px;
+            background-size: 90px;
+         
+
+        }
+
+        .title {
+            margin-bottom: 60px;
+
+            h2 {
+                margin-bottom: 30px;
+            }
+
+            .title-pra {
+                width: 640px;
+                margin: auto;
+            }
+        }
+        .testimonial-slider {
+            .testimonial-card {
+                width: 320px !important;
+                padding: 80px 20px 40px 20px;
+                margin-top: 80px;
+                .photo-circle {
+                    width: 130px;
+                    height: 130px;
+                }
+
+                .testimonial-text {
+                    text-align: center;
+
+                    h4 {
+                        @include fonts($font1, 24px, 28px, 600, $color1);
+                        margin-bottom: 15px
+                    }
+
+                    .designation {
+                        @include fonts($font1, 16px, 18px, 600, $color1);
+                        margin-bottom: 20px
+                    }
+
+                    .details {
+                        @include fonts($font1, 14px, 26px, 400, $color1);
+                    }
+                }
+            }
+        }
+
+        .prevbtn {
+            position: absolute;
+            top: -175px;
+            left: 12%;
+
+
+        }
+
+        .nextbtn {
+            position: absolute;
+            top: -175px;
+            right: 12%;
+
+
+        }
+    }
+}
+@media (min-width: 992px) and (max-width:1199.98px) {
+
+    .testimonial {
+        padding-top: 180px;
+        padding-bottom: 60px;
+        position: relative;
+
+        &::after {
+            top: 0;
+            left: 50px;
+            width: 110px;
+            height: 170px;
+            background-size: 100px;
+      
+
+
+        }
+
+        &::before {
+            top: 0;
+            right: 50px;
+            width: 110px;
+            height: 170px;
+            background-size: 100px;
+         
+
+        }
+
+        .title {
+            margin-bottom: 60px;
+
+            h2 {
+                margin-bottom: 30px;
+            }
+
+            .title-pra {
+                width: 640px;
+                margin: auto;
+            }
+        }
+        .testimonial-slider {
+            .testimonial-card {
+                width: 440px !important;
+                padding: 80px 40px 50px 40px;
+                margin-top: 80px;
+                .photo-circle {
+                    width: 130px;
+                    height: 130px;
+                }
+
+                .testimonial-text {
+                    text-align: center;
+
+                    h4 {
+                        @include fonts($font1, 24px, 28px, 600, $color1);
+                        margin-bottom: 15px
+                    }
+
+                    .designation {
+                        @include fonts($font1, 16px, 18px, 600, $color1);
+                        margin-bottom: 20px
+                    }
+
+                    .details {
+                        @include fonts($font1, 14px, 26px, 400, $color1);
+                    }
+                }
+            }
+        }
+
+        .prevbtn {
+            position: absolute;
+            top: -175px;
+            left: 15%;
+
+
+        }
+
+        .nextbtn {
+            position: absolute;
+            top: -175px;
+            right: 15%;
+
+
+        }
+    }
+}
+@media (min-width: 1200px) and (max-width:1399.98px) {
+
+    .testimonial {
+        padding-top: 200px;
+        padding-bottom: 60px;
+        position: relative;
+
+        &::after {
+            top: 0;
+            left: 60px;
+            width: 130px;
+            height: 210px;
+            background-size: 130px;
+      
+
+
+        }
+
+        &::before {
+            top: 0;
+            right: 60px;
+            width: 130px;
+            height: 210px;
+            background-size: 130px;
+         
+
+        }
+
+        .title {
+            margin-bottom: 60px;
+
+            h2 {
+                margin-bottom: 30px;
+            }
+
+            .title-pra {
+                width: 640px;
+                margin: auto;
+            }
+        }
+        .testimonial-slider {
+            .testimonial-card {
+                width: 515px !important;
+                padding: 80px 40px 50px 40px;
+                margin-top: 80px;
+                .photo-circle {
+                    width: 130px;
+                    height: 130px;
+                }
+
+                .testimonial-text {
+                    text-align: center;
+
+                    h4 {
+                        @include fonts($font1, 24px, 28px, 600, $color1);
+                        margin-bottom: 15px
+                    }
+
+                    .designation {
+                        @include fonts($font1, 16px, 18px, 600, $color1);
+                        margin-bottom: 20px
+                    }
+
+                    .details {
+                        @include fonts($font1, 14px, 26px, 400, $color1);
+                    }
+                }
+            }
+        }
+
+        .prevbtn {
+            position: absolute;
+            top: -175px;
+            left: 15%;
+
+
+        }
+
+        .nextbtn {
+            position: absolute;
+            top: -175px;
+            right: 15%;
+
+
+        }
+    }
+}

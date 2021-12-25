@@ -1,0 +1,738 @@
+@import "../abstracts/mixin";
+@import "../component/buttons";
+@import "../component/badges";
+
+
+
+
+.mobiles {
+    padding-bottom: 150px;
+
+    .title {
+        margin-bottom: 50px;
+    }
+
+    .mobile-slider {
+        .all-items {
+            .first-row {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 100px;
+
+                .mobile-card-width {
+                    width: 600px !important;
+
+                    .moblie-card {
+                        width: 500px;
+                        padding-top: 40px;
+                        padding-left: 60px;
+                        padding-bottom: 15px;
+                        background: $color5;
+                        border-radius: 20px;
+                        position: relative;
+                        box-shadow: $shadow1;
+
+                        .left {
+                            .top {
+                                h3 {
+                                    @include fonts($font1, 26px, 35px, 600, $color1);
+                                    text-transform: capitalize;
+                                    margin-bottom: 10px
+                                }
+
+                                p {
+                                    @include fonts($font1, 14px, 19px, 400, $color1);
+                                }
+
+                                ul {
+                                    margin-top: 30px;
+
+                                    li {
+                                        @include fonts($font1, 14px, 19px, 400, $color1);
+                                        list-style: disc;
+                                        margin-bottom: 5px;
+                                    }
+                                }
+
+                            }
+
+                            .bottom {
+                                margin-top: 40px;
+                                display: flex;
+                                height: 60px;
+
+                                .mobile-btn {
+                                    margin-right: 60px;
+                                    margin-top: 10px
+                                }
+
+                                .mobile-price {
+
+
+                                    .discount-pp {
+                                        @include fonts($font1, 14px, 19px, 600, $color6);
+                                        display: block;
+
+
+                                    }
+
+                                    span {
+                                        @include fonts($font1, 28px, 38px, 600, $color1);
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+                        }
+
+                        .right {
+
+                            width: 200px;
+                            height: 215px;
+                            border: 2px solid $color5;
+                            border-radius: 10px;
+                            background: $color1;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            position: absolute;
+                            top: 50%;
+                            right: 0;
+                            transform: translate(50%, -50%);
+
+                            .phone-img {
+                                width: 115px;
+                                height: 180px;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .prevbtn {
+        position: absolute;
+        top: -100px;
+        left: 28%;
+
+    }
+
+    .nextbtn {
+        position: absolute;
+        top: -100px;
+        right: 28%;
+
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 575.98px){
+    .mobiles {
+        padding-bottom: 150px;
+    
+        .title {
+            margin-bottom: 50px;
+        }
+    
+        .mobile-slider {
+            .all-items {
+                .first-row {
+                flex-direction: column;
+                  margin-top: 0;
+    
+                    .mobile-card-width {
+                        width: auto !important;
+    
+                        .moblie-card {
+                            width: auto;
+                            padding-top: 150px;
+                            padding-left: 15px;
+                            padding-bottom: 15px;
+                            background: $color5;
+                            border-radius: 20px;
+                            position: relative;
+                            box-shadow: $shadow1;
+                            margin-top: 160px;
+
+    
+                            .left {
+                                .top {
+                                    h3 {
+                                        @include fonts($font1, 26px, 35px, 600, $color1);
+                                        text-transform: capitalize;
+                                        margin-bottom: 10px
+                                    }
+    
+                                    p {
+                                        @include fonts($font1, 14px, 19px, 400, $color1);
+                                    }
+    
+                                    ul {
+                                        margin-top: 30px;
+    
+                                        li {
+                                            @include fonts($font1, 14px, 19px, 400, $color1);
+                                            list-style: disc;
+                                            margin-bottom: 5px;
+                                        }
+                                    }
+    
+                                }
+    
+                                .bottom {
+                                    margin-top: 40px;
+                                    display: flex;
+                                    height: 60px;
+    
+                                    .mobile-btn {
+                                        margin-right: 30px;
+                                        margin-top: 10px
+                                    }
+    
+                                    .mobile-price {
+    
+    
+                                        .discount-pp {
+                                            @include fonts($font1, 14px, 19px, 600, $color6);
+                                            display: block;
+    
+    
+                                        }
+    
+                                        span {
+                                            @include fonts($font1, 28px, 38px, 600, $color1);
+                                            display: inline-block;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .right {
+    
+                                width: 200px;
+                                height: 215px;
+                                border: 2px solid $color5;
+                                border-radius: 10px;
+                                background: $color1;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                top: 0;
+                                right: 50%;
+                                transform: translate(50%, -50%);
+    
+                                .phone-img {
+                                    width: 115px;
+                                    height: 180px;
+    
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                }
+            }
+        }
+    
+        .prevbtn {
+            position: absolute;
+            top: -95px;
+            left: -5px;
+            width: 42px;
+            height: 40px;
+    
+    
+        }
+    
+        .nextbtn {
+            position: absolute;
+            top: -95px;
+            right: -5px;
+            width: 42px;
+            height: 40px;
+      
+    
+        }
+    
+    }
+    
+    
+}
+@media (min-width: 576px) and (max-width: 768.98px){
+    .mobiles {
+        padding-bottom: 150px;
+    
+        .title {
+            margin-bottom: 50px;
+        }
+    
+        .mobile-slider {
+            .all-items {
+                .first-row {
+                flex-direction: column;
+                  margin-top: 0;
+    
+                    .mobile-card-width {
+                        width: 400px !important;
+    
+                        .moblie-card {
+                            width: auto;
+                            padding-top: 40px;
+                            padding-left: 15px;
+                            padding-bottom: 15px;
+                            margin-top: 60px;
+
+    
+                            .left {
+                                .top {
+                                    h3 {
+                                        @include fonts($font1, 26px, 35px, 600, $color1);
+                                        text-transform: capitalize;
+                                        margin-bottom: 10px
+                                    }
+    
+                                    p {
+                                        @include fonts($font1, 14px, 19px, 400, $color1);
+                                    }
+    
+                                    ul {
+                                        margin-top: 30px;
+    
+                                        li {
+                                            @include fonts($font1, 14px, 19px, 400, $color1);
+                                            list-style: disc;
+                                            margin-bottom: 5px;
+                                        }
+                                    }
+    
+                                }
+    
+                                .bottom {
+                                    margin-top: 40px;
+                                    display: flex;
+                                    height: 60px;
+    
+                                    .mobile-btn {
+                                        margin-right: 30px;
+                                        margin-top: 10px
+                                    }
+    
+                                    .mobile-price {
+    
+    
+                                        .discount-pp {
+                                            @include fonts($font1, 14px, 19px, 600, $color6);
+                                            display: block;
+    
+    
+                                        }
+    
+                                        span {
+                                            @include fonts($font1, 28px, 38px, 600, $color1);
+                                            display: inline-block;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .right {
+                                width: 200px;
+                                height: 215px;
+                                top: 50%;
+                                right: 0;
+    
+                              
+                            }
+                        }
+                    }
+    
+                }
+            }
+        }
+    
+        .prevbtn {
+            position: absolute;
+            top: -95px;
+            left: -5px;
+            width: 42px;
+            height: 40px;
+    
+    
+        }
+    
+        .nextbtn {
+            position: absolute;
+            top: -95px;
+            right: -5px;
+            width: 42px;
+            height: 40px;
+      
+    
+        }
+    
+    }
+    
+    
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .mobiles {
+        padding-bottom: 150px;
+    
+        .title {
+            margin-bottom: 50px;
+        }
+    
+        .mobile-slider {
+            .all-items {
+                .first-row {
+                  margin-top: 30px;
+                  flex-direction: row;
+    
+                    .mobile-card-width {
+                        width: 330px !important;
+    
+                        .moblie-card {
+                            width: auto;
+                            padding-top: 140px;
+                            padding-left: 25px;
+                            padding-bottom: 20px;
+                            margin-top: 160px;
+
+    
+                            .left {
+                                .top {
+                                    h3 {
+                                        @include fonts($font1, 26px, 35px, 600, $color1);
+                                        text-transform: capitalize;
+                                        margin-bottom: 10px
+                                    }
+    
+                                    p {
+                                        @include fonts($font1, 14px, 19px, 400, $color1);
+                                    }
+    
+                                    ul {
+                                        margin-top: 30px;
+    
+                                        li {
+                                            @include fonts($font1, 14px, 19px, 400, $color1);
+                                            list-style: disc;
+                                            margin-bottom: 5px;
+                                        }
+                                    }
+    
+                                }
+    
+                                .bottom {
+                                    margin-top: 40px;
+                                    display: flex;
+                                    height: 60px;
+    
+                                    .mobile-btn {
+                                        margin-right: 30px;
+                                        margin-top: 10px
+                                    }
+    
+                                    .mobile-price {
+    
+    
+                                        .discount-pp {
+                                            @include fonts($font1, 14px, 19px, 600, $color6);
+                                            display: block;
+    
+    
+                                        }
+    
+                                        span {
+                                            @include fonts($font1, 28px, 38px, 600, $color1);
+                                            display: inline-block;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .right {
+                                width: 200px;
+                                height: 215px;
+                                top: 0;
+                                right: 50%;
+    
+                              
+                            }
+                        }
+                    }
+    
+                }
+            }
+        }
+    
+        .prevbtn {
+            position: absolute;
+            top: -95px;
+            left: 80px !important;
+            width: 50px;
+            height: 42px;
+    
+    
+        }
+    
+        .nextbtn {
+            position: absolute;
+            top: -95px;
+            right: 80px !important;
+            width: 50px;
+            height: 42px;
+      
+    
+        }
+    
+    }
+    
+    
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .mobiles {
+        padding-bottom: 120px;
+    
+        .title {
+            margin-bottom: 50px;
+        }
+    
+        .mobile-slider {
+            .all-items {
+                .first-row {
+                  margin-top: 50px;
+                  flex-direction: row;
+    
+                    .mobile-card-width {
+                        width: 450px !important;
+    
+                        .moblie-card {
+                            width: 365px;
+                            padding-top: 40px;
+                            padding-left: 25px;
+                            padding-bottom: 20px;
+                            margin-top: 0;
+
+    
+                            .left {
+                                .top {
+                                    h3 {
+                                        @include fonts($font1, 26px, 35px, 600, $color1);
+                                        text-transform: capitalize;
+                                        margin-bottom: 10px
+                                    }
+    
+                                    p {
+                                        @include fonts($font1, 14px, 19px, 400, $color1);
+                                    }
+    
+                                    ul {
+                                        margin-top: 30px;
+    
+                                        li {
+                                            @include fonts($font1, 14px, 19px, 400, $color1);
+                                            list-style: disc;
+                                            margin-bottom: 5px;
+                                        }
+                                    }
+    
+                                }
+    
+                                .bottom {
+                                    margin-top: 40px;
+                                    display: flex;
+                                    height: 60px;
+    
+                                    .mobile-btn {
+                                        margin-right: 30px;
+                                        margin-top: 10px
+                                    }
+    
+                                    .mobile-price {
+    
+    
+                                        .discount-pp {
+                                            @include fonts($font1, 14px, 19px, 600, $color6);
+                                            display: block;
+    
+    
+                                        }
+    
+                                        span {
+                                            @include fonts($font1, 28px, 38px, 600, $color1);
+                                            display: inline-block;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .right {
+                                width: 170px;
+                                height: 200px;
+                                top: 50%;
+                                right: 0;
+    
+                              
+                            }
+                        }
+                    }
+    
+                }
+            }
+        }
+    
+        .prevbtn {
+            position: absolute;
+            top: -95px;
+            left: 160px !important;
+            width: 50px;
+            height: 42px;
+    
+    
+        }
+    
+        .nextbtn {
+            position: absolute;
+            top: -95px;
+            right:160px !important;
+            width: 50px;
+            height: 42px;
+      
+    
+        }
+    
+    }
+    
+    
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    .mobiles {
+        padding-bottom: 150px;
+    
+        .title {
+            margin-bottom: 50px;
+        }
+    
+        .mobile-slider {
+            .all-items {
+                .first-row {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 100px;
+    
+                    .mobile-card-width {
+                        width: 535px !important;
+    
+                        .moblie-card {
+                            width: 440px;
+                            padding-top: 40px;
+                            padding-left: 60px;
+                            padding-bottom: 15px;
+                            background: $color5;
+                            border-radius: 20px;
+                            position: relative;
+                            box-shadow: $shadow1;
+    
+                            .left {
+                                .top {
+                                    h3 {
+                                        @include fonts($font1, 26px, 35px, 600, $color1);
+                                        text-transform: capitalize;
+                                        margin-bottom: 10px
+                                    }
+    
+                                    p {
+                                        @include fonts($font1, 14px, 19px, 400, $color1);
+                                    }
+    
+                                    ul {
+                                        margin-top: 30px;
+    
+                                        li {
+                                            @include fonts($font1, 14px, 19px, 400, $color1);
+                                            list-style: disc;
+                                            margin-bottom: 5px;
+                                        }
+                                    }
+    
+                                }
+    
+                                .bottom {
+                                    margin-top: 40px;
+                                    display: flex;
+                                    height: 60px;
+    
+                                    .mobile-btn {
+                                        margin-right: 35px;
+                                        margin-top: 10px
+                                    }
+    
+                                    .mobile-price {
+    
+    
+                                        .discount-pp {
+                                            @include fonts($font1, 14px, 19px, 600, $color6);
+                                            display: block;
+    
+    
+                                        }
+    
+                                        span {
+                                            @include fonts($font1, 28px, 38px, 600, $color1);
+                                            display: inline-block;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .right {
+    
+                                width: 180px;
+                                height: 200px;
+                                top: 50%;
+                                right: 0;
+    
+                                
+                            }
+                        }
+                    }
+    
+                }
+            }
+        }
+    
+        .prevbtn {
+            position: absolute;
+            top: -100px;
+            left: 28%;
+    
+        }
+    
+        .nextbtn {
+            position: absolute;
+            top: -100px;
+            right: 28%;
+    
+        }
+    
+    }
+
+}
