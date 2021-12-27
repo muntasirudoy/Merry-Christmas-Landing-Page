@@ -3,15 +3,14 @@
 @import "../component/badges";
 
 .testimonial {
-    padding-top: 150px;
-    padding-bottom: 60px;
+    padding-top: 60px;
     position: relative;
     display: flex;
     justify-content: center;
     .decoration-left-2{
         position: absolute;
         left: 40px;
-        top: -50px;
+        top: -110px;
         width: 150px;
         animation: updown 3s infinite;
         z-index: -1;
@@ -39,7 +38,7 @@
     .decoration-right-2{
         position: absolute;
         right: 40px;
-        top: -50px;
+        top: -110px;
         width: 150px;
         animation: updown 3s infinite;
         z-index: -1;

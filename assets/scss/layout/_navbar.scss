@@ -21,7 +21,7 @@
     ul {
         li {
             a {
-                @include fonts($font1, 16px, 21px, 600, $color1);
+                @include fonts($font1, 16px, 21px, 300, $color1);
                 text-transform: uppercase;
                 margin-left: 25px;
                 position: relative;
