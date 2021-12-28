@@ -1044,6 +1044,8 @@ body {
     margin: 0 10px;
   }
   .about .service-cards .posti .service-card {
+    -webkit-box-shadow: none;
+            box-shadow: none;
     width: 100%;
     margin-top: 40px;
   }
