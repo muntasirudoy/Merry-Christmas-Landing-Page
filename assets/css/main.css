@@ -1044,8 +1044,6 @@ body {
     margin: 0 10px;
   }
   .about .service-cards .posti .service-card {
-    -webkit-box-shadow: none;
-            box-shadow: none;
     width: 100%;
     margin-top: 40px;
   }
@@ -1355,7 +1353,6 @@ body {
 }
 
 .product-card .all-card .card-item {
-  width: 400px !important;
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   background: #FFFFFF;
@@ -1453,7 +1450,7 @@ body {
 @media (min-width: 320px) and (max-width: 379.98px) {
   .product-card {
     padding-top: 20px;
-    padding-bottom: 150px;
+    padding-bottom: 20px;
     position: relative;
   }
   .product-card .decoration-image-left {
@@ -1477,7 +1474,6 @@ body {
             justify-content: center !important;
   }
   .product-card .all-card .card-item {
-    width: auto !important;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     background: #FFFFFF;
@@ -2133,6 +2129,13 @@ body {
   font-size: 14px;
   border-radius: 10px;
   margin-top: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .addbanner-short .banner-box {
+    margin-top: 20px;
+    height: 125px;
+  }
 }
 
 .bg-wh-btn {
@@ -4149,8 +4152,8 @@ body {
 }
 
 .testimonial .all .testimonial-slider .testimonial-card .photo-circle img {
-  width: 120px;
-  height: 120px;
+  width: 100%;
+  height: 100%;
 }
 
 .testimonial .all .testimonial-slider .testimonial-card .testimonial-text {
@@ -4185,38 +4188,73 @@ body {
 
 .testimonial .all .prevbtn {
   position: absolute;
-  top: -200px;
+  top: -150px;
   left: 10%;
 }
 
 .testimonial .all .nextbtn {
   position: absolute;
-  top: -200px;
+  top: -150px;
   right: 10%;
 }
 
 @media (min-width: 320px) and (max-width: 379.98px) {
-  .testimonial {
-    width: 100%;
+  .testimonial .decoration-left-2 {
+    display: none;
+  }
+  .testimonial .decoration-right-2 {
+    display: none;
   }
   .testimonial .title {
     width: 100%;
+    margin-bottom: 30px;
+  }
+  .testimonial .title h2 {
+    font-size: 18px;
   }
   .testimonial .title .title-pra {
     width: 100%;
   }
   .testimonial .all .testimonial-slider {
     width: 100%;
+    font-size: 50px;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .quote {
+    font-size: 50px;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .photo-circle {
+    width: 80px;
+    height: 80px;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .photo-circle img {
+    width: 100%;
+    height: 100%;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .testimonial-text h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .testimonial-text .designation {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .testimonial-text .details {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
   }
   .testimonial .all .prevbtn {
-    position: absolute;
-    top: -210px;
-    left: -8px;
+    top: -100px;
+    left: 0;
+    width: 42px;
+    height: 40px;
   }
   .testimonial .all .nextbtn {
-    position: absolute;
-    top: -210px;
-    right: -8px;
+    top: -100px;
+    right: 0;
+    width: 42px;
+    height: 40px;
   }
 }
 
@@ -4550,6 +4588,30 @@ body {
   margin-right: 1px;
 }
 
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .get-touch {
+    height: 100%;
+  }
+  .get-touch .text h3 {
+    font-size: 28px;
+  }
+  .get-touch .text {
+    height: 100px;
+  }
+  .get-touch .email {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 100px;
+  }
+  .get-touch .email input {
+    width: 100%;
+  }
+  .get-touch .email a {
+    top: 3px;
+  }
+}
+
 .contact {
   width: 100%;
 }
@@ -4692,7 +4754,7 @@ body {
 }
 
 .contact .message {
-  padding-top: 50px;
+  padding-top: 30px;
   width: 100%;
   height: 500px;
   background: #C82222;
@@ -4811,6 +4873,49 @@ body {
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .contact {
+    padding-bottom: 30px;
+  }
+  .contact .number-email {
+    border: none;
+    padding: 50px;
+    height: auto;
+  }
+  .contact .number-email .phone ul li {
+    font-weight: 400;
+  }
+  .contact .number-email .email ul li {
+    font-weight: 400;
+  }
+  .contact .number-email .location ul li {
+    font-weight: 400;
+  }
+  .contact .number-email h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .contact .number-email p {
+    font-weight: 400;
+  }
+  .contact .message {
+    height: 100%;
+    padding-bottom: 100px;
+  }
+  .contact .message h3 {
+    font-size: 20px;
+  }
+  .contact .message .all-input {
+    padding-top: 30px;
+  }
+  .contact .message .all-input input {
+    width: auto;
+  }
+  .contact .message .button_container {
+    bottom: 28px;
+  }
+}
+
 footer {
   background: #C82222;
   padding: 100px 0 0 0;
@@ -4886,5 +4991,22 @@ footer .copywrite {
   padding: 3px 0;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  footer {
+    text-align: center;
+    padding-top: 50px;
+  }
+  footer .all-items {
+    margin-top: 30px;
+  }
+  footer .all-items h3 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  footer .copywrite {
+    margin-top: 30px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

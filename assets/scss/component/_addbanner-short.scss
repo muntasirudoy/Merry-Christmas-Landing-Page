@@ -61,7 +61,13 @@
 // responsive start 
 @media (min-width: 320px) and (max-width: 575.98px){
    
-
+    .addbanner-short{
+        
+        .banner-box{
+            margin-top: 20px;
+            height: 125px;
+        }
+    }
 }
 // screem >=576
 
