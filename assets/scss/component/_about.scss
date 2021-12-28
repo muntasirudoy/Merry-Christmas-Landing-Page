@@ -101,7 +101,7 @@
 
 // responsive start 
 @media (min-width: 320px) and (max-width: 575.98px){
-   
+
 .about{
     padding: 0;
     width: 100%;
@@ -121,14 +121,18 @@
        }
     }
     .service-cards{
-        margin-top: 60px;
+        margin-top: 40px;
         flex-wrap: wrap;
         width: 100%;
         .posti{
             width: 100%;
+            margin: 0 10px;
           .service-card{
             width: 100%;
-            margin-top: 30px;
+            margin-top: 40px;
+            .circle{
+                top: 17%;
+            }
           }
         }
     }
