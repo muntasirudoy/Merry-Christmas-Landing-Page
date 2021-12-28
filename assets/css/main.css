@@ -2552,7 +2552,11 @@ body {
 
 @media (min-width: 320px) and (max-width: 575.98px) {
   .mobiles {
+    display: none;
     padding-bottom: 150px;
+  }
+  .mobiles .decoration-tree-left {
+    display: none;
   }
   .mobiles .title {
     margin-bottom: 50px;
@@ -4191,75 +4195,23 @@ body {
 
 @media (min-width: 320px) and (max-width: 379.98px) {
   .testimonial {
-    padding-top: 150px;
-    padding-bottom: 60px;
-    position: relative;
-  }
-  .testimonial::after {
-    top: 0;
-    left: 2px;
-    width: 75px;
-    height: 120px;
-    background-size: 70px;
-  }
-  .testimonial::before {
-    top: 0;
-    right: 2px;
-    width: 70px;
-    height: 120px;
-    background-size: 70px;
+    width: 100%;
   }
   .testimonial .title {
-    margin-bottom: 60px;
-  }
-  .testimonial .title h2 {
-    margin-bottom: 30px;
+    width: 100%;
   }
   .testimonial .title .title-pra {
-    width: 336px;
-    margin: auto;
+    width: 100%;
   }
-  .testimonial .testimonial-slider .testimonial-card {
-    width: auto !important;
-    padding: 80px 20px 40px 20px;
-    margin-top: 80px;
+  .testimonial .all .testimonial-slider {
+    width: 100%;
   }
-  .testimonial .testimonial-slider .testimonial-card .photo-circle {
-    width: 130px;
-    height: 130px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text {
-    text-align: center;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text h4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text .designation {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text .details {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 400;
-    color: #FFFFFF;
-  }
-  .testimonial .prevbtn {
+  .testimonial .all .prevbtn {
     position: absolute;
     top: -210px;
     left: -8px;
   }
-  .testimonial .nextbtn {
+  .testimonial .all .nextbtn {
     position: absolute;
     top: -210px;
     right: -8px;
@@ -4267,70 +4219,6 @@ body {
 }
 
 @media (min-width: 380px) and (max-width: 575.98px) {
-  .testimonial {
-    padding-top: 150px;
-    padding-bottom: 60px;
-    position: relative;
-  }
-  .testimonial::after {
-    top: 0;
-    left: 2px;
-    width: 75px;
-    height: 120px;
-    background-size: 70px;
-  }
-  .testimonial::before {
-    top: 0;
-    right: 2px;
-    width: 75px;
-    height: 120px;
-    background-size: 70px;
-  }
-  .testimonial .title {
-    margin-bottom: 60px;
-  }
-  .testimonial .title h2 {
-    margin-bottom: 30px;
-  }
-  .testimonial .title .title-pra {
-    width: auto;
-    margin: auto;
-  }
-  .testimonial .testimonial-slider .testimonial-card {
-    width: auto !important;
-    padding: 80px 20px 40px 20px;
-    margin-top: 80px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .photo-circle {
-    width: 130px;
-    height: 130px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text {
-    text-align: center;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text h4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text .designation {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text .details {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 400;
-    color: #FFFFFF;
-  }
   .testimonial .prevbtn {
     position: absolute;
     top: -188px;
@@ -4344,70 +4232,6 @@ body {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .testimonial {
-    padding-top: 150px;
-    padding-bottom: 60px;
-    position: relative;
-  }
-  .testimonial::after {
-    top: 0;
-    left: 50px;
-    width: 75px;
-    height: 120px;
-    background-size: 75px;
-  }
-  .testimonial::before {
-    top: 0;
-    right: 50px;
-    width: 70px;
-    height: 120px;
-    background-size: 75px;
-  }
-  .testimonial .title {
-    margin-bottom: 60px;
-  }
-  .testimonial .title h2 {
-    margin-bottom: 30px;
-  }
-  .testimonial .title .title-pra {
-    width: auto;
-    margin: auto;
-  }
-  .testimonial .testimonial-slider .testimonial-card {
-    width: auto !important;
-    padding: 80px 45px 50px 45px;
-    margin-top: 80px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .photo-circle {
-    width: 130px;
-    height: 130px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text {
-    text-align: center;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text h4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text .designation {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text .details {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 400;
-    color: #FFFFFF;
-  }
   .testimonial .prevbtn {
     position: absolute;
     top: -175px;
@@ -4421,70 +4245,6 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .testimonial {
-    padding-top: 180px;
-    padding-bottom: 60px;
-    position: relative;
-  }
-  .testimonial::after {
-    top: 0;
-    left: 50px;
-    width: 90px;
-    height: 140px;
-    background-size: 90px;
-  }
-  .testimonial::before {
-    top: 0;
-    right: 50px;
-    width: 90px;
-    height: 140px;
-    background-size: 90px;
-  }
-  .testimonial .title {
-    margin-bottom: 60px;
-  }
-  .testimonial .title h2 {
-    margin-bottom: 30px;
-  }
-  .testimonial .title .title-pra {
-    width: 640px;
-    margin: auto;
-  }
-  .testimonial .testimonial-slider .testimonial-card {
-    width: 320px !important;
-    padding: 80px 20px 40px 20px;
-    margin-top: 80px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .photo-circle {
-    width: 130px;
-    height: 130px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text {
-    text-align: center;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text h4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text .designation {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text .details {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 400;
-    color: #FFFFFF;
-  }
   .testimonial .prevbtn {
     position: absolute;
     top: -175px;
@@ -4498,70 +4258,6 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .testimonial {
-    padding-top: 180px;
-    padding-bottom: 60px;
-    position: relative;
-  }
-  .testimonial::after {
-    top: 0;
-    left: 50px;
-    width: 110px;
-    height: 170px;
-    background-size: 100px;
-  }
-  .testimonial::before {
-    top: 0;
-    right: 50px;
-    width: 110px;
-    height: 170px;
-    background-size: 100px;
-  }
-  .testimonial .title {
-    margin-bottom: 60px;
-  }
-  .testimonial .title h2 {
-    margin-bottom: 30px;
-  }
-  .testimonial .title .title-pra {
-    width: 640px;
-    margin: auto;
-  }
-  .testimonial .testimonial-slider .testimonial-card {
-    width: 440px !important;
-    padding: 80px 40px 50px 40px;
-    margin-top: 80px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .photo-circle {
-    width: 130px;
-    height: 130px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text {
-    text-align: center;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text h4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text .designation {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text .details {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 400;
-    color: #FFFFFF;
-  }
   .testimonial .prevbtn {
     position: absolute;
     top: -175px;
@@ -4575,70 +4271,6 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-  .testimonial {
-    padding-top: 200px;
-    padding-bottom: 60px;
-    position: relative;
-  }
-  .testimonial::after {
-    top: 0;
-    left: 60px;
-    width: 130px;
-    height: 210px;
-    background-size: 130px;
-  }
-  .testimonial::before {
-    top: 0;
-    right: 60px;
-    width: 130px;
-    height: 210px;
-    background-size: 130px;
-  }
-  .testimonial .title {
-    margin-bottom: 60px;
-  }
-  .testimonial .title h2 {
-    margin-bottom: 30px;
-  }
-  .testimonial .title .title-pra {
-    width: 640px;
-    margin: auto;
-  }
-  .testimonial .testimonial-slider .testimonial-card {
-    width: 515px !important;
-    padding: 80px 40px 50px 40px;
-    margin-top: 80px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .photo-circle {
-    width: 130px;
-    height: 130px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text {
-    text-align: center;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text h4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text .designation {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-  }
-  .testimonial .testimonial-slider .testimonial-card .testimonial-text .details {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 400;
-    color: #FFFFFF;
-  }
   .testimonial .prevbtn {
     position: absolute;
     top: -175px;
@@ -4832,6 +4464,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 575.98px) {
   .ad-banner {
+    display: none;
     height: 100%;
     width: 100%;
   }
