@@ -1,0 +1,63 @@
+@import "../abstracts/mixin";
+@import "../abstracts/variables";
+
+footer{
+    background: $color5;
+    padding: 100px 0 0 0;
+    border-top: 1px solid $color1;
+
+
+   .all-items{
+       img{
+           width: 70%;
+       }
+       p{
+           margin-top: 10px;
+        @include fonts($font1, 14px, 21px, 500, $color1);
+       }
+       h3{
+        @include fonts($font1, 24px, 21px, 500, $color1);
+        padding-bottom: 15px;
+       }
+       ul{
+           padding-left: 10px;
+           li{
+            margin-top: 15px;
+            padding: 0;
+            a{
+                @include fonts($font1, 14px, 21px, 500, $color1);
+            }
+           }
+       }
+       .icons{
+           margin-top: 30px;
+           i{
+               font-size: 28px;
+               margin-right:10px;
+               color: $color1;
+               box-shadow: $shadow2;
+               transition: 0.3s;
+               cursor: pointer;
+               &:hover{
+                   transform: translateY(-6px);
+               }
+           }
+       }
+   }
+
+
+
+
+
+    .copywrite{
+        margin-top: 100px;
+    width: 100%;
+    border-top: 1px solid $color1; 
+    background: $color5;
+    text-align: center;
+    color: $color1;
+    padding: 3px 0;
+    font-family: $font1;
+    font-size: 14px;
+    }
+}

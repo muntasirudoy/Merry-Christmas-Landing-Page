@@ -99,8 +99,12 @@
     background: transparent;
     padding: 15px 20px;
     border-radius: 5px;
+    transition: 0.3s;
     cursor: pointer;
-
+    &:hover{
+        box-shadow: $shadow1;
+    }
+   
 }
 
 .arrow2 {
@@ -108,7 +112,12 @@
     background: transparent;
     padding: 10px 15px;
     border-radius: 5px;
+    transition: 0.3s;
     cursor: pointer;
+    &:hover{
+        box-shadow: $shadow1;
+       
+    }
 
 }
 

@@ -1,13 +1,13 @@
 .about{
     width: 100%;
     height: 600px;
-    padding: 150px 0px;
+    padding: 100px 0px;
     .text{
         padding-right: 20px;
         position: relative;
         h2{
-            @include fonts($font3, 42px, 45px, 700, $color2);
-            margin-bottom: 10px;
+            @include fonts($font3, 46px, 45px, 700, $color2);
+            margin-bottom: 20px;
         }
 
         p{  
@@ -19,7 +19,7 @@
             font-size: 28px;
             margin-right: 10px;
             color: $color2;
-            margin-top: 20px;
+            margin-top: 30px;
             cursor: pointer;
             transition: 0.3s;
             &:hover{
@@ -47,7 +47,11 @@
             border-radius: 25px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-end;
+            padding: 30px 20px 50px 20px;
+            align-items: center;
+            text-align: center;
+            transition: 0.4s;
             .circle{
                 position: absolute;
                 top: 10%;
@@ -57,8 +61,24 @@
                 border-radius: 50%;
                 background: rgb(255, 242, 242);
                 transform: translateX(-50%);
+                display: flex;
+                justify-content: center;
+                align-items:center ;
+                img{
+                    width: 70%;
+                }
             }
-            
+            h3{
+                
+                @include fonts($font1, 20px, 31px, 500, $color4);
+            }
+            p{
+                margin-top: 5px; 
+                @include fonts($font1, 12px, 21px, 400, $color4);
+            }
+            &:hover{
+                transform: translateY(-15px);
+            }
        }
        .top{
           position:absolute;
