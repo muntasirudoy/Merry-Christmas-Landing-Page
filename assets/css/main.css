@@ -1479,7 +1479,8 @@ body {
     margin-bottom: 0px;
   }
   .product-card .title h2 {
-    font-size: 18px;
+    font-size: 24px;
+    font-family: "Lobster Two", cursive;
   }
   .product-card .all-card {
     display: -webkit-box;
@@ -2581,7 +2582,8 @@ body {
     margin-bottom: 0px;
   }
   .mobiles .title h2 {
-    font-size: 18px;
+    font-size: 24px;
+    font-family: "Lobster Two", cursive;
   }
   .mobiles .mobile-slider .slick-slide {
     padding: 0;
@@ -4241,7 +4243,8 @@ body {
     margin-bottom: 0px;
   }
   .testimonial .title h2 {
-    font-size: 18px;
+    font-size: 24px;
+    font-family: "Lobster Two", cursive;
   }
   .testimonial .title .title-pra {
     width: 100%;
