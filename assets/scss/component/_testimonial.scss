@@ -139,6 +139,7 @@
 @media (min-width: 320px) and (max-width:379.98px) {
 
  .testimonial{
+     padding-top: 30px;
                 .decoration-left-2{
                     display: none;
                 }
@@ -149,7 +150,7 @@
 
                 .title{
                     width: 100%;
-                    margin-bottom: 30px;
+                    margin-bottom: 0px;
                     h2{
                         font-size: 18px;
                        
@@ -195,14 +196,14 @@
                 
             }
             .prevbtn {
-                top: -100px;
-                left: 0;
+                top: -70px;
+                left: 13px;
                 width: 42px;
                 height: 40px;
             }
             .nextbtn {
-                top: -100px;
-                right: 0;
+                top: -73px;
+                right: 13px;
                 width: 42px;
                 height: 40px;
             }

@@ -142,11 +142,10 @@
 
 @media (min-width: 320px) and (max-width: 575.98px){
     .mobiles {
-        display: none;
+        
         .decoration-tree-left{
             display: none;
          }
-        padding-bottom: 150px;
     
         .title {
             margin-bottom: 50px;
@@ -154,13 +153,14 @@
         
         .mobile-slider {
             .all-items {
+                width: 100%;
+    
                 .first-row {
                 flex-direction: column;
                   margin-top: 0;
-    
                     .mobile-card-width {
-                       
-    
+                      
+                         width: 0;
                         .moblie-card {
                             width: auto;
                             padding-top: 150px;

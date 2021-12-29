@@ -75,6 +75,17 @@ footer{
                 font-size: 18px;
                 padding-bottom: 10px;
             }
+            p{
+                font-weight: 400;
+            }
+            ul{
+                li{
+                    margin-top: 10px;
+                    a{
+                        font-weight: 400;
+                    }
+                }
+            }
         }
         .copywrite{
             margin-top: 30px;

@@ -818,7 +818,8 @@ body {
     height: 100vh;
   }
   .main-banner .banner-text {
-    width: 100%;
+    width: 100vh;
+    padding-top: 145px;
   }
   .main-banner .banner-text h5 {
     font-size: 18px;
@@ -1449,8 +1450,6 @@ body {
 
 @media (min-width: 320px) and (max-width: 379.98px) {
   .product-card {
-    padding-top: 20px;
-    padding-bottom: 20px;
     position: relative;
   }
   .product-card .decoration-image-left {
@@ -1498,8 +1497,8 @@ body {
     background: #FFFFFF;
   }
   .product-card .all-card .card-item .top .product-image {
-    width: 160px;
-    height: 260px;
+    width: 100px;
+    height: 150px;
   }
   .product-card .all-card .card-item .top .product-image img {
     width: 100%;
@@ -2132,8 +2131,12 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) {
-  .addbanner-short .banner-box {
-    margin-top: 20px;
+  .addbanner-short .row .col-lg-4,
+  .addbanner-short .row .col-sm-12,
+  .addbanner-short .row .col-md-12 {
+    padding: 10px;
+  }
+  .addbanner-short .row .banner-box {
     height: 125px;
   }
 }
@@ -2556,15 +2559,14 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) {
-  .mobiles {
-    display: none;
-    padding-bottom: 150px;
-  }
   .mobiles .decoration-tree-left {
     display: none;
   }
   .mobiles .title {
     margin-bottom: 50px;
+  }
+  .mobiles .mobile-slider .all-items {
+    width: 100%;
   }
   .mobiles .mobile-slider .all-items .first-row {
     -webkit-box-orient: vertical;
@@ -2572,6 +2574,9 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 0;
+  }
+  .mobiles .mobile-slider .all-items .first-row .mobile-card-width {
+    width: 0;
   }
   .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card {
     width: auto;
@@ -4199,6 +4204,9 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 379.98px) {
+  .testimonial {
+    padding-top: 30px;
+  }
   .testimonial .decoration-left-2 {
     display: none;
   }
@@ -4207,7 +4215,7 @@ body {
   }
   .testimonial .title {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   .testimonial .title h2 {
     font-size: 18px;
@@ -4245,14 +4253,14 @@ body {
     font-weight: 400;
   }
   .testimonial .all .prevbtn {
-    top: -100px;
-    left: 0;
+    top: -70px;
+    left: 13px;
     width: 42px;
     height: 40px;
   }
   .testimonial .all .nextbtn {
-    top: -100px;
-    right: 0;
+    top: -73px;
+    right: 13px;
     width: 42px;
     height: 40px;
   }
@@ -4608,7 +4616,7 @@ body {
     width: 100%;
   }
   .get-touch .email a {
-    top: 3px;
+    top: 2px;
   }
 }
 
@@ -4902,14 +4910,20 @@ body {
     height: 100%;
     padding-bottom: 100px;
   }
+  .contact .message::after {
+    display: none;
+  }
   .contact .message h3 {
     font-size: 20px;
   }
   .contact .message .all-input {
-    padding-top: 30px;
+    padding-top: 10px;
   }
   .contact .message .all-input input {
-    width: auto;
+    width: 100%;
+  }
+  .contact .message .all-input textarea {
+    width: 90%;
   }
   .contact .message .button_container {
     bottom: 28px;
@@ -5004,6 +5018,15 @@ footer .copywrite {
   footer .all-items h3 {
     font-size: 18px;
     padding-bottom: 10px;
+  }
+  footer .all-items p {
+    font-weight: 400;
+  }
+  footer .all-items ul li {
+    margin-top: 10px;
+  }
+  footer .all-items ul li a {
+    font-weight: 400;
   }
   footer .copywrite {
     margin-top: 30px;

@@ -418,7 +418,8 @@
         background-size:cover;
         height: 100vh;
         .banner-text{
-           width: 100%;
+           width: 100vh;
+           padding-top: 145px;
            h5{
                font-size: 18px;
                &::after{
