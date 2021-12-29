@@ -130,8 +130,16 @@
           .service-card{
             width: 100%;
             margin-top: 40px;
+            box-shadow: none;
+            border: 1px solid $color11;
             .circle{
                 top: 17%;
+            }
+            h3{
+                font-size: 22px;
+            }
+            p{
+                font-size: 14px;
             }
           }
         }

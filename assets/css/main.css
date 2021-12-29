@@ -30,6 +30,10 @@ body {
   height: 80px;
 }
 
+.slick-slide {
+  padding: 15px;
+}
+
 /*common css responsive start*/
 @media (min-width: 320px) and (max-width: 575.98px) {
   .section-gap {
@@ -1047,9 +1051,18 @@ body {
   .about .service-cards .posti .service-card {
     width: 100%;
     margin-top: 40px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.164);
   }
   .about .service-cards .posti .service-card .circle {
     top: 17%;
+  }
+  .about .service-cards .posti .service-card h3 {
+    font-size: 22px;
+  }
+  .about .service-cards .posti .service-card p {
+    font-size: 14px;
   }
 }
 
@@ -1351,9 +1364,13 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 60px;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.product-card .all-card .card-item {
+.product-card .all-card .slick-slide .card-item {
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   background: #FFFFFF;
@@ -1362,7 +1379,7 @@ body {
   margin-top: 140px;
 }
 
-.product-card .all-card .card-item .top {
+.product-card .all-card .slick-slide .card-item .top {
   margin: auto;
   border: 1px solid rgba(0, 0, 0, 0.25);
   width: 280px;
@@ -1379,17 +1396,17 @@ body {
   background: #FFFFFF;
 }
 
-.product-card .all-card .card-item .top .product-image {
+.product-card .all-card .slick-slide .card-item .top .product-image {
   width: 160px;
   height: 260px;
 }
 
-.product-card .all-card .card-item .top .product-image img {
+.product-card .all-card .slick-slide .card-item .top .product-image img {
   width: 100%;
   height: 100%;
 }
 
-.product-card .all-card .card-item h4 {
+.product-card .all-card .slick-slide .card-item h4 {
   font-family: "Open Sans", sans-serif;
   font-size: 26px;
   line-height: 35px;
@@ -1399,7 +1416,7 @@ body {
   margin-bottom: 5px;
 }
 
-.product-card .all-card .card-item .details {
+.product-card .all-card .slick-slide .card-item .details {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 19px;
@@ -1407,7 +1424,7 @@ body {
   color: #000000;
 }
 
-.product-card .all-card .card-item .bottom {
+.product-card .all-card .slick-slide .card-item .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1420,7 +1437,7 @@ body {
   margin-top: 20px;
 }
 
-.product-card .all-card .card-item .bottom .price p {
+.product-card .all-card .slick-slide .card-item .bottom .price p {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   line-height: 40px;
@@ -1428,7 +1445,7 @@ body {
   color: #C82222;
 }
 
-.product-card .all-card .card-item .bottom .price p span {
+.product-card .all-card .slick-slide .card-item .bottom .price p span {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
   line-height: 24px;
@@ -1472,7 +1489,10 @@ body {
         -ms-flex-pack: center !important;
             justify-content: center !important;
   }
-  .product-card .all-card .card-item {
+  .product-card .all-card .slick-slide {
+    padding: 0;
+  }
+  .product-card .all-card .slick-slide .card-item {
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     background: #FFFFFF;
@@ -1480,7 +1500,7 @@ body {
     text-align: center;
     margin-top: 100px;
   }
-  .product-card .all-card .card-item .top {
+  .product-card .all-card .slick-slide .card-item .top {
     margin: auto;
     border: 1px solid rgba(0, 0, 0, 0.25);
     width: auto;
@@ -1495,16 +1515,17 @@ body {
     padding-bottom: 50px;
     margin-top: -120px;
     background: #FFFFFF;
+    width: 215px;
   }
-  .product-card .all-card .card-item .top .product-image {
+  .product-card .all-card .slick-slide .card-item .top .product-image {
     width: 100px;
     height: 150px;
   }
-  .product-card .all-card .card-item .top .product-image img {
+  .product-card .all-card .slick-slide .card-item .top .product-image img {
     width: 100%;
     height: 100%;
   }
-  .product-card .all-card .card-item h4 {
+  .product-card .all-card .slick-slide .card-item h4 {
     font-family: "Open Sans", sans-serif;
     font-size: 22px;
     line-height: 32px;
@@ -1513,14 +1534,14 @@ body {
     margin-top: 30px;
     margin-bottom: 5px;
   }
-  .product-card .all-card .card-item .details {
+  .product-card .all-card .slick-slide .card-item .details {
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
     color: #000000;
   }
-  .product-card .all-card .card-item .bottom {
+  .product-card .all-card .slick-slide .card-item .bottom {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1532,17 +1553,17 @@ body {
             align-items: center;
     margin-top: 20px;
   }
-  .product-card .all-card .card-item .bottom .price {
+  .product-card .all-card .slick-slide .card-item .bottom .price {
     margin-right: 20px;
   }
-  .product-card .all-card .card-item .bottom .price p {
+  .product-card .all-card .slick-slide .card-item .bottom .price p {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     line-height: 40px;
     font-weight: 600;
     color: #C82222;
   }
-  .product-card .all-card .card-item .bottom .price p span {
+  .product-card .all-card .slick-slide .card-item .bottom .price p span {
     font-family: "Open Sans", sans-serif;
     font-size: 12px;
     line-height: 24px;
@@ -2436,16 +2457,10 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 20px;
   margin-top: 40px;
 }
 
-.mobiles .mobile-slider .all-items .first-row .mobile-card-width {
-  width: 570px !important;
-}
-
 .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card {
-  width: 465px;
   padding: 30px 40px;
   background: #C82222;
   border-radius: 20px;
@@ -2563,53 +2578,58 @@ body {
     display: none;
   }
   .mobiles .title {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
-  .mobiles .mobile-slider .all-items {
+  .mobiles .title h2 {
+    font-size: 18px;
+  }
+  .mobiles .mobile-slider .slick-slide {
+    padding: 0;
+  }
+  .mobiles .mobile-slider .slick-slide .all-items {
     width: 100%;
   }
-  .mobiles .mobile-slider .all-items .first-row {
+  .mobiles .mobile-slider .slick-slide .all-items .first-row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 0;
   }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width {
-    width: 0;
-  }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card {
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card {
     width: auto;
-    padding-top: 150px;
-    padding-left: 15px;
-    padding-bottom: 15px;
+    padding-top: 128px;
+    padding-left: 20px;
     background: #C82222;
     border-radius: 20px;
     position: relative;
-    -webkit-box-shadow: 0px 14px 44px 0px #DD3F3F59;
-            box-shadow: 0px 14px 44px 0px #DD3F3F59;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     margin-top: 160px;
   }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .top h3 {
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left {
+    width: 100%;
+  }
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left .top h3 {
     font-family: "Open Sans", sans-serif;
-    font-size: 26px;
-    line-height: 35px;
-    font-weight: 600;
+    font-size: 22px;
+    line-height: 21px;
+    font-weight: 500;
     color: #FFFFFF;
     text-transform: capitalize;
     margin-bottom: 10px;
   }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .top p {
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left .top p {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 14px;
     font-weight: 400;
     color: #FFFFFF;
   }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .top ul {
-    margin-top: 30px;
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left .top ul {
+    margin-top: 20px;
   }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .top ul li {
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left .top ul li {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 19px;
@@ -2618,18 +2638,21 @@ body {
     list-style: disc;
     margin-bottom: 5px;
   }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .bottom {
-    margin-top: 40px;
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left .bottom {
+    margin-top: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 60px;
   }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .bottom .mobile-btn {
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left .bottom .mobile-btn {
     margin-right: 30px;
     margin-top: 10px;
   }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .bottom .mobile-price .discount-pp {
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left .bottom .mobile-btn .buy-btn-3 {
+    padding: 13px 16px;
+    border-radius: 5px;
+  }
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left .bottom .mobile-price .discount-pp {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 19px;
@@ -2637,7 +2660,7 @@ body {
     color: #FFACAC;
     display: block;
   }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .bottom .mobile-price span {
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left .bottom .mobile-price span {
     font-family: "Open Sans", sans-serif;
     font-size: 28px;
     line-height: 38px;
@@ -2645,7 +2668,7 @@ body {
     color: #FFFFFF;
     display: inline-block;
   }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .right {
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .right {
     width: 200px;
     height: 215px;
     border: 2px solid #C82222;
@@ -2666,25 +2689,25 @@ body {
     -webkit-transform: translate(50%, -50%);
             transform: translate(50%, -50%);
   }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .right .phone-img {
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .right .phone-img {
     width: 115px;
     height: 180px;
   }
-  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .right .phone-img img {
+  .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .right .phone-img img {
     width: 100%;
     height: 100%;
   }
   .mobiles .prevbtn {
     position: absolute;
-    top: -95px;
-    left: -5px;
+    top: -43px;
+    left: 13px;
     width: 42px;
     height: 40px;
   }
   .mobiles .nextbtn {
     position: absolute;
-    top: -95px;
-    right: -5px;
+    top: -43px;
+    right: 13px;
     width: 42px;
     height: 40px;
   }

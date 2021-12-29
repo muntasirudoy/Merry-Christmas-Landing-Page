@@ -24,15 +24,18 @@
         display: flex;
         justify-content: space-between;
         margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        .slick-slide{
+       
         .card-item {
-            
             border: 1px solid $color10;
             border-radius: 20px;
             background: $color1;
             padding: 30px;
             text-align: center;
             margin-top: 140px;
-
+            
             .top {
                 margin: auto;
                 border: 1px solid $color10;
@@ -83,6 +86,11 @@
                 }
             }
         }
+
+        
+
+        }
+        
     }
 
     .prevbtn {
@@ -122,9 +130,11 @@
         }
     }
         .all-card {
-            
             display: flex;
             justify-content: center !important;
+            .slick-slide {
+                padding: 0;
+            
             .card-item {
                 border: 1px solid $color10;
                 border-radius: 20px;
@@ -132,7 +142,7 @@
                 padding: 20px;
                 text-align: center;
                 margin-top: 100px;
-                
+               
 
 
     
@@ -147,6 +157,7 @@
                     padding-bottom: 50px;
                     margin-top: -120px;
                     background: $color1;
+                    width: 215px;
     
                     .product-image {
                         width: 100px;
@@ -188,6 +199,7 @@
                 }
             }
         }
+    }
     
         .prevbtn {
             position: absolute;

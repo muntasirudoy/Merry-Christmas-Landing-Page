@@ -25,14 +25,13 @@
             .first-row {
                 display: flex;
                 justify-content: space-between;
-                margin-left: 20px;
                 margin-top: 40px;
 
                 .mobile-card-width {
-                    width: 570px !important;
+                   
                     
                     .moblie-card {
-                        width: 465px;
+                        
                         padding: 30px 40px;
                         background: $color5;
                         border-radius: 20px;
@@ -148,10 +147,17 @@
          }
     
         .title {
-            margin-bottom: 50px;
+            margin-bottom: 0px;
+            h2{
+                font-size: 18px;
+            }
         }
         
         .mobile-slider {
+            
+            .slick-slide{
+                 padding: 0;
+            
             .all-items {
                 width: 100%;
     
@@ -160,33 +166,32 @@
                   margin-top: 0;
                     .mobile-card-width {
                       
-                         width: 0;
                         .moblie-card {
                             width: auto;
-                            padding-top: 150px;
-                            padding-left: 15px;
-                            padding-bottom: 15px;
+                            padding-top: 128px;
+                            padding-left: 20px;
                             background: $color5;
                             border-radius: 20px;
                             position: relative;
-                            box-shadow: $shadow1;
+                            box-shadow: none;
                             margin-top: 160px;
 
     
                             .left {
+                                width: 100%;
                                 .top {
                                     h3 {
-                                        @include fonts($font1, 26px, 35px, 600, $color1);
+                                        @include fonts($font1, 22px, 21px, 500, $color1);
                                         text-transform: capitalize;
                                         margin-bottom: 10px
                                     }
     
                                     p {
-                                        @include fonts($font1, 14px, 19px, 400, $color1);
+                                        @include fonts($font1, 14px, 14px, 400, $color1);
                                     }
     
                                     ul {
-                                        margin-top: 30px;
+                                        margin-top: 20px;
     
                                         li {
                                             @include fonts($font1, 14px, 19px, 400, $color1);
@@ -198,11 +203,14 @@
                                 }
     
                                 .bottom {
-                                    margin-top: 40px;
+                                    margin-top: 15px;
                                     display: flex;
-                                    height: 60px;
     
                                     .mobile-btn {
+                                        .buy-btn-3 {
+                                            padding: 13px 16px;
+                                            border-radius: 5px;
+                                        }
                                         margin-right: 30px;
                                         margin-top: 10px
                                     }
@@ -256,11 +264,13 @@
                 }
             }
         }
+        
+        }
     
         .prevbtn {
             position: absolute;
-            top: -95px;
-            left: -5px;
+            top: -43px;
+            left: 13px;
             width: 42px;
             height: 40px;
     
@@ -269,8 +279,8 @@
     
         .nextbtn {
             position: absolute;
-            top: -95px;
-            right: -5px;
+            top: -43px;
+            right: 13px;
             width: 42px;
             height: 40px;
       
