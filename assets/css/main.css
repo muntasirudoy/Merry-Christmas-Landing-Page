@@ -91,12 +91,12 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 21px;
-  font-weight: 300;
+  font-weight: 500;
   color: #FFFFFF;
   text-transform: uppercase;
   position: relative;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
   display: inline-block;
 }
 
@@ -134,20 +134,6 @@ body {
 
 .navbar .nav-btn:hover {
   color: #DD3F3F;
-}
-
-.navbar button {
-  font-size: 24px;
-  line-height: 31px;
-}
-
-.navbar button i {
-  color: #FFFFFF;
-}
-
-.navbar .navbar-toggler:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
 }
 
 .sticky {
@@ -216,6 +202,17 @@ body {
   }
   .sticky {
     background: rgba(29, 1, 1, 0.897);
+  }
+  button {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  button i {
+    color: #FFFFFF;
+  }
+  .navbar-toggler:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
 }
 
@@ -2487,7 +2484,12 @@ body {
   margin-top: 40px;
 }
 
+.mobiles .mobile-slider .all-items .first-row .mobile-card-width {
+  width: 100%;
+}
+
 .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card {
+  width: 72%;
   padding: 30px 40px;
   background: #C82222;
   border-radius: 20px;
@@ -4498,8 +4500,8 @@ body {
 }
 
 .ad-banner .ad_slider .inn-slider .text {
-  margin: 0px auto;
-  text-align: center;
+  margin-top: 45px;
+  margin-left: 60px;
 }
 
 .ad-banner .ad_slider .inn-slider .text h3 {
@@ -4550,7 +4552,7 @@ body {
 .ad-banner .prevbtn {
   position: absolute;
   left: 0px;
-  top: 37%;
+  top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -4558,7 +4560,7 @@ body {
 .ad-banner .nextbtn {
   position: absolute;
   right: 0px;
-  top: 37%;
+  top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -4582,7 +4584,8 @@ body {
     margin: 0px auto;
   }
   .ad-banner .ad_slider .inn-slider .text {
-    margin-top: 30px;
+    margin: 0px auto;
+    text-align: center;
   }
   .ad-banner .ad_slider .inn-slider .text h3 {
     font-size: 40px;
@@ -4603,6 +4606,20 @@ body {
   }
   .ad-banner .ad_slider .inn-slider .text .buy-btn {
     margin-top: 20px;
+  }
+  .prevbtn {
+    position: absolute;
+    left: 0px;
+    top: 37%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .nextbtn {
+    position: absolute;
+    right: 0px;
+    top: 37%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
 }
 

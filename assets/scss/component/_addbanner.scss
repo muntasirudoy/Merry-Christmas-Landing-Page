@@ -26,8 +26,8 @@
            
            
             .text{
-                margin: 0px auto;
-                text-align: center;
+               margin-top: 45px;
+               margin-left: 60px;
                 h3{
                     @include fonts($font1,64px,87px,600, $color1);
                 }
@@ -62,13 +62,13 @@
     .prevbtn{
         position: absolute;
         left: 0px;
-        top: 37%;
+        top: 50%;
         transform: translateY(-50%);
     }
     .nextbtn{
         position: absolute;
         right: 0px;
-        top: 37%;
+        top: 50%;
         transform: translateY(-50%);
     }
     
@@ -97,7 +97,8 @@
                         }
                         flex-direction:column-reverse;
                         .text{
-                            margin-top: 30px;
+                            margin: 0px auto;
+                            text-align: center;
                             h3{
                                 font-size: 40px;
                                 line-height: 40px;
@@ -125,6 +126,18 @@
                     }
 
                 }
+            }
+            .prevbtn{
+                position: absolute;
+                left: 0px;
+                top: 37%;
+                transform: translateY(-50%);
+            }
+            .nextbtn{
+                position: absolute;
+                right: 0px;
+                top: 37%;
+                transform: translateY(-50%);
             }
 }
 // screem >=576

@@ -50,7 +50,7 @@ $(window).scroll(function(){
     dots: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     prevArrow:'<img class="prevbtn arrow2" src="./assets/images/product-card/left-arrow-red.svg" alt="left-arrow">',
     nextArrow:' <img class="nextbtn arrow2" src="./assets/images/product-card/right-arrow-red.svg" alt="right-arrow">',
