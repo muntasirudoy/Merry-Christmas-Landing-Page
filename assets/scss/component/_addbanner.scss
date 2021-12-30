@@ -26,8 +26,8 @@
            
            
             .text{
-                width: 460px;
-                margin-top: 60px;
+                margin: 0px auto;
+                text-align: center;
                 h3{
                     @include fonts($font1,64px,87px,600, $color1);
                 }
@@ -61,14 +61,14 @@
 
     .prevbtn{
         position: absolute;
-        left: -100px;
-        top: 50%;
+        left: 0px;
+        top: 37%;
         transform: translateY(-50%);
     }
     .nextbtn{
         position: absolute;
-        top: 50%;
-        right: -100px;
+        right: 0px;
+        top: 37%;
         transform: translateY(-50%);
     }
     

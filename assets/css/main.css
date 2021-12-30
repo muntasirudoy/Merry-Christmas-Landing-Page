@@ -94,10 +94,10 @@ body {
   font-weight: 300;
   color: #FFFFFF;
   text-transform: uppercase;
-  margin-left: 25px;
   position: relative;
   padding-left: 0 !important;
   padding-right: 0 !important;
+  display: inline-block;
 }
 
 .navbar ul li a::after {
@@ -136,6 +136,20 @@ body {
   color: #DD3F3F;
 }
 
+.navbar button {
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.navbar button i {
+  color: #FFFFFF;
+}
+
+.navbar .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .sticky {
   position: fixed !important;
   top: 0 !important;
@@ -151,11 +165,11 @@ body {
 
 @media (min-width: 320px) and (max-width: 575.98px) {
   .navbar {
-    background: red;
+    background: #C82222;
   }
   .navbar .logo {
     width: 180px;
-    height: 60px;
+    height: 55px;
   }
   .navbar .logo img {
     width: 100%;
@@ -165,14 +179,19 @@ body {
     text-align: center;
     padding-left: 0;
   }
+  .navbar ul li {
+    display: inline-block;
+  }
+  .navbar ul li a {
+    font-size: 14px;
+  }
   .navbar ul li a::after {
     width: 0;
-    height: 3px;
+    height: 2px;
     background: #FFD057;
     content: '';
     position: absolute;
     bottom: 0;
-    left: 0;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -185,13 +204,18 @@ body {
   .navbar ul li a:hover {
     color: #FFFFFF;
   }
+  .navbar .navbar-collapse {
+    padding-bottom: 10px;
+  }
   .navbar .nav-btn {
-    margin-left: 0;
-    width: 140px;
-    margin: auto;
+    margin: 20px auto;
+    border-radius: 8px;
   }
   .navbar .nav-btn:hover {
     color: #DD3F3F;
+  }
+  .sticky {
+    background: rgba(29, 1, 1, 0.897);
   }
 }
 
@@ -551,26 +575,26 @@ body {
   }
   .main-banner .banner-text h5::after {
     top: 50%;
-    left: 5%;
+    left: 9%;
     width: 36px;
     height: 1px;
   }
   .main-banner .banner-text h5::before {
     top: 50%;
-    right: 5%;
+    right: 9%;
     width: 36px;
     height: 1px;
   }
   .main-banner .banner-text .text-box {
-    width: 285px;
-    height: 63px;
+    width: 310px;
+    height: 69px;
   }
   .main-banner .banner-text .text-box h1 {
-    font-size: 36px;
+    font-size: 40px;
   }
   .main-banner .banner-text .text-box h4 {
-    bottom: -15px;
-    font-size: 42px;
+    bottom: -27px;
+    font-size: 50px;
   }
   .main-banner .banner-text .banner-timer {
     width: 450px;
@@ -581,7 +605,7 @@ body {
     font-size: 26px;
   }
   .main-banner .banner-text .banner-timer .timer h2 {
-    font-size: 38px;
+    font-size: 46px;
   }
   .main-banner .banner-text .banner-timer .timer p {
     font-size: 12px;
@@ -591,19 +615,17 @@ body {
   }
   .main-banner .banner-text .banner-button .mainbanner-wh-btn {
     margin: 0;
-    padding: 10px 20px;
+    padding: 13px 20px;
     font-size: 14px;
     line-height: 15px;
     border-radius: 10px;
-    height: 36px;
   }
   .main-banner .banner-text .banner-button .mainbanner-wh-btn-bgless {
     margin-left: 20px;
-    padding: 10px 20px;
+    padding: 13px 20px;
     font-size: 14px;
     line-height: 15px;
-    border-radius: 10px;
-    height: 36px;
+    border-radius: 8px;
   }
 }
 
@@ -4476,8 +4498,8 @@ body {
 }
 
 .ad-banner .ad_slider .inn-slider .text {
-  width: 460px;
-  margin-top: 60px;
+  margin: 0px auto;
+  text-align: center;
 }
 
 .ad-banner .ad_slider .inn-slider .text h3 {
@@ -4527,16 +4549,16 @@ body {
 
 .ad-banner .prevbtn {
   position: absolute;
-  left: -100px;
-  top: 50%;
+  left: 0px;
+  top: 37%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
 .ad-banner .nextbtn {
   position: absolute;
-  top: 50%;
-  right: -100px;
+  right: 0px;
+  top: 37%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }

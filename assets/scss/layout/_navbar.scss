@@ -23,10 +23,10 @@
             a {
                 @include fonts($font1, 16px, 21px, 300, $color1);
                 text-transform: uppercase;
-                margin-left: 25px;
                 position: relative;
                 padding-left: 0 !important;
                 padding-right: 0 !important;
+                display: inline-block;
                 &::after{
                     width: 0%;
                     height: 2px;
@@ -66,9 +66,20 @@
         }
     }
 
-    
-}
 
+
+    button{
+        font-size: 24px;
+        line-height: 31px;
+        i{
+            color:$color1;
+        }
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+}
 
 .sticky{
     position: fixed!important;
@@ -80,17 +91,16 @@
     margin: 0 auto;
     box-shadow: 0px 0px 18px rgba(47, 47, 47, 0.253);
 
-
-
-
 }
+
+
 @media (min-width: 320px) and (max-width:575.98px){
     .navbar {
-        background: red;
+        background: $color5;
     
         .logo {
             width: 180px;
-            height: 60px;
+            height: 55px;
     
             img {
                 width: 100%;
@@ -102,17 +112,16 @@
             text-align: center;
             padding-left: 0;
             li {
+                display: inline-block;
                 a {
-                    
-    
+                    font-size: 14px;
                     &::after {
                         width: 0;
-                        height: 3px;
+                        height: 2px;
                         background: $color3;
                         content: '';
                         position: absolute;
                         bottom: 0;
-                        left: 0;
                         transition: .4s;
     
                         &:hover {
@@ -135,15 +144,21 @@
                 }
             }
         }
+
+        .navbar-collapse{
+          padding-bottom: 10px;
+        }
     
         .nav-btn {
-            margin-left: 0;
-            width: 140px;
-            margin: auto;
+            margin: 20px auto;
+            border-radius: 8px;
     
             &:hover {
                 color: $color2;
             }
         }  
+    }
+    .sticky{
+        background: rgba(29, 1, 1, 0.897);
     }
 }
