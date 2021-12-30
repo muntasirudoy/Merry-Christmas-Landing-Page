@@ -1470,10 +1470,14 @@ body {
     position: relative;
   }
   .product-card .decoration-image-left {
-    display: none;
+    top: 0;
+    left: 0px;
+    width: 53px;
   }
   .product-card .decoration-image-right {
-    display: none;
+    top: 0;
+    right: 0px;
+    width: 53px;
   }
   .product-card .title {
     margin-bottom: 0px;
@@ -1528,7 +1532,7 @@ body {
   }
   .product-card .all-card .slick-slide .card-item h4 {
     font-family: "Open Sans", sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 32px;
     font-weight: 600;
     color: #C82222;
@@ -1537,7 +1541,7 @@ body {
   }
   .product-card .all-card .slick-slide .card-item .details {
     font-family: "Open Sans", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
     font-weight: 400;
     color: #000000;
@@ -1574,14 +1578,14 @@ body {
   .product-card .prevbtn {
     position: absolute;
     top: -100px;
-    left: 0;
+    left: 5%;
     width: 42px;
     height: 40px;
   }
   .product-card .nextbtn {
     position: absolute;
     top: -100px;
-    right: 0;
+    right: 5%;
     width: 42px;
     height: 40px;
   }
@@ -2702,14 +2706,14 @@ body {
   .mobiles .prevbtn {
     position: absolute;
     top: -43px;
-    left: 13px;
+    left: 5%;
     width: 42px;
     height: 40px;
   }
   .mobiles .nextbtn {
     position: absolute;
     top: -43px;
-    right: 13px;
+    right: 5%;
     width: 42px;
     height: 40px;
   }
@@ -4230,7 +4234,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 379.98px) {
   .testimonial {
-    padding-top: 30px;
+    padding-top: 60px;
   }
   .testimonial .decoration-left-2 {
     display: none;
@@ -4265,7 +4269,7 @@ body {
     height: 100%;
   }
   .testimonial .all .testimonial-slider .testimonial-card .testimonial-text h4 {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 24px;
   }
   .testimonial .all .testimonial-slider .testimonial-card .testimonial-text .designation {
@@ -4280,13 +4284,13 @@ body {
   }
   .testimonial .all .prevbtn {
     top: -70px;
-    left: 13px;
+    left: 5%;
     width: 42px;
     height: 40px;
   }
   .testimonial .all .nextbtn {
     top: -73px;
-    right: 13px;
+    right: 5%;
     width: 42px;
     height: 40px;
   }

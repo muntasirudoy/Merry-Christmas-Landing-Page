@@ -115,10 +115,14 @@
         position: relative;
         
         .decoration-image-left{
-            display: none;
+            top: 0;
+            left: 0px;
+            width: 53px;
         }
         .decoration-image-right{
-            display: none;
+            top: 0;
+            right: 0px;
+            width: 53px;
         }
     
     
@@ -172,13 +176,13 @@
                 }
     
                 h4 {
-                    @include fonts($font1, 22px, 32px, 600, $color5);
+                    @include fonts($font1, 24px, 32px, 600, $color5);
                     margin-top: 30px;
                     margin-bottom: 5px
                 }
     
                 .details {
-                    @include fonts($font1, 12px, 18px, 400, $color0);
+                    @include fonts($font1, 14px, 18px, 400, $color0);
                 }
     
                 .bottom {
@@ -205,7 +209,7 @@
         .prevbtn {
             position: absolute;
             top: -100px;
-            left: 0;
+            left: 5%;
             width: 42px;
             height: 40px;
         }
@@ -213,7 +217,7 @@
         .nextbtn {
             position: absolute;
             top: -100px;
-            right: 0;
+            right: 5%;
             width: 42px;
             height: 40px;
       
