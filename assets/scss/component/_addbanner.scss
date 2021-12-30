@@ -84,15 +84,48 @@
 @media (min-width: 320px) and (max-width: 575.98px){
    
     .ad-banner{
-        display: none;
         height: 100%;
         width: 100%;
         .ad_slider{
             .inn-slider{
-                flex-direction: column;
+                     padding: 50px 0;
+                        .product-img {
+                        width: 220px;
+                        height: auto;
+                        margin-top: 42px;
+                        margin: 0px auto;
+                        }
+                        flex-direction:column-reverse;
+                        .text{
+                            margin-top: 30px;
+                            h3{
+                                font-size: 40px;
+                                line-height: 40px;
+                            }
+                            ul{
+                                li{
+                                    font-size: 16px;
+                                    line-height: 30px;
+                                    
+                                }
+                            }
+                            .price{
+                                font-size: 24px;
+                            }
+                            .buy-btn-1{
+                                font-size: 14px;
+                                line-height: 15px;
+                                border-radius: 10px;
+                                padding: 10px 20px;
+                            }
+                            .buy-btn{
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+
+                }
             }
-        }
-    }
 }
 // screem >=576
 

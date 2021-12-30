@@ -115,12 +115,12 @@
         position: relative;
         
         .decoration-image-left{
-            top: 0;
+            top: -30px;
             left: 0px;
             width: 53px;
         }
         .decoration-image-right{
-            top: 0;
+            top: -30px;
             right: 0px;
             width: 53px;
         }
@@ -130,8 +130,8 @@
     .title{
         margin-bottom: 0px;
         h2{
-            font-size:24px ;
-            font-family: $font3;
+            font-size:18px ;
+            font-family: $font1;
         }
     }
         .all-card {

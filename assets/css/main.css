@@ -547,17 +547,17 @@ body {
     width: 100%;
   }
   .main-banner .banner-text h5 {
-    font-size: 14px;
+    font-size: 16px;
   }
   .main-banner .banner-text h5::after {
     top: 50%;
-    left: 10%;
+    left: 5%;
     width: 36px;
     height: 1px;
   }
   .main-banner .banner-text h5::before {
     top: 50%;
-    right: 10%;
+    right: 5%;
     width: 36px;
     height: 1px;
   }
@@ -1470,12 +1470,12 @@ body {
     position: relative;
   }
   .product-card .decoration-image-left {
-    top: 0;
+    top: -30px;
     left: 0px;
     width: 53px;
   }
   .product-card .decoration-image-right {
-    top: 0;
+    top: -30px;
     right: 0px;
     width: 53px;
   }
@@ -1483,8 +1483,8 @@ body {
     margin-bottom: 0px;
   }
   .product-card .title h2 {
-    font-size: 24px;
-    font-family: "Lobster Two", cursive;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
   }
   .product-card .all-card {
     display: -webkit-box;
@@ -2586,8 +2586,8 @@ body {
     margin-bottom: 0px;
   }
   .mobiles .title h2 {
-    font-size: 24px;
-    font-family: "Lobster Two", cursive;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
   }
   .mobiles .mobile-slider .slick-slide {
     padding: 0;
@@ -4247,8 +4247,8 @@ body {
     margin-bottom: 0px;
   }
   .testimonial .title h2 {
-    font-size: 24px;
-    font-family: "Lobster Two", cursive;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
   }
   .testimonial .title .title-pra {
     width: 100%;
@@ -4542,15 +4542,44 @@ body {
 
 @media (min-width: 320px) and (max-width: 575.98px) {
   .ad-banner {
-    display: none;
     height: 100%;
     width: 100%;
   }
   .ad-banner .ad_slider .inn-slider {
+    padding: 50px 0;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .ad-banner .ad_slider .inn-slider .product-img {
+    width: 220px;
+    height: auto;
+    margin-top: 42px;
+    margin: 0px auto;
+  }
+  .ad-banner .ad_slider .inn-slider .text {
+    margin-top: 30px;
+  }
+  .ad-banner .ad_slider .inn-slider .text h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .ad-banner .ad_slider .inn-slider .text ul li {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .ad-banner .ad_slider .inn-slider .text .price {
+    font-size: 24px;
+  }
+  .ad-banner .ad_slider .inn-slider .text .buy-btn-1 {
+    font-size: 14px;
+    line-height: 15px;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  .ad-banner .ad_slider .inn-slider .text .buy-btn {
+    margin-top: 20px;
   }
 }
 
