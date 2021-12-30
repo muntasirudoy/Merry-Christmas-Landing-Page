@@ -1483,7 +1483,7 @@ body {
     margin-bottom: 0px;
   }
   .product-card .title h2 {
-    font-size: 18px;
+    font-size: 22px;
     font-family: "Open Sans", sans-serif;
   }
   .product-card .all-card {
@@ -2586,7 +2586,7 @@ body {
     margin-bottom: 0px;
   }
   .mobiles .title h2 {
-    font-size: 18px;
+    font-size: 22px;
     font-family: "Open Sans", sans-serif;
   }
   .mobiles .mobile-slider .slick-slide {
@@ -2657,6 +2657,7 @@ body {
   .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left .bottom .mobile-btn .buy-btn-3 {
     padding: 13px 16px;
     border-radius: 5px;
+    font-size: 14px;
   }
   .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left .bottom .mobile-price .discount-pp {
     font-family: "Open Sans", sans-serif;
@@ -4247,7 +4248,7 @@ body {
     margin-bottom: 0px;
   }
   .testimonial .title h2 {
-    font-size: 18px;
+    font-size: 22px;
     font-family: "Open Sans", sans-serif;
   }
   .testimonial .title .title-pra {
