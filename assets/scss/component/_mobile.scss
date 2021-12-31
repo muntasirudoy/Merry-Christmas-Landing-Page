@@ -123,15 +123,24 @@
 
     .prevbtn {
         position: absolute;
-        top: -100px;
+        top: -110px;
         left: 28%;
-
+        font-size: 24px;
+        color: $color5;
+        border: 1px solid $color5;
+        border-radius: 5px;
+        font-weight: 300;
     }
 
     .nextbtn {
         position: absolute;
         top: -100px;
         right: 28%;
+        font-size: 24px;
+        color: $color5;
+        border: 1px solid $color5;
+        border-radius: 5px;
+        font-weight: 300;
 
     }
 
@@ -167,21 +176,23 @@
                     .mobile-card-width {
                       
                         .moblie-card {
-                            width: auto;
+                            width: 100%;
                             padding-top: 128px;
                             padding-left: 20px;
                             background: $color5;
                             border-radius: 20px;
                             position: relative;
                             box-shadow: none;
-                            margin-top: 160px;
-
+                            margin-top: 167px;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            text-align: center;
     
                             .left {
                                 width: 100%;
                                 .top {
                                     h3 {
-                                        @include fonts($font1, 22px, 21px, 500, $color1);
+                                        @include fonts($font1, 24px, 21px, 600, $color1);
                                         text-transform: capitalize;
                                         margin-bottom: 10px
                                     }
@@ -270,21 +281,16 @@
     
         .prevbtn {
             position: absolute;
-            top: -43px;
-            left: 5%;
-            width: 42px;
-            height: 40px;
-    
-    
+            top: -37px;
+            left: 3%;
+            padding: 10px;
         }
     
         .nextbtn {
             position: absolute;
-            top: -43px;
-            right: 5%;
-            width: 42px;
-            height: 40px;
-      
+            top: -37px;
+            right: 3%;
+            padding: 10px;
     
         }
     

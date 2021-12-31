@@ -126,19 +126,23 @@
                     }
 
                 }
-            }
-            .prevbtn{
-                position: absolute;
-                left: 0px;
-                top: 37%;
-                transform: translateY(-50%);
-            }
-            .nextbtn{
-                position: absolute;
-                right: 0px;
-                top: 37%;
-                transform: translateY(-50%);
-            }
+                .prevbtn{
+                    left: 0px;
+                    top: 32%;
+                   padding: 15px 10px;
+                   font-size: 22px;
+                   z-index: 11;
+                   color: $color1;
+            
+                }
+                .nextbtn{
+                    padding: 15px 10px;
+                    font-size: 22px;
+                    right: 0px;
+                    top: 32%;
+                    color: $color1;
+                }
+            }     
 }
 // screem >=576
 

@@ -17,8 +17,8 @@ $(window).scroll(function(){
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow:'<img class="prevbtn arrow" src="./assets/images/adbanner/left-arrow.svg" alt="left-arrow">',
-    nextArrow:' <img class="nextbtn arrow" src="./assets/images/adbanner/right-arrow.svg" alt="right-arrow">',
+    prevArrow:'<i  class="far fa-angle-left prevbtn arrow"></i>',
+    nextArrow:'<i  class="far fa-angle-right nextbtn arrow"></i> ',
     responsive: [
       {
         breakpoint: 992,
@@ -52,8 +52,8 @@ $(window).scroll(function(){
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
-    prevArrow:'<img class="prevbtn arrow2" src="./assets/images/product-card/left-arrow-red.svg" alt="left-arrow">',
-    nextArrow:' <img class="nextbtn arrow2" src="./assets/images/product-card/right-arrow-red.svg" alt="right-arrow">',
+    prevArrow:'<i  class="far fa-angle-left prevbtn arrow"></i>',
+    nextArrow:'<i  class="far fa-angle-right nextbtn arrow"></i> ',
     responsive: [
       {
         breakpoint: 992,
@@ -89,8 +89,8 @@ $(window).scroll(function(){
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow:'<img class="prevbtn arrow2" src="./assets/images/mobile/left-arrow-red.svg" alt="left-arrow">',
-    nextArrow:' <img class="nextbtn arrow2" src="./assets/images/mobile/right-arrow-red.svg" alt="right-arrow">',
+    prevArrow:'<i  class="far fa-angle-left prevbtn arrow"></i>',
+    nextArrow:'<i  class="far fa-angle-right nextbtn arrow"></i> ',
     responsive: [
       {
         breakpoint: 992,
@@ -128,8 +128,8 @@ $(window).scroll(function(){
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow:'<img class="prevbtn arrow" src="./assets/images/adbanner/left-arrow.svg" alt="left-arrow">',
-    nextArrow:' <img class="nextbtn arrow" src="./assets/images/adbanner/right-arrow.svg" alt="right-arrow">',
+    prevArrow:'<i  class="far fa-angle-left prevbtn arrow"></i>',
+    nextArrow:'<i  class="far fa-angle-right nextbtn arrow"></i> ',
     fade:true,
     responsive: [
       {
@@ -167,8 +167,8 @@ $(window).scroll(function(){
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow:'<img class="prevbtn arrow2" src="./assets/images/testimonial/left-arrow-red.svg" alt="left-arrow">',
-    nextArrow:' <img class="nextbtn arrow2" src="./assets/images/testimonial/right-arrow-red.svg" alt="right-arrow">',
+    prevArrow:'<i  class="far fa-angle-left prevbtn arrow"></i>',
+    nextArrow:'<i  class="far fa-angle-right nextbtn arrow"></i> ',
   
     responsive: [
       {

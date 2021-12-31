@@ -1401,7 +1401,6 @@ body {
 .product-card .all-card .slick-slide .card-item .top {
   margin: auto;
   border: 1px solid rgba(0, 0, 0, 0.25);
-  width: 280px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1409,15 +1408,14 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: -120px;
+  padding: 30px 20px;
   background: #FFFFFF;
+  margin-top: -120px;
 }
 
 .product-card .all-card .slick-slide .card-item .top .product-image {
   width: 160px;
-  height: 260px;
+  height: 200px;
 }
 
 .product-card .all-card .slick-slide .card-item .top .product-image img {
@@ -1427,7 +1425,7 @@ body {
 
 .product-card .all-card .slick-slide .card-item h4 {
   font-family: "Open Sans", sans-serif;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 35px;
   font-weight: 600;
   color: #C82222;
@@ -1453,20 +1451,24 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
+}
+
+.product-card .all-card .slick-slide .card-item .bottom .price {
+  width: 50%;
 }
 
 .product-card .all-card .slick-slide .card-item .bottom .price p {
   font-family: "Open Sans", sans-serif;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 26px;
+  line-height: 30px;
   font-weight: 600;
   color: #C82222;
 }
 
 .product-card .all-card .slick-slide .card-item .bottom .price p span {
   font-family: "Open Sans", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   color: #C82222;
@@ -1476,12 +1478,22 @@ body {
   position: absolute;
   top: -110px;
   left: 28%;
+  font-size: 24px;
+  color: #C82222;
+  border: 1px solid #C82222;
+  border-radius: 5px;
+  font-weight: 300;
 }
 
 .product-card .nextbtn {
   position: absolute;
   top: -110px;
   right: 28%;
+  font-size: 24px;
+  color: #C82222;
+  border: 1px solid #C82222;
+  border-radius: 5px;
+  font-weight: 300;
 }
 
 @media (min-width: 320px) and (max-width: 379.98px) {
@@ -1575,21 +1587,18 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 20px;
-  }
-  .product-card .all-card .slick-slide .card-item .bottom .price {
-    margin-right: 20px;
+    margin-top: 30px;
   }
   .product-card .all-card .slick-slide .card-item .bottom .price p {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
-    line-height: 40px;
+    line-height: 22px;
     font-weight: 600;
     color: #C82222;
   }
   .product-card .all-card .slick-slide .card-item .bottom .price p span {
     font-family: "Open Sans", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 24px;
     font-weight: 400;
     color: #C82222;
@@ -1597,16 +1606,14 @@ body {
   .product-card .prevbtn {
     position: absolute;
     top: -100px;
-    left: 5%;
-    width: 42px;
-    height: 40px;
+    left: 3%;
+    padding: 10px;
   }
   .product-card .nextbtn {
     position: absolute;
     top: -100px;
-    right: 5%;
-    width: 42px;
-    height: 40px;
+    right: 3%;
+    padding: 10px;
   }
 }
 
@@ -2592,14 +2599,24 @@ body {
 
 .mobiles .prevbtn {
   position: absolute;
-  top: -100px;
+  top: -110px;
   left: 28%;
+  font-size: 24px;
+  color: #C82222;
+  border: 1px solid #C82222;
+  border-radius: 5px;
+  font-weight: 300;
 }
 
 .mobiles .nextbtn {
   position: absolute;
   top: -100px;
   right: 28%;
+  font-size: 24px;
+  color: #C82222;
+  border: 1px solid #C82222;
+  border-radius: 5px;
+  font-weight: 300;
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) {
@@ -2627,7 +2644,7 @@ body {
     margin-top: 0;
   }
   .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card {
-    width: auto;
+    width: 100%;
     padding-top: 128px;
     padding-left: 20px;
     background: #C82222;
@@ -2635,16 +2652,19 @@ body {
     position: relative;
     -webkit-box-shadow: none;
             box-shadow: none;
-    margin-top: 160px;
+    margin-top: 167px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
   }
   .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left {
     width: 100%;
   }
   .mobiles .mobile-slider .slick-slide .all-items .first-row .mobile-card-width .moblie-card .left .top h3 {
     font-family: "Open Sans", sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 21px;
-    font-weight: 500;
+    font-weight: 600;
     color: #FFFFFF;
     text-transform: capitalize;
     margin-bottom: 10px;
@@ -2730,17 +2750,15 @@ body {
   }
   .mobiles .prevbtn {
     position: absolute;
-    top: -43px;
-    left: 5%;
-    width: 42px;
-    height: 40px;
+    top: -37px;
+    left: 3%;
+    padding: 10px;
   }
   .mobiles .nextbtn {
     position: absolute;
-    top: -43px;
-    right: 5%;
-    width: 42px;
-    height: 40px;
+    top: -37px;
+    right: 3%;
+    padding: 10px;
   }
 }
 
@@ -3478,26 +3496,32 @@ body {
 
 .tv .prevbtn {
   position: absolute;
-  top: 40%;
-  left: 0;
-  -webkit-transform: translateY(-40%);
-          transform: translateY(-40%);
-  z-index: 1;
+  top: 40px;
+  left: 0%;
+  font-size: 24px;
+  color: #C82222;
+  border: 1px solid #C82222;
+  border-radius: 5px;
+  font-weight: 300;
+  z-index: 11;
 }
 
 .tv .nextbtn {
   position: absolute;
-  top: 40%;
-  right: 0;
-  -webkit-transform: translateY(-40%);
-          transform: translateY(-40%);
-  z-index: 1;
+  top: 40px;
+  right: 0%;
+  font-size: 24px;
+  color: #C82222;
+  border: 1px solid #C82222;
+  border-radius: 5px;
+  font-weight: 300;
+  z-index: 11;
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) {
   .tv {
     height: 460px;
-    padding-top: 80px;
+    padding-top: 50px;
     position: relative;
   }
   .tv .tv-top-slider .tv-slider-items {
@@ -3545,24 +3569,16 @@ body {
     height: 100%;
   }
   .tv .prevbtn {
-    position: absolute;
-    top: 40%;
-    left: 0;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    z-index: 1;
-    width: 50px;
-    height: 50px;
+    padding: 10px;
+    z-index: 11;
+    left: 0px;
+    top: 0;
   }
   .tv .nextbtn {
-    position: absolute;
-    top: 40%;
-    right: 0;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    z-index: 1;
-    width: 50px;
-    height: 50px;
+    padding: 15px 10px;
+    z-index: 11;
+    right: 0px;
+    top: 0;
   }
 }
 
@@ -4607,19 +4623,20 @@ body {
   .ad-banner .ad_slider .inn-slider .text .buy-btn {
     margin-top: 20px;
   }
-  .prevbtn {
-    position: absolute;
+  .ad-banner .prevbtn {
     left: 0px;
-    top: 37%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    top: 32%;
+    padding: 15px 10px;
+    font-size: 22px;
+    z-index: 11;
+    color: #FFFFFF;
   }
-  .nextbtn {
-    position: absolute;
+  .ad-banner .nextbtn {
+    padding: 15px 10px;
+    font-size: 22px;
     right: 0px;
-    top: 37%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    top: 32%;
+    color: #FFFFFF;
   }
 }
 
