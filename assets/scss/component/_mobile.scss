@@ -300,43 +300,60 @@
 }
 @media (min-width: 576px) and (max-width: 768.98px){
     .mobiles {
-        padding-bottom: 150px;
+        
+        .decoration-tree-left{
+            display: none;
+         }
     
         .title {
-            margin-bottom: 50px;
+            margin-bottom: 0px;
+            h2{
+                font-size:32px ;
+                font-family: $font1;
+            }
         }
-    
+        
         .mobile-slider {
+            
+            .slick-slide{
+                 padding: 0;
+            
             .all-items {
+                width: 100%;
+    
                 .first-row {
                 flex-direction: column;
                   margin-top: 0;
-    
                     .mobile-card-width {
-                       
-    
+                      
                         .moblie-card {
-                            width: auto;
-                            padding-top: 40px;
-                            padding-left: 15px;
-                            padding-bottom: 15px;
-                            margin-top: 60px;
-
+                            width: 100%;
+                            padding-top: 128px;
+                            padding-left: 20px;
+                            background: $color5;
+                            border-radius: 20px;
+                            position: relative;
+                            box-shadow: none;
+                            margin-top: 167px;
+                            padding-left: 30px;
+                            padding-right: 30px;
+                            text-align: center;
     
                             .left {
+                                width: 100%;
                                 .top {
                                     h3 {
-                                        @include fonts($font1, 26px, 35px, 600, $color1);
+                                        @include fonts($font1, 28px, 21px, 600, $color1);
                                         text-transform: capitalize;
                                         margin-bottom: 10px
                                     }
     
                                     p {
-                                        @include fonts($font1, 14px, 19px, 400, $color1);
+                                        @include fonts($font1, 14px, 14px, 400, $color1);
                                     }
     
                                     ul {
-                                        margin-top: 30px;
+                                        margin-top: 20px;
     
                                         li {
                                             @include fonts($font1, 14px, 19px, 400, $color1);
@@ -348,11 +365,16 @@
                                 }
     
                                 .bottom {
-                                    margin-top: 40px;
+                                    margin: 15px;
                                     display: flex;
-                                    height: 60px;
+                                    justify-content: center;
     
                                     .mobile-btn {
+                                        .buy-btn-3 {
+                                            padding: 13px 16px;
+                                            border-radius: 5px;
+                                            font-size: 14px;
+                                        }
                                         margin-right: 30px;
                                         margin-top: 10px
                                     }
@@ -376,12 +398,29 @@
                             }
     
                             .right {
+    
                                 width: 200px;
                                 height: 215px;
-                                top: 50%;
-                                right: 0;
+                                border: 2px solid $color5;
+                                border-radius: 10px;
+                                background: $color1;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                position: absolute;
+                                top: 0;
+                                right: 50%;
+                                transform: translate(50%, -50%);
     
-                              
+                                .phone-img {
+                                    width: 115px;
+                                    height: 180px;
+    
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
                             }
                         }
                     }
@@ -389,29 +428,25 @@
                 }
             }
         }
+        
+        }
     
         .prevbtn {
             position: absolute;
-            top: -95px;
-            left: -5px;
-            width: 42px;
-            height: 40px;
-    
-    
+            top: -42px;
+            left: 3%;
+            padding: 10px;
         }
     
         .nextbtn {
             position: absolute;
-            top: -95px;
-            right: -5px;
-            width: 42px;
-            height: 40px;
-      
+            top: -42px;
+            right: 3%;
+            padding: 10px;
     
         }
     
     }
-    
     
 }
 

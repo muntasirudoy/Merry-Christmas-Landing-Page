@@ -90,7 +90,27 @@
 
 @media (min-width: 576px) and (max-width:767.98px){
   
-
+    .get-touch{
+        height: 100%;
+        .text{
+            h3{
+                font-size: 28px;
+            }
+        }
+        .text{
+            height: 100px;
+        }
+        .email{
+            align-items: flex-start;
+            height: 100px;
+            input{
+                width: 100%;
+            }
+            a{
+                top: 2px;
+            }
+        }
+    }
 }
 // screem >= 768
 @media (min-width: 768px) and (max-width: 991.98px){
