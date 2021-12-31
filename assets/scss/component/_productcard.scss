@@ -26,6 +26,7 @@
         margin-top: 60px;
         display: flex;
         justify-content: center;
+        cursor: pointer;
         .slick-slide{
        
         .card-item {
@@ -232,49 +233,40 @@
 @media (min-width: 576px) and (max-width:767.98px){
 
     .product-card {
-        padding-top: 100px;
-        padding-bottom: 150px;
+        padding-top: 60px;
         position: relative;
-        
-    
-        &::after {
-            top: 0;
-            left: 20px;
-            width: 205px;
-            height: 312px;
-            display: none;
-    
-    
+   
+
+        .decoration-image-left{
+            top: -31px;
+            width: 100px;
         }
-    
-        &::before {
-            top: 0;
-            right: 20px;
-            width: 154px;
-            height: 290px;
-            display: none;
-    
-    
+        .decoration-image-right{
+            top: -31px;
+            width: 100px;
         }
-    .title{
-        margin-bottom: 100px;
-    }
+
+      .title{
+        margin-bottom: 0;
+        h2{
+            font-size: 32px;
+        }
+        }
         .all-card {
-       
+            margin: 0;
             display: flex;
             justify-content: center !important;
+            .slick-slide{
+
+            padding: 7px;
             .card-item {
-                width: auto !important;
+                width: 100%;
                 border: 1px solid $color10;
                 border-radius: 20px;
                 background: $color1;
-                padding: 10px;
-                text-align: center;
-                margin-top: 140px;
-                
+                padding: 20px!important;
+               
 
-
-    
                 .top {
                     margin: auto;
                     border: 1px solid $color10;
@@ -289,7 +281,7 @@
     
                     .product-image {
                         width: 160px;
-                        height: 260px;
+                        height: 170px;
     
                         img {
                             width: 100%;
@@ -327,25 +319,18 @@
                 }
             }
         }
+        }
     
         .prevbtn {
             position: absolute;
-            top: -140px;
+            top: -50px;
             left: 0;
-            width: 42px;
-            height: 40px;
-    
-    
         }
     
         .nextbtn {
             position: absolute;
-            top: -140px;
-            right: 0;
-            width: 42px;
-            height: 40px;
-      
-    
+            top: -50px;
+            right: 0;      
         }
     }
     

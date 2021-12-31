@@ -52,6 +52,7 @@
             align-items: center;
             text-align: center;
             transition: 0.4s;
+            cursor: pointer;
             .circle{
                 position: absolute;
                 top: 10%;
@@ -150,6 +151,43 @@
 
 @media (min-width: 576px) and (max-width:767.98px){
   
+    .about{
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        .text{
+            i{
+                font-size: 30px;
+                margin-left: 15px;
+            }
+            text-align: center;
+            padding: 0;
+            padding: 0 15px;
+           h2{
+            font-size: 38px;
+            line-height: 36px;
+           }
+           p{
+               font-size: 14px;
+               line-height: 24px;
+               
+           }
+        }
+        .service-cards{
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+                .posti{
+                  width: 50%;
+                  margin: 20px 0; 
+                  .service-card{
+                      box-shadow: $shadow4;
+                  }
+                }
+            }
+        }
 
 }
 // screem >= 768

@@ -204,38 +204,38 @@
                font-size: 16px;
                &::after{
                 top: 50%;
-                left: 15%;
-                width: 80px;
+                left: 11%;
+                width: 100px;
                 height: 1px;
                }
                &::before{
                 top: 50%;
-                right: 15%;
-                width: 80px;
+                right: 11%;
+                width: 100px;
                 height: 1px;
                }
            }
            .text-box {
-            width: 400px;
-            height: 89px;
+            width: 450px;
+            height: 100px;
             h1{
-                font-size: 46px;
+                font-size: 56px;
             }
             h4{
-                bottom: -20px;
-                font-size: 58px;
+                bottom: -30px;
+                font-size: 66px;
             }
            }
            .banner-timer{
-               width: 530px;
+               width: 572px;
                height: 70px;
-               margin-top: 50px;
+               margin-top: 60px;
                .dot{
                    font-size: 26px;
                }
                .timer{
                 h2{
-                    font-size: 48px;
+                    font-size: 58px;
                 }
                 p{
                     font-size: 14px;
@@ -247,19 +247,15 @@
                margin-top: 50px;
                .mainbanner-wh-btn{
                 margin: 0;
-                padding: 10px 20px;
                 font-size: 14px;
                 line-height: 15px;
                 border-radius: 10px;
-                height: 36px;
                }
                .mainbanner-wh-btn-bgless{
                 margin-left: 20px;
-                padding: 10px 20px;
                 font-size: 14px;
                 line-height: 15px;
                 border-radius: 10px;
-                height: 36px;
                }
            }
         }
