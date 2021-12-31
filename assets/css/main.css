@@ -68,6 +68,7 @@ body {
 /*--------common css end-------*/
 /*page start*/
 .navbar {
+  overflow: hidden;
   background: transparent;
   position: absolute;
   width: 100%;
@@ -200,15 +201,20 @@ body {
   .navbar .nav-btn:hover {
     color: #DD3F3F;
   }
-  .sticky {
-    background: rgba(29, 1, 1, 0.897);
-  }
   button {
     font-size: 24px;
     line-height: 31px;
   }
   button i {
     color: #FFFFFF;
+  }
+  button .navbar-toggler-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .navbar-toggler:focus {
     -webkit-box-shadow: none;
@@ -2750,13 +2756,13 @@ body {
   }
   .mobiles .prevbtn {
     position: absolute;
-    top: -37px;
+    top: -42px;
     left: 3%;
     padding: 10px;
   }
   .mobiles .nextbtn {
     position: absolute;
-    top: -37px;
+    top: -42px;
     right: 3%;
     padding: 10px;
   }
@@ -4263,14 +4269,24 @@ body {
 
 .testimonial .all .prevbtn {
   position: absolute;
-  top: -150px;
-  left: 10%;
+  top: -154px;
+  left: 28%;
+  font-size: 24px;
+  color: #C82222;
+  border: 1px solid #C82222;
+  border-radius: 5px;
+  font-weight: 300;
 }
 
 .testimonial .all .nextbtn {
   position: absolute;
-  top: -150px;
-  right: 10%;
+  top: -154px;
+  right: 28%;
+  font-size: 24px;
+  color: #C82222;
+  border: 1px solid #C82222;
+  border-radius: 5px;
+  font-weight: 300;
 }
 
 @media (min-width: 320px) and (max-width: 379.98px) {
@@ -4295,6 +4311,7 @@ body {
     width: 100%;
   }
   .testimonial .all .testimonial-slider {
+    margin-top: 30px;
     width: 100%;
     font-size: 50px;
   }
@@ -4324,16 +4341,16 @@ body {
     font-weight: 400;
   }
   .testimonial .all .prevbtn {
-    top: -70px;
-    left: 5%;
-    width: 42px;
-    height: 40px;
+    position: absolute;
+    top: -104px;
+    left: 3%;
+    padding: 10px;
   }
   .testimonial .all .nextbtn {
-    top: -73px;
-    right: 5%;
-    width: 42px;
-    height: 40px;
+    position: absolute;
+    top: -104px;
+    right: 3%;
+    padding: 10px;
   }
 }
 
@@ -5052,6 +5069,33 @@ footer {
   border-top: 1px solid #FFFFFF;
 }
 
+footer .gallery ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .gallery ul li {
+  margin-top: 0;
+  width: 70px;
+  height: 70px;
+  background: black;
+}
+
+footer .all-items {
+  width: 100%;
+}
+
 footer .all-items img {
   width: 70%;
 }
@@ -5112,7 +5156,7 @@ footer .all-items .icons i:hover {
 }
 
 footer .copywrite {
-  margin-top: 100px;
+  margin-top: 50px;
   width: 100%;
   border-top: 1px solid #FFFFFF;
   background: #C82222;
@@ -5127,8 +5171,12 @@ footer .copywrite {
   footer {
     text-align: center;
     padding-top: 50px;
+    width: 100%;
+    height: auto;
   }
   footer .all-items {
+    width: 100%;
+    height: 100%;
     margin-top: 30px;
   }
   footer .all-items h3 {
@@ -5138,11 +5186,22 @@ footer .copywrite {
   footer .all-items p {
     font-weight: 400;
   }
-  footer .all-items ul li {
-    margin-top: 10px;
+  footer .all-items ul {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  footer .all-items ul li a {
-    font-weight: 400;
+  footer .all-items ul li {
+    width: 50px;
+    height: 48px;
+    background: black;
   }
   footer .copywrite {
     margin-top: 30px;

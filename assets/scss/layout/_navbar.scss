@@ -2,6 +2,7 @@
 @import "../abstracts/variables";
 
 .navbar {
+    overflow: hidden;
     background: transparent;
     position: absolute;
     width: 100%;
@@ -145,15 +146,17 @@
             }
         }  
     }
-    .sticky{
-        background: rgba(29, 1, 1, 0.897);
-    }
+   
     
     button{
         font-size: 24px;
         line-height: 31px;
         i{
             color:$color1;
+        }
+        .navbar-toggler-icon{
+            display: flex;
+            align-items: center;
         }
     }
     .navbar-toggler:focus {

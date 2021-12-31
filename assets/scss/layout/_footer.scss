@@ -6,8 +6,24 @@ footer{
     padding: 100px 0 0 0;
     border-top: 1px solid $color1;
 
-
+    .gallery{
+        ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            li{
+                margin-top: 0;
+                width: 70px;
+               height: 70px;
+               background: black;
+            }
+        }
+       }
    .all-items{
+       width: 100%;
        img{
            width: 70%;
        }
@@ -19,6 +35,8 @@ footer{
         @include fonts($font1, 24px, 21px, 500, $color1);
         padding-bottom: 15px;
        }
+
+
        ul{
            padding-left: 10px;
            li{
@@ -50,7 +68,7 @@ footer{
 
 
     .copywrite{
-        margin-top: 100px;
+        margin-top: 50px;
     width: 100%;
     border-top: 1px solid $color1; 
     background: $color5;
@@ -68,8 +86,12 @@ footer{
     footer{
         text-align: center;
         padding-top: 50px;
+        width: 100%;
+        height: auto;
         
         .all-items{
+            width: 100%;
+            height: 100%;
             margin-top: 30px;
             h3{
                 font-size: 18px;
@@ -79,11 +101,15 @@ footer{
                 font-weight: 400;
             }
             ul{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-between;
                 li{
-                    margin-top: 10px;
-                    a{
-                        font-weight: 400;
-                    }
+                   width: 50px;
+                   height: 48px;
+                   background: black;
                 }
             }
         }
