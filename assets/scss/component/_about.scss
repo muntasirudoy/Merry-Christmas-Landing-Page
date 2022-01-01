@@ -96,7 +96,6 @@
 
 }
 
-
 // responsive start
 
 
@@ -148,7 +147,6 @@
 }
 }
 // screem >=576
-
 @media (min-width: 576px) and (max-width:767.98px){
   
     .about{
@@ -192,14 +190,133 @@
 }
 // screem >= 768
 @media (min-width: 768px) and (max-width: 991.98px){
-  
+    .about{
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        .text{
+
+            i{
+                font-size: 30px;
+                margin-left: 15px;
+            }
+            text-align: center;
+            padding: 0;
+            padding: 0 15px;
+           h2{
+            font-size: 38px;
+            line-height: 36px;
+           }
+           p{  text-align: center;
+               font-size: 14px;
+               line-height: 24px;
+               
+           }
+        }
+        .service-cards{
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+                .posti{
+                  width: 33%;
+                  margin: 0px 0; 
+                  .service-card{
+                      width: 200px;
+                      box-shadow: $shadow4;
+                  }
+                }
+            }
+        }
+
 
 }
 // screem >= 992
 @media (min-width: 992px) and (max-width: 1199.98px){
-  
+    .about{
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        .text{
+          width: 100%;
+            i{
+                font-size: 30px;
+                margin-left: 15px;
+            }
+            text-align: center;
+            padding: 0;
+            padding: 0 15px;
+           h2{
+            font-size: 38px;
+            line-height: 36px;
+           }
+           p{  text-align: center;
+               font-size: 14px;
+               line-height: 24px;
+               
+           }
+        }
+        .service-cards{
+            width: 100%;
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+                .posti{
+                  width: 33%;
+                  margin: 0px 0; 
+                  .service-card{
+                      width: 185px;
+                      box-shadow: $shadow4;
+                  }
+                }
+        }
+        }
+
+
 
 }
 @media (min-width: 1200px) and (max-width: 1399.98px){
-  
+    .about{
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        .text{
+
+            i{
+                font-size: 30px;
+                margin-left: 15px;
+            }
+            text-align: center;
+            padding: 0;
+            padding: 0 15px;
+           h2{
+            font-size: 38px;
+            line-height: 36px;
+           }
+           p{  text-align: center;
+               font-size: 14px;
+               line-height: 24px;
+               
+           }
+        }
+        .service-cards{
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+                .posti{
+                  width: 33%;
+                  margin: 0px 0; 
+                  .service-card{
+                      width: 200px;
+                      box-shadow: $shadow4;
+                  }
+                }
+            }
+        }
+
 }

@@ -56,6 +56,24 @@ $(window).scroll(function(){
     nextArrow:'<i  class="far fa-angle-right nextbtn arrow"></i> ',
     responsive: [
       {
+        breakpoint: 1399,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 1299,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
         breakpoint: 992,
         settings: {
           slidesToShow: 2,
@@ -118,10 +136,6 @@ $(window).scroll(function(){
       }
     ]
   });
-
-
-
-
   $('.tv-top-slider').slick({
     dots: false,
     infinite: true,
@@ -157,14 +171,10 @@ $(window).scroll(function(){
       }
     ]
   });
-
-
-
-
   $('.testimonial-slider').slick({
     dots: false,
     infinite: true,
-    speed: 300,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow:'<i  class="far fa-angle-left prevbtn arrow"></i>',

@@ -51,12 +51,7 @@
        
     }
 }
-
-
 // responsive start
-
-
-
 
 // responsive start 
 @media (min-width: 320px) and (max-width: 575.98px){
@@ -96,12 +91,30 @@
 }
 // screem >= 768
 @media (min-width: 768px) and (max-width: 991.98px){
-  
+    .addbanner-short{
+        .row{
+            .col-lg-4,
+            .col-sm-12,
+            .col-md-12{
+             padding: 15px;
+            }
+            .banner-box{
+                height: 240px;
+            }
+        }
+       
+    }
 
 }
 // screem >= 992
 @media (min-width: 992px) and (max-width: 1199.98px){
   
+    .addbanner-short{
+        
+            .banner-box{
+                height: 140px;
+            }
+        }
 
 }
 @media (min-width: 1200px) and (max-width: 1399.98px){
