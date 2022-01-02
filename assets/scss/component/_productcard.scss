@@ -230,7 +230,6 @@
     }
     
 }
-
 @media (min-width: 380px) and (max-width: 475.98px){
     .product-card {
         position: relative;
@@ -341,7 +340,6 @@
         }
     }
 }
-
 @media (min-width: 476px) and (max-width: 575.98px){
     .product-card {
         position: relative;
@@ -452,7 +450,6 @@
         }
     }
 }
-
 @media (min-width: 576px) and (max-width:767.98px){
 
     .product-card {
@@ -520,7 +517,7 @@
                 }
     
                 .details {
-                    @include fonts($font1, 12px, 18px, 400, $color0);
+                    @include fonts($font1, 14px, 18px, 400, $color0);
                 }
     
                 .bottom {

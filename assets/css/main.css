@@ -1142,13 +1142,13 @@ body {
   }
   .main-banner .banner-text h5::after {
     top: 50%;
-    left: 28%;
+    left: 22%;
     width: 130px;
     height: 2px;
   }
   .main-banner .banner-text h5::before {
     top: 50%;
-    right: 28%;
+    right: 22%;
     width: 130px;
     height: 2px;
   }
@@ -2411,7 +2411,7 @@ body {
   }
   .product-card .all-card .slick-slide .card-item .details {
     font-family: "Open Sans", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
     font-weight: 400;
     color: #000000;
@@ -3741,12 +3741,6 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .mobiles {
-    padding-bottom: 120px;
-  }
-  .mobiles .title {
-    margin-bottom: 50px;
-  }
   .mobiles .mobile-slider .all-items .first-row {
     margin-top: 50px;
     -webkit-box-orient: horizontal;
@@ -3828,23 +3822,18 @@ body {
   .mobiles .prevbtn {
     position: absolute;
     top: -95px;
-    left: 160px !important;
+    left: 0px !important;
     width: 50px;
-    height: 42px;
   }
   .mobiles .nextbtn {
     position: absolute;
     top: -95px;
-    right: 160px !important;
+    right: 0px !important;
     width: 50px;
-    height: 42px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-  .mobiles {
-    padding-bottom: 150px;
-  }
   .mobiles .title {
     margin-bottom: 50px;
   }
@@ -3855,7 +3844,6 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 100px;
   }
   .mobiles .mobile-slider .all-items .first-row .mobile-card-width {
     width: 535px !important;
@@ -3868,8 +3856,6 @@ body {
     background: #C82222;
     border-radius: 20px;
     position: relative;
-    -webkit-box-shadow: 0px 14px 44px 0px #DD3F3F59;
-            box-shadow: 0px 14px 44px 0px #DD3F3F59;
   }
   .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .top h3 {
     font-family: "Open Sans", sans-serif;
@@ -3934,13 +3920,15 @@ body {
   }
   .mobiles .prevbtn {
     position: absolute;
-    top: -100px;
-    left: 28%;
+    top: -95px;
+    left: 0 !important;
+    width: 50px;
   }
   .mobiles .nextbtn {
     position: absolute;
-    top: -100px;
-    right: 28%;
+    top: -95px;
+    right: 0 !important;
+    width: 50px;
   }
 }
 
@@ -4502,6 +4490,78 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .tv {
+    height: 560px;
+    padding-top: 80px;
+    position: relative;
+  }
+  .tv .tv-top-slider .tv-slider-items {
+    height: 513px;
+  }
+  .tv .tv-top-slider .tv-slider-items .top {
+    text-align: center;
+  }
+  .tv .tv-top-slider .tv-slider-items .top h3 {
+    font-family: "Lobster Two", cursive;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 400;
+    color: #FFFFFF;
+  }
+  .tv .tv-top-slider .tv-slider-items .top p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+  }
+  .tv .tv-top-slider .tv-slider-items .top .price {
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  .tv .tv-top-slider .tv-slider-items .inner-img {
+    width: 460px !important;
+    height: auto;
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+  .tv .tv-top-slider .tv-slider-items .inner-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .tv .prevbtn {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+  }
+  .tv .nextbtn {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
   .tv {
     height: 560px;
     padding-top: 80px;
@@ -5319,15 +5379,67 @@ body {
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-  .testimonial .prevbtn {
-    position: absolute;
-    top: -175px;
-    left: 15%;
+  .testimonial {
+    padding-top: 60px;
   }
-  .testimonial .nextbtn {
+  .testimonial .decoration-left-2 {
+    display: none;
+  }
+  .testimonial .decoration-right-2 {
+    display: none;
+  }
+  .testimonial .title {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .testimonial .title h2 {
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .testimonial .title .title-pra {
+    width: 100%;
+  }
+  .testimonial .all .testimonial-slider {
+    margin-top: 30px;
+    width: 100%;
+    font-size: 50px;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .quote {
+    font-size: 50px;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .photo-circle {
+    width: 100px;
+    height: 100px;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .photo-circle img {
+    width: 100%;
+    height: 100%;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .testimonial-text h4 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .testimonial-text .designation {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .testimonial-text .details {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .testimonial .all .prevbtn {
     position: absolute;
-    top: -175px;
-    right: 15%;
+    top: -104px;
+    left: 3%;
+    padding: 10px;
+  }
+  .testimonial .all .nextbtn {
+    position: absolute;
+    top: -104px;
+    right: 3%;
+    padding: 10px;
   }
 }
 
@@ -5762,9 +5874,6 @@ body {
   .ad-banner .ad_slider .inn-slider .product-img {
     width: 450px;
     height: auto;
-  }
-  .ad-banner .ad_slider .inn-slider .text {
-    margin: 30px auto;
   }
   .ad-banner .ad_slider .inn-slider .text h3 {
     font-size: 48px;
@@ -6654,11 +6763,14 @@ footer .copywrite {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   footer .all .gallery ul li {
     margin: 5px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background: black;
   }
   footer .all .gallery ul li img {

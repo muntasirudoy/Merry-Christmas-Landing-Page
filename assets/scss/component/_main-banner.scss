@@ -192,6 +192,7 @@
     }
 
 }
+// screem >=380
 @media (min-width: 380px) and (max-width: 475.98px){
     .main-banner{
         width: 100%;
@@ -261,7 +262,7 @@
     }
 
 }
-
+// screem >=475
 @media (min-width: 476px) and (max-width: 575.98px){
     .main-banner{
         width: 100%;
@@ -541,6 +542,7 @@
     }
 
 }
+// screem >= 1200 
 @media (min-width: 1200px) and (max-width: 1399.98px){
     .main-banner{
         width: 100%;
@@ -553,13 +555,13 @@
                font-size: 18px;
                &::after{
                 top: 50%;
-                left: 28%;
+                left: 22%;
                 width: 130px;
                 height: 2px;
                }
                &::before{
                 top: 50%;
-                right: 28%;
+                right: 22%;
                 width: 130px;
                 height: 2px;
                }

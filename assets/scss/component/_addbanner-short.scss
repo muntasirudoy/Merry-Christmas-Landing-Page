@@ -51,8 +51,6 @@
        
     }
 }
-// responsive start
-
 // responsive start 
 @media (min-width: 320px) and (max-width: 575.98px){
    
@@ -71,7 +69,6 @@
     }
 }
 // screem >=576
-
 @media (min-width: 576px) and (max-width:767.98px){
   
     .addbanner-short{
@@ -116,6 +113,7 @@
         }
 
 }
+// screem >= 1201
 @media (min-width: 1200px) and (max-width: 1399.98px){
     .addbanner-short{
         .banner-box{
