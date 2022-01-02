@@ -192,8 +192,146 @@
     }
 
 }
-// screem >=576
+@media (min-width: 380px) and (max-width: 475.98px){
+    .main-banner{
+        width: 100%;
+        .banner-text{
+           width: 100%;
+           h5{
+               font-size: 16px;
+               &::after{
+                top: 50%;
+                left: 9%;
+                width: 36px;
+                height: 1px;
+               }
+               &::before{
+                top: 50%;
+                right: 9%;
+                width: 36px;
+                height: 1px;
+               }
+           }
+           .text-box {
+            width: 310px;
+            height: 69px;
+            h1{
+                font-size: 40px;
+            }
+            h4{
+                bottom: -27px;
+                font-size: 50px;
+            }
+           }
+           .banner-timer{
+               width: 450px;
+               height: 65px;
+               margin-top: 40px;
+               .dot{
+                   font-size: 26px;
+               }
+               .timer{
+                h2{
+                    font-size: 46px;
+                }
+                p{
+                    font-size: 12px;
+                }
 
+               }
+           }
+           .banner-button{
+               margin-top: 30px;
+               .mainbanner-wh-btn{
+                margin: 0;
+                padding: 13px 20px;
+                font-size: 14px;
+                line-height: 15px;
+                border-radius: 10px;
+               }
+               .mainbanner-wh-btn-bgless{
+                margin-left: 20px;
+                padding: 13px 20px;
+                font-size: 14px;
+                line-height: 15px;
+                border-radius: 8px;
+               }
+           }
+        }
+    }
+
+}
+
+@media (min-width: 476px) and (max-width: 575.98px){
+    .main-banner{
+        width: 100%;
+        .banner-text{
+           width: 100%;
+           h5{
+               font-size: 16px;
+               &::after{
+                top: 50%;
+                left: 12%;
+                width: 60px;
+                height: 1px;
+               }
+               &::before{
+                top: 50%;
+                right: 12%;
+                width: 60px;
+                height: 1px;
+               }
+           }
+           .text-box {
+            width: 360px;
+            height: 80px;
+            h1{
+                font-size: 43px;
+            }
+            h4{
+                bottom: -27px;
+                font-size: 50px;
+            }
+           }
+           .banner-timer{
+               width: 510px;
+               height: 65px;
+               margin-top: 50px;
+               .dot{
+                   font-size: 35px;
+               }
+               .timer{
+                h2{
+                    font-size: 55px;
+                }
+                p{
+                    font-size: 14px;
+                }
+
+               }
+           }
+           .banner-button{
+               margin-top: 50px;
+               .mainbanner-wh-btn{
+                margin: 0;
+                padding: 13px 20px;
+                font-size: 14px;
+                line-height: 15px;
+                border-radius: 10px;
+               }
+               .mainbanner-wh-btn-bgless{
+                margin-left: 20px;
+                padding: 13px 20px;
+                font-size: 14px;
+                line-height: 15px;
+                border-radius: 8px;
+               }
+           }
+        }
+    }
+
+}
+// screem >=576
 @media (min-width: 576px) and (max-width:767.98px){
     .main-banner{
         width: 100%;
