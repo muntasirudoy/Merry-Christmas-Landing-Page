@@ -4,7 +4,7 @@
 .bg-wh-btn{
     @include fonts($font1,16px,21px,600, $color2);
     background: $color1;
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 10px 25px;
     text-transform: uppercase;
 }

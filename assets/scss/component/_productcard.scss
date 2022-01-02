@@ -321,16 +321,20 @@
         }
         }
     
+        
         .prevbtn {
             position: absolute;
             top: -50px;
-            left: 0;
+            left: 3%;
+            padding: 10px;
         }
+
     
         .nextbtn {
             position: absolute;
             top: -50px;
-            right: 0;      
+            right: 3%;      
+            padding: 10px;
         }
     }
     
@@ -343,11 +347,11 @@
    
 
         .decoration-image-left{
-            top: -31px;
+            top: -40px;
             width: 100px;
         }
         .decoration-image-right{
-            top: -31px;
+            top: -40px;
             width: 100px;
         }
 
@@ -429,13 +433,16 @@
         .prevbtn {
             position: absolute;
             top: -50px;
-            left: 0;
+            left: 3%;
+            padding: 10px;
         }
+
     
         .nextbtn {
             position: absolute;
             top: -50px;
-            right: 0;      
+            right: 3%;      
+            padding: 10px;
         }
     }
     

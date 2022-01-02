@@ -110,7 +110,6 @@
 @media (min-width: 992px) and (max-width: 1199.98px){
   
     .addbanner-short{
-        
             .banner-box{
                 height: 140px;
             }
@@ -118,5 +117,9 @@
 
 }
 @media (min-width: 1200px) and (max-width: 1399.98px){
-  
+    .addbanner-short{
+        .banner-box{
+            height: 160px;
+        }
+    }
 }

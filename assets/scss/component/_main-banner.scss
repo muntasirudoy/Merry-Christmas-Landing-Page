@@ -200,6 +200,7 @@
         background-size:cover;
         .banner-text{
            width: 100%;
+           padding-top: 200px;
            h5{
                font-size: 16px;
                &::after{
@@ -268,6 +269,7 @@
         width: 100%;
         background-size:cover;
         .banner-text{
+           padding-top: 145px;
            width: 100%;
            h5{
                font-size: 18px;
@@ -338,6 +340,7 @@
         height: 100vh;
         .banner-text{
            width: 100%;
+           padding-top: 200px;
            h5{
                font-size: 16px;
                &::after{
@@ -354,10 +357,10 @@
                }
            }
            .text-box {
-            width: 530px;
-            height: 118px;
+            width: 570px;
+            height: 127px;
             h1{
-                font-size: 60px;
+                font-size: 70px;
             }
             h4{
                 bottom: -28px;
@@ -365,41 +368,37 @@
             }
            }
            .banner-timer{
-               width: 610px;
-               height: 70px;
-               margin-top: 50px;
-               .dot{
-                   font-size: 26px;
-               }
-               .timer{
-                h2{
-                    font-size: 70px;
-                }
-                p{
-                    font-size: 14px;
-                }
+            width: 650px;
+            margin-top: 80px;
+            height: 85px;
+            .dot{
+                font-size: 45px;
+            }
+            .timer{
+             h2{
+                 font-size: 72px;
+             }
+             p{
+                 font-size: 14px;
+             }
 
-               }
-           }
+            }
+        }
            .banner-button{
-               margin-top: 50px;
-               .mainbanner-wh-btn{
-                margin: 0;
-                padding: 10px 20px;
-                font-size: 14px;
-                line-height: 18px;
-                border-radius: 10px;
-                height: 40px;
-               }
-               .mainbanner-wh-btn-bgless{
-                margin-left: 20px;
-                padding: 10px 20px;
-                font-size: 14px;
-                line-height: 18px;
-                border-radius: 10px;
-                height: 40px;
-               }
-           }
+            margin-top: 60px;
+            .mainbanner-wh-btn{
+             margin: 0;
+             font-size: 14px;
+             line-height: 15px;
+             border-radius: 10px;
+            }
+            .mainbanner-wh-btn-bgless{
+             margin-left: 20px;
+             font-size: 14px;
+             line-height: 15px;
+             border-radius: 10px;
+            }
+        }
         }
     }
 

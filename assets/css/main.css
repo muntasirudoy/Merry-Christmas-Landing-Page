@@ -141,13 +141,13 @@ body {
   position: fixed !important;
   top: 0 !important;
   width: 100%;
-  background: rgba(29, 1, 1, 0.897);
+  background: #C82222;
   z-index: 999;
   -webkit-transition: .4s;
   transition: .4s;
   margin: 0 auto;
-  -webkit-box-shadow: 0px 0px 18px rgba(47, 47, 47, 0.253);
-          box-shadow: 0px 0px 18px rgba(47, 47, 47, 0.253);
+  -webkit-box-shadow: 0px 0px 18px rgba(47, 47, 47, 0.397);
+          box-shadow: 0px 0px 18px rgba(47, 47, 47, 0.397);
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) {
@@ -366,6 +366,26 @@ body {
   }
 }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar .nav-btn {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .navbar .nav-btn:hover {
+    color: #DD3F3F;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .navbar .nav-btn {
+    margin-left: 80px;
+    font-size: 14px;
+  }
+  .navbar .nav-btn:hover {
+    color: #DD3F3F;
+  }
+}
+
 .bg-wh-btn {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -373,7 +393,7 @@ body {
   font-weight: 600;
   color: #DD3F3F;
   background: #FFFFFF;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 10px 25px;
   text-transform: uppercase;
 }
@@ -783,6 +803,7 @@ body {
   }
   .main-banner .banner-text {
     width: 100%;
+    padding-top: 200px;
   }
   .main-banner .banner-text h5 {
     font-size: 16px;
@@ -847,6 +868,7 @@ body {
     background-size: cover;
   }
   .main-banner .banner-text {
+    padding-top: 145px;
     width: 100%;
   }
   .main-banner .banner-text h5 {
@@ -914,6 +936,7 @@ body {
   }
   .main-banner .banner-text {
     width: 100%;
+    padding-top: 200px;
   }
   .main-banner .banner-text h5 {
     font-size: 16px;
@@ -931,48 +954,44 @@ body {
     height: 2px;
   }
   .main-banner .banner-text .text-box {
-    width: 530px;
-    height: 118px;
+    width: 570px;
+    height: 127px;
   }
   .main-banner .banner-text .text-box h1 {
-    font-size: 60px;
+    font-size: 70px;
   }
   .main-banner .banner-text .text-box h4 {
     bottom: -28px;
     font-size: 75px;
   }
   .main-banner .banner-text .banner-timer {
-    width: 610px;
-    height: 70px;
-    margin-top: 50px;
+    width: 650px;
+    margin-top: 80px;
+    height: 85px;
   }
   .main-banner .banner-text .banner-timer .dot {
-    font-size: 26px;
+    font-size: 45px;
   }
   .main-banner .banner-text .banner-timer .timer h2 {
-    font-size: 70px;
+    font-size: 72px;
   }
   .main-banner .banner-text .banner-timer .timer p {
     font-size: 14px;
   }
   .main-banner .banner-text .banner-button {
-    margin-top: 50px;
+    margin-top: 60px;
   }
   .main-banner .banner-text .banner-button .mainbanner-wh-btn {
     margin: 0;
-    padding: 10px 20px;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 15px;
     border-radius: 10px;
-    height: 40px;
   }
   .main-banner .banner-text .banner-button .mainbanner-wh-btn-bgless {
     margin-left: 20px;
-    padding: 10px 20px;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 15px;
     border-radius: 10px;
-    height: 40px;
   }
 }
 
@@ -1419,7 +1438,7 @@ body {
   font-weight: 600;
   color: #DD3F3F;
   background: #FFFFFF;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 10px 25px;
   text-transform: uppercase;
 }
@@ -2055,12 +2074,14 @@ body {
   .product-card .prevbtn {
     position: absolute;
     top: -50px;
-    left: 0;
+    left: 3%;
+    padding: 10px;
   }
   .product-card .nextbtn {
     position: absolute;
     top: -50px;
-    right: 0;
+    right: 3%;
+    padding: 10px;
   }
 }
 
@@ -2070,11 +2091,11 @@ body {
     position: relative;
   }
   .product-card .decoration-image-left {
-    top: -31px;
+    top: -40px;
     width: 100px;
   }
   .product-card .decoration-image-right {
-    top: -31px;
+    top: -40px;
     width: 100px;
   }
   .product-card .title {
@@ -2174,12 +2195,14 @@ body {
   .product-card .prevbtn {
     position: absolute;
     top: -50px;
-    left: 0;
+    left: 3%;
+    padding: 10px;
   }
   .product-card .nextbtn {
     position: absolute;
     top: -50px;
-    right: 0;
+    right: 3%;
+    padding: 10px;
   }
 }
 
@@ -2464,6 +2487,12 @@ body {
   }
 }
 
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .addbanner-short .banner-box {
+    height: 160px;
+  }
+}
+
 .bg-wh-btn {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -2471,7 +2500,7 @@ body {
   font-weight: 600;
   color: #DD3F3F;
   background: #FFFFFF;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 10px 25px;
   text-transform: uppercase;
 }
@@ -3548,7 +3577,7 @@ body {
   font-weight: 600;
   color: #DD3F3F;
   background: #FFFFFF;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 10px 25px;
   text-transform: uppercase;
 }
@@ -4177,7 +4206,7 @@ body {
   font-weight: 600;
   color: #DD3F3F;
   background: #FFFFFF;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 10px 25px;
   text-transform: uppercase;
 }
@@ -4786,15 +4815,67 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .testimonial .prevbtn {
-    position: absolute;
-    top: -175px;
-    left: 12%;
+  .testimonial {
+    padding-top: 60px;
   }
-  .testimonial .nextbtn {
+  .testimonial .decoration-left-2 {
+    display: none;
+  }
+  .testimonial .decoration-right-2 {
+    display: none;
+  }
+  .testimonial .title {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .testimonial .title h2 {
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .testimonial .title .title-pra {
+    width: 100%;
+  }
+  .testimonial .all .testimonial-slider {
+    margin-top: 30px;
+    width: 100%;
+    font-size: 50px;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .quote {
+    font-size: 50px;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .photo-circle {
+    width: 100px;
+    height: 100px;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .photo-circle img {
+    width: 100%;
+    height: 100%;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .testimonial-text h4 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .testimonial-text .designation {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .testimonial .all .testimonial-slider .testimonial-card .testimonial-text .details {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .testimonial .all .prevbtn {
     position: absolute;
-    top: -175px;
-    right: 12%;
+    top: -104px;
+    left: 3%;
+    padding: 10px;
+  }
+  .testimonial .all .nextbtn {
+    position: absolute;
+    top: -104px;
+    right: 3%;
+    padding: 10px;
   }
 }
 
@@ -5907,10 +5988,10 @@ body {
     display: none;
   }
   .contact .message h3 {
-    font-size: 20px;
+    font-size: 26px;
   }
   .contact .message .all-input {
-    padding-top: 10px;
+    padding: 20px 45px;
   }
   .contact .message .all-input input {
     width: 100%;
@@ -5965,7 +6046,7 @@ footer .all-items p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 21px;
-  font-weight: 600;
+  font-weight: 400;
   color: #FFFFFF;
 }
 
@@ -6132,21 +6213,31 @@ footer .copywrite {
 @media (min-width: 768px) and (max-width: 991.98px) {
   footer {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
     width: 100%;
     height: auto;
   }
   footer .all-items {
     width: 100%;
     height: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
+  }
+  footer .all-items ul li {
+    margin: 5px;
+  }
+  footer .all-items img {
+    width: 50%;
   }
   footer .all-items h3 {
-    font-size: 18px;
+    font-size: 24px;
     padding-bottom: 10px;
   }
   footer .all-items p {
     font-weight: 400;
+  }
+  footer .all-items .icons i {
+    font-size: 36px;
+    margin-left: 15px;
   }
   footer .copywrite {
     margin-top: 40px;
@@ -6172,6 +6263,50 @@ footer .copywrite {
     width: 80px;
     height: 80px;
     background: black;
+  }
+  footer .gallery ul li img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  footer .all {
+    height: 100%;
+  }
+  footer .all .all-items h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  footer .all .all-items .icons i {
+    font-size: 36px;
+    margin-left: 5px;
+  }
+  footer .all .gallery ul {
+    padding: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .all .gallery ul li {
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    background: black;
+  }
+  footer .all .gallery ul li img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  footer .gallery ul li {
+    width: 70px;
+    height: 70px;
   }
   footer .gallery ul li img {
     width: 100%;
