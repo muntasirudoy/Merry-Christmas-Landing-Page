@@ -50,7 +50,7 @@
     }
 
     .title {
-        margin-bottom: 80px;
+        margin-bottom: 30px;
 
         h2 {
             margin-bottom: 30px;
@@ -119,25 +119,27 @@
 
     .prevbtn {
         position: absolute;
-        top: -154px;
-        left: 28%;
+        top: -108px;
         font-size: 24px;
         color: $color5;
         border: 1px solid $color5;
         border-radius: 5px;
         font-weight: 300;
+        left: 20%;
+        padding: 10px 20px;
     }
 
     .nextbtn {
         position: absolute;
-        top: -154px;
-        right: 28%;
+        top: -108px;
         font-size: 24px;
         color: $color5;
         border: 1px solid $color5;
         border-radius: 5px;
         font-weight: 300;
-
+        right: 20%;
+        padding: 10px 20px;
+        
     }
 }
 }

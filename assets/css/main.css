@@ -141,13 +141,13 @@ body {
   position: fixed !important;
   top: 0 !important;
   width: 100%;
-  background: #C82222;
+  background: url(../images/nav/sticky.png) center no-repeat;
+  background-size: cover;
   z-index: 999;
   -webkit-transition: .4s;
   transition: .4s;
-  margin: 0 auto;
-  -webkit-box-shadow: 0px 0px 18px rgba(47, 47, 47, 0.397);
-          box-shadow: 0px 0px 18px rgba(47, 47, 47, 0.397);
+  -webkit-box-shadow: 0px 0px 18px rgba(47, 47, 47, 0.664);
+          box-shadow: 0px 0px 18px rgba(47, 47, 47, 0.664);
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) {
@@ -572,7 +572,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 800px;
   background: url(../images/banner/banner.png) center no-repeat;
   background-size: cover;
 }
@@ -595,7 +595,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: 100%;
   padding-top: 170px;
   margin: 0 auto;
 }
@@ -615,27 +615,27 @@ body {
 .main-banner .banner-text h5:after {
   content: "";
   position: absolute;
-  top: 50%;
-  left: 14%;
+  top: 45%;
+  left: 18%;
   background: #FFFFFF;
-  width: 180px;
-  height: 4px;
+  width: 140px;
+  height: 3px;
 }
 
 .main-banner .banner-text h5:before {
   content: "";
   position: absolute;
   top: 50%;
-  right: 14%;
+  right: 18%;
   background: #FFFFFF;
-  width: 180px;
-  height: 4px;
+  width: 140px;
+  height: 3px;
 }
 
 .main-banner .banner-text .text-box {
   background: url(../images/banner/textbox.png) center no-repeat;
-  width: 720px;
-  height: 159px;
+  width: 617px;
+  height: 137px;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -652,7 +652,7 @@ body {
 
 .main-banner .banner-text .text-box h1 {
   font-family: "Lobster Two", cursive;
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -681,7 +681,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 720px;
-  height: 140px;
 }
 
 .main-banner .banner-text .banner-timer .timer {
@@ -4999,7 +4998,7 @@ body {
 }
 
 .testimonial .title {
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 
 .testimonial .title h2 {
@@ -5098,24 +5097,26 @@ body {
 
 .testimonial .all .prevbtn {
   position: absolute;
-  top: -154px;
-  left: 28%;
+  top: -108px;
   font-size: 24px;
   color: #C82222;
   border: 1px solid #C82222;
   border-radius: 5px;
   font-weight: 300;
+  left: 20%;
+  padding: 10px 20px;
 }
 
 .testimonial .all .nextbtn {
   position: absolute;
-  top: -154px;
-  right: 28%;
+  top: -108px;
   font-size: 24px;
   color: #C82222;
   border: 1px solid #C82222;
   border-radius: 5px;
   font-weight: 300;
+  right: 20%;
+  padding: 10px 20px;
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) {
@@ -5608,18 +5609,30 @@ body {
 
 .ad-banner .prevbtn {
   position: absolute;
+  padding: 10px 20px;
   left: 0px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  z-index: 111;
+}
+
+.ad-banner .prevbtn i {
+  color: #FFFFFF;
 }
 
 .ad-banner .nextbtn {
   position: absolute;
+  padding: 10px 20px;
   right: 0px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  z-index: 111;
+}
+
+.ad-banner .nextbtn i {
+  color: #FFFFFF;
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) {
@@ -5883,23 +5896,27 @@ body {
     font-size: 32px;
   }
   .ad-banner .prevbtn {
-    left: 0px;
     top: 50%;
-    padding: 15px 10px;
     font-size: 22px;
-    z-index: 11;
+    z-index: 111;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    padding: 10px 20px;
+  }
+  .ad-banner .prevbtn i {
     color: #FFFFFF;
+  }
+  .ad-banner .nextbtn {
+    padding: 10px 20px;
+    font-size: 22px;
+    top: 50%;
+    color: #FFFFFF;
+    z-index: 111;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
-  .ad-banner .nextbtn {
-    padding: 15px 10px;
-    font-size: 22px;
-    right: 0px;
-    top: 50%;
+  .ad-banner .nextbtn i {
     color: #FFFFFF;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
   }
 }
 
@@ -5950,7 +5967,7 @@ body {
 
 .get-touch .email input {
   width: 70%;
-  padding: 11px 25px;
+  padding: 11px 20px;
   outline: none;
   border-radius: 10px;
   border: none;
@@ -6520,8 +6537,13 @@ footer .all-items {
   width: 100%;
 }
 
-footer .all-items img {
+footer .all-items .bottom-logo {
   width: 70%;
+}
+
+footer .all-items img {
+  width: 100%;
+  height: 100%;
 }
 
 footer .all-items p {
