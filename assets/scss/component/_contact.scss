@@ -40,9 +40,16 @@
            z-index: -1;
            opacity: 0.12;
        }
+      .info{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
         .phone{
             display: flex;
             align-items: center;
+            width: 200px;
             i{
                 font-size: 28px;
                  margin-right: 15px;
@@ -50,6 +57,7 @@
             }
             ul{
                 padding:0 ;
+                display: block;
                 li{
                 margin-top:5px;
                     @include fonts($font1,14px,14px, 500, $color4);
@@ -59,6 +67,7 @@
         .email{
             display: flex;
             align-items: center;
+            width: 200px;
             i{
                 font-size: 28px;
                  margin-right: 15px;
@@ -66,6 +75,7 @@
             }
             ul{
                 padding:0 ;
+                display: block;
                 li{
                 margin-top:5px;
                     @include fonts($font1,14px,14px, 500, $color4);
@@ -75,6 +85,7 @@
         .location{
             display: flex;
             align-items: center;
+            width: 200px;
             i{
                 font-size: 28px;
                  margin-right: 15px;
@@ -82,13 +93,14 @@
             }
             ul{
                 padding:0 ;
+                display: block;
                 li{
                 margin-top:5px;
                     @include fonts($font1,14px,14px, 500, $color4);
                 }
             }
         }
-
+    }
 
 
     }
@@ -213,6 +225,7 @@
            border: none;
            padding: 50px;
            height: auto;
+
            .phone{
               ul{
                   li{
@@ -243,6 +256,7 @@
                font-weight: 400;
            }
        }
+       
        .message{
            &::after{
                display: none;

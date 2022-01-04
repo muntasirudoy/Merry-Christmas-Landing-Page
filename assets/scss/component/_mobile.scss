@@ -103,7 +103,7 @@
                             top: 50%;
                             right: 0;
                             transform: translate(50%, -50%);
-
+                            box-shadow: -14px 3px 56px 0px #0000002b;
                             .phone-img {
                                 width: 115px;
                                 height: 180px;
@@ -113,6 +113,7 @@
                                     height: 100%;
                                 }
                             }
+                           
                         }
                     }
                 }
@@ -214,7 +215,7 @@
                                 .bottom {
                                     margin-top: 15px;
                                     display: flex;
-    
+                                    justify-content: center;
                                     .mobile-btn {
                                         .buy-btn-3 {
                                             padding: 13px 16px;
@@ -278,15 +279,11 @@
         }
     
         .prevbtn {
-            position: absolute;
-            top: -42px;
             left: 3%;
             padding: 10px;
         }
     
         .nextbtn {
-            position: absolute;
-            top: -42px;
             right: 3%;
             padding: 10px;
     
@@ -430,15 +427,11 @@
         }
     
         .prevbtn {
-            position: absolute;
-            top: -42px;
             left: 3%;
             padding: 10px;
         }
     
         .nextbtn {
-            position: absolute;
-            top: -42px;
             right: 3%;
             padding: 10px;
     
@@ -583,15 +576,11 @@
         }
     
         .prevbtn {
-            position: absolute;
-            top: -42px;
             left: 3%;
             padding: 10px;
         }
     
         .nextbtn {
-            position: absolute;
-            top: -42px;
             right: 3%;
             padding: 10px;
     
@@ -677,6 +666,7 @@
                                 height: 200px;
                                 top: 50%;
                                 right: 0;
+
     
                               
                             }
@@ -688,17 +678,14 @@
         }
     
         .prevbtn {
-            position: absolute;
-            top: -95px;
             left: 0px !important;
-            width: 50px;
+            padding: 10px 20px;
         }
     
         .nextbtn {
-            position: absolute;
-            top: -95px;
+
             right:0px !important;
-            width: 50px;  
+            padding: 10px 20px; 
         }
     
     }

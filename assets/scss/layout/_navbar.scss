@@ -3,15 +3,17 @@
 
 .navbar {
     overflow: hidden;
-    background: transparent;
     position: absolute;
+    background: transparent;
     width: 100%;
     z-index: 11111;
     margin: 0 auto;
-    box-shadow: 0px 0px 18px rgba(47, 47, 47, 0.253);
+    padding: 0;
     .logo {
         width: 180px;
-        height: 60px;
+        height: 80px;
+        display: flex;
+        align-items: center;
         img{
           width: 100%;
            height: 100%
@@ -20,7 +22,7 @@
     ul {
         li {
             a {
-                @include fonts($font1, 16px, 21px, 500, $color1);
+                @include fonts($font1, 15px, 21px, 500, $color1);
                 text-transform: uppercase;
                 position: relative;
                 padding-left: 15px !important;
@@ -38,11 +40,11 @@
                     transform: translateX(-50%);
                     z-index: 1111;
                    &:hover{
-                       width: 100%;
+                       width: 90%;
                    }
                 }
                 &:hover::after {
-                    width: 100% ;           
+                    width: 80% ;           
                 }
                 &:hover{
                     color: $color1 ;
@@ -53,8 +55,10 @@
     .nav-btn {
         margin-left: 225px;
         font-size: 14px;
+        transition: 0.3s;
         &:hover{
             color: $color2;
+            transform: scale(1.05);
         }
     }
 }
@@ -62,26 +66,48 @@
     position: fixed!important;
     top: 0 !important;
     width: 100%;
-    background:url(../images/nav/sticky.png) center no-repeat;
-    background-size: cover;
+    // background:url(../images/nav/sticky.png) center no-repeat;
+    // background-size: cover;
+    background: $color5;
     z-index: 999; 
     transition: .4s;
-    box-shadow: 0px 0px 18px rgba(47, 47, 47, 0.664);
+    box-shadow: 0px 0px 25px rgba(47, 47, 47, 0.664);
+    ul {
+        li{
+            a{
+                font-size: 14px;
+            }
+        }
+    }
 
 }
+button{
+    font-size: 24px;
+    line-height: 31px;
+    padding: 3px 5px!important;
+    background: rgb(170, 0, 0)!important;
+    i{
+        color:$color1;
+    }
+    .navbar-toggler-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
 
+
+// Responsive 320px - 575px 
 @media (min-width: 320px) and (max-width:575.98px){
     .navbar {
         background: $color5;
-    
         .logo {
             width: 180px;
             height: 55px;
-    
-            img {
-                width: 100%;
-                height: 100%
-            }
+            margin: 6px 0;
         }
     
         ul {
@@ -135,37 +161,15 @@
         }  
     }
    
-    
-    button{
-        font-size: 24px;
-        line-height: 31px;
-        i{
-            color:$color1;
-        }
-        .navbar-toggler-icon{
-            display: flex;
-            align-items: center;
-        }
-    }
-    .navbar-toggler:focus {
-        box-shadow: none;
-    }
 }
-//
-
+// Responsive 576px - 767px 
 @media (min-width: 576px) and (max-width:767.98px){
-
-    .navbar {
+    .navbar {   
         background: $color5;
-    
         .logo {
             width: 180px;
             height: 55px;
-    
-            img {
-                width: 100%;
-                height: 100%
-            }
+            margin: 6px 0;
         }
     
         ul {
@@ -236,19 +240,15 @@
     }
     
 }
+// Responsive 768px - 991px 
 @media (min-width: 768px) and (max-width: 991.98px){
 
     .navbar {
         background: $color5;
-    
         .logo {
             width: 180px;
             height: 55px;
-    
-            img {
-                width: 100%;
-                height: 100%
-            }
+            margin: 6px 0;
         }
     
         ul {
@@ -318,8 +318,15 @@
         box-shadow: none;
     }
 }
+// Responsive 992px - 1200px 
 @media (min-width: 992px) and (max-width: 1199.98px){
     .navbar {
+        background: transparent;
+        .logo {
+            width: 180px;
+            height: 70px;
+            margin: 10px 0;
+        }
     .nav-btn {
         margin-left: 10px;
         font-size: 14px;
@@ -329,10 +336,21 @@
     }
 }
 
+.sticky{
+    background:$color5
 }
+
+}
+// Responsive 1200px - 1400px 
 @media (min-width: 1200px) and (max-width: 1399.98px){
 
     .navbar {
+        background: transparent;
+        .logo {
+            width: 180px;
+            height: 70px;
+            margin: 10px 0;
+        }
         .nav-btn {
             margin-left: 80px;
             font-size: 14px;
@@ -341,5 +359,7 @@
             }
         }
     }
-    
+    .sticky{
+        background:$color5
+    }
 }

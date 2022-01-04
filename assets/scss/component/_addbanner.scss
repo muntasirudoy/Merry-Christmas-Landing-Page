@@ -66,9 +66,8 @@
         top: 50%;
         transform: translateY(-50%);
         z-index: 111;
-        i{
-            color: $color1;
-        }
+        color: $color1;
+        
     }
     .nextbtn{
         position: absolute;
@@ -76,9 +75,7 @@
         right: 0px;
         top: 50%;
         transform: translateY(-50%);
-        i{
-            color: $color1;
-        }
+        color: $color1;
         z-index: 111;
     }
     
