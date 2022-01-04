@@ -1,7 +1,3 @@
-@import "../abstracts/mixin";
-@import "../abstracts/variables";
-
-
 
 .get-touch{
     width: 100%;
@@ -28,7 +24,7 @@
         height: 150px;
         position:relative;
         input{
-            width: 70%;
+            width: 90%;
             padding: 11px 20px;
             outline: none;
             border-radius: 10px;
@@ -97,10 +93,12 @@
             align-items: flex-start;
             height: 100px;
             input{
-                width: 100%;
+                width: 80%;
+                margin: 0 auto;
             }
             a{
                 top: 2px;
+                right: 53px;
             }
         }
     }
@@ -121,20 +119,39 @@
             align-items: flex-start;
             height: 100px;
             input{
-                width: 100%;
+                width: 80%;
+                margin: 0 auto;
             }
             a{
                 top: 2px;
+                right: 73px;
             }
+        }
+    }
+}
+// screem >= 992
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .get-touch{
+        .text{
+            h3{
+                font-size: 34px;
+            }
+        }
+        .email input{
+            width: 100%;
         }
     }
 
 }
-// screem >= 992
-@media (min-width: 992px) and (max-width: 1199.98px){
-  
-
-}
 @media (min-width: 1200px) and (max-width: 1399.98px){
-  
+    .get-touch{
+        .text{
+            h3{
+                font-size: 34px;
+            }
+        }
+        .email input{
+            width: 100%;
+        }
+    }
 }

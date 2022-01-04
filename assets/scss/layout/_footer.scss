@@ -114,11 +114,11 @@ footer{
             ul{
                 margin: 0;
                 padding: 0;
+                justify-content: center;
                 li{
                     margin:5px;
                     width: 60px;
                    height: 60px;
-                   background: black;
                    img{
                        width: 100%;
                        height: 100%;
@@ -148,6 +148,7 @@ footer{
         }
         .gallery{
             ul{
+                justify-content: center;
                 li{
                    margin:5px;
                    width: 80px;
@@ -185,9 +186,9 @@ footer{
         }
         .gallery{
             ul{
+                justify-content: center;
                 padding: 0;
                 width: 100%;
-                height: 200px;
                 li{
                    margin: 5;
                    width: 80px;

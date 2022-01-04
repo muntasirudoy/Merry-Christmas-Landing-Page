@@ -1,8 +1,3 @@
-@import "../abstracts/mixin";
-@import "../component/buttons";
-@import "../component/badges";
-
-
 
 
 .mobiles {
@@ -10,7 +5,6 @@
     .title {
         margin-bottom: 50px;
     }
-
     .decoration-tree-left{
         position: absolute;
         bottom: 0;
@@ -18,9 +12,7 @@
         opacity: 0.06;
         z-index: -1;
     }
-
     .mobile-slider {
-       
         .all-items {
             .first-row {
                 display: flex;
@@ -35,8 +27,6 @@
                         background: $color5;
                         border-radius: 20px;
                         position: relative;
-                        
-
                         .left {
                             .top {
                                 h3 {
@@ -70,17 +60,11 @@
                                     margin-right: 60px;
                                     margin-top: 10px
                                 }
-
                                 .mobile-price {
-
-
                                     .discount-pp {
                                         @include fonts($font1, 14px, 19px, 600, $color6);
                                         display: block;
-
-
                                     }
-
                                     span {
                                         @include fonts($font1, 28px, 38px, 600, $color1);
                                         display: inline-block;
@@ -90,7 +74,6 @@
                         }
 
                         .right {
-
                             width: 200px;
                             height: 215px;
                             border: 2px solid $color5;
@@ -124,7 +107,7 @@
 
     .prevbtn {
         position: absolute;
-        top: -110px;
+        top: -100px;
         left: 28%;
         font-size: 24px;
         color: $color5;
@@ -148,11 +131,9 @@
 }
 @media (min-width: 320px) and (max-width: 575.98px){
     .mobiles {
-        
         .decoration-tree-left{
             display: none;
          }
-    
         .title {
             margin-bottom: 0px;
             h2{
@@ -162,10 +143,8 @@
         }
         
         .mobile-slider {
-            
             .slick-slide{
                  padding: 0;
-            
             .all-items {
                 width: 100%;
     
@@ -206,7 +185,6 @@
                                         li {
                                             @include fonts($font1, 14px, 19px, 400, $color1);
                                             list-style: disc;
-                                            margin-bottom: 5px;
                                         }
                                     }
     
@@ -281,12 +259,13 @@
         .prevbtn {
             left: 3%;
             padding: 10px;
+            top: -42px;
         }
     
         .nextbtn {
             right: 3%;
             padding: 10px;
-    
+            top: -42px;
         }
     
     }
@@ -295,11 +274,9 @@
 }
 @media (min-width: 576px) and (max-width: 768.98px){
     .mobiles {
-        
         .decoration-tree-left{
             display: none;
          }
-    
         .title {
             margin-bottom: 0px;
             h2{
@@ -307,20 +284,15 @@
                 font-family: $font1;
             }
         }
-        
         .mobile-slider {
-            
             .slick-slide{
                  padding: 0;
-            
             .all-items {
                 width: 100%;
-    
                 .first-row {
                 flex-direction: column;
                   margin-top: 0;
                     .mobile-card-width {
-                      
                         .moblie-card {
                             width: 100%;
                             padding-top: 128px;
@@ -333,7 +305,6 @@
                             padding-left: 30px;
                             padding-right: 30px;
                             text-align: center;
-    
                             .left {
                                 width: 100%;
                                 .top {
@@ -342,28 +313,16 @@
                                         text-transform: capitalize;
                                         margin-bottom: 10px
                                     }
-    
-                                    p {
-                                        @include fonts($font1, 14px, 14px, 400, $color1);
-                                    }
-    
                                     ul {
                                         margin-top: 20px;
     
                                         li {
-                                            @include fonts($font1, 14px, 19px, 400, $color1);
                                             list-style: disc;
-                                            margin-bottom: 5px;
                                         }
                                     }
-    
                                 }
-    
                                 .bottom {
-                                    margin: 15px;
-                                    display: flex;
                                     justify-content: center;
-    
                                     .mobile-btn {
                                         .buy-btn-3 {
                                             padding: 13px 16px;
@@ -373,49 +332,12 @@
                                         margin-right: 30px;
                                         margin-top: 10px
                                     }
-    
-                                    .mobile-price {
-    
-    
-                                        .discount-pp {
-                                            @include fonts($font1, 14px, 19px, 600, $color6);
-                                            display: block;
-    
-    
-                                        }
-    
-                                        span {
-                                            @include fonts($font1, 28px, 38px, 600, $color1);
-                                            display: inline-block;
-                                        }
-                                    }
                                 }
                             }
     
                             .right {
-    
-                                width: 200px;
-                                height: 215px;
-                                border: 2px solid $color5;
-                                border-radius: 10px;
-                                background: $color1;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                position: absolute;
                                 top: 0;
                                 right: 50%;
-                                transform: translate(50%, -50%);
-    
-                                .phone-img {
-                                    width: 115px;
-                                    height: 180px;
-    
-                                    img {
-                                        width: 100%;
-                                        height: 100%;
-                                    }
-                                }
                             }
                         }
                     }
@@ -423,30 +345,24 @@
                 }
             }
         }
-        
         }
-    
         .prevbtn {
             left: 3%;
             padding: 10px;
+            top: -45px;
         }
-    
         .nextbtn {
             right: 3%;
             padding: 10px;
-    
+            top: -45px;
         }
-    
     }
-    
 }
 @media (min-width: 768px) and (max-width: 991.98px){
-    .mobiles {
-        
+    .mobiles { 
         .decoration-tree-left{
             display: none;
          }
-    
         .title {
             margin-bottom: 0px;
             h2{
@@ -454,12 +370,9 @@
                 font-family: $font1;
             }
         }
-        
         .mobile-slider {
-            
             .slick-slide{
                  padding: 0;
-            
             .all-items {
                 width: 100%;
                 .first-row {
@@ -482,7 +395,6 @@
                             padding-left: 30px;
                             padding-right: 30px;
                             text-align: center;
-    
                             .left {
                                 width: 100%;
                                 .top {
@@ -491,28 +403,15 @@
                                         text-transform: capitalize;
                                         margin-bottom: 10px
                                     }
-    
-                                    p {
-                                        @include fonts($font1, 14px, 14px, 400, $color1);
-                                    }
-    
                                     ul {
                                         margin-top: 20px;
-    
                                         li {
-                                            @include fonts($font1, 14px, 19px, 400, $color1);
                                             list-style: disc;
-                                            margin-bottom: 5px;
                                         }
                                     }
-    
                                 }
-    
                                 .bottom {
-                                    margin: 15px;
-                                    display: flex;
                                     justify-content: center;
-    
                                     .mobile-btn {
                                         .buy-btn-3 {
                                             padding: 13px 16px;
@@ -522,49 +421,12 @@
                                         margin-right: 30px;
                                         margin-top: 10px
                                     }
-    
-                                    .mobile-price {
-    
-    
-                                        .discount-pp {
-                                            @include fonts($font1, 14px, 19px, 600, $color6);
-                                            display: block;
-    
-    
-                                        }
-    
-                                        span {
-                                            @include fonts($font1, 28px, 38px, 600, $color1);
-                                            display: inline-block;
-                                        }
-                                    }
                                 }
                             }
     
                             .right {
-    
-                                width: 200px;
-                                height: 215px;
-                                border: 2px solid $color5;
-                                border-radius: 10px;
-                                background: $color1;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                position: absolute;
                                 top: 0;
                                 right: 50%;
-                                transform: translate(50%, -50%);
-    
-                                .phone-img {
-                                    width: 115px;
-                                    height: 180px;
-    
-                                    img {
-                                        width: 100%;
-                                        height: 100%;
-                                    }
-                                }
                             }
                         }
                     }
@@ -572,18 +434,16 @@
                 }
             }
         }
-        
-        }
-    
+     }
         .prevbtn {
-            left: 3%;
+            left: 15%;
             padding: 10px;
+            top: -47px;
         }
-    
         .nextbtn {
-            right: 3%;
+            right: 15%;
             padding: 10px;
-    
+            top: -47px;
         }
     
     }
@@ -597,18 +457,14 @@
                 .first-row {
                   margin-top: 50px;
                   flex-direction: row;
-    
                     .mobile-card-width {
                         width: 450px !important;
-    
                         .moblie-card {
                             width: 365px;
                             padding-top: 40px;
                             padding-left: 25px;
                             padding-bottom: 20px;
                             margin-top: 0;
-
-    
                             .left {
                                 .top {
                                     h3 {
@@ -616,47 +472,21 @@
                                         text-transform: capitalize;
                                         margin-bottom: 10px
                                     }
-    
-                                    p {
-                                        @include fonts($font1, 14px, 19px, 400, $color1);
-                                    }
-    
                                     ul {
                                         margin-top: 30px;
     
                                         li {
-                                            @include fonts($font1, 14px, 19px, 400, $color1);
                                             list-style: disc;
-                                            margin-bottom: 5px;
                                         }
                                     }
-    
                                 }
-    
                                 .bottom {
                                     margin-top: 40px;
-                                    display: flex;
                                     height: 60px;
     
                                     .mobile-btn {
                                         margin-right: 30px;
                                         margin-top: 10px
-                                    }
-    
-                                    .mobile-price {
-    
-    
-                                        .discount-pp {
-                                            @include fonts($font1, 14px, 19px, 600, $color6);
-                                            display: block;
-    
-    
-                                        }
-    
-                                        span {
-                                            @include fonts($font1, 28px, 38px, 600, $color1);
-                                            display: inline-block;
-                                        }
                                     }
                                 }
                             }
@@ -666,9 +496,6 @@
                                 height: 200px;
                                 top: 50%;
                                 right: 0;
-
-    
-                              
                             }
                         }
                     }
@@ -678,14 +505,16 @@
         }
     
         .prevbtn {
-            left: 0px !important;
+            left: 15%!important;
             padding: 10px 20px;
+            top: -95px;
         }
     
         .nextbtn {
 
-            right:0px !important;
+            right: 15%!important;
             padding: 10px 20px; 
+            top: -95px;
         }
     
     }
@@ -694,17 +523,14 @@
 }
 @media (min-width: 1200px) and (max-width: 1399.98px){
     .mobiles {
-    
         .title {
             margin-bottom: 50px;
         }
-    
         .mobile-slider {
             .all-items {
                 .first-row {
                     display: flex;
                     justify-content: space-between;
-    
                     .mobile-card-width {
                         width: 535px !important;
     
@@ -719,19 +545,12 @@
                             .left {
                                 .top {
                                     h3 {
-                                        @include fonts($font1, 26px, 35px, 600, $color1);
-                                        text-transform: capitalize;
                                         margin-bottom: 10px
-                                    }
-                                    p {
-                                        @include fonts($font1, 14px, 19px, 400, $color1);
                                     }
                                     ul {
                                         margin-top: 30px;
                                         li {
-                                            @include fonts($font1, 14px, 19px, 400, $color1);
                                             list-style: disc;
-                                            margin-bottom: 5px;
                                         }
                                     }
                                 }
@@ -769,16 +588,12 @@
             }
         }
         .prevbtn {
-            position: absolute;
             top: -95px;
-            left: 0!important;
-            width: 50px;
+            left: 15%!important;
         }
         .nextbtn {
-            position: absolute;
             top: -95px;
-            right:0!important;
-            width: 50px;
+            right:15%important;
         }
     }
 }

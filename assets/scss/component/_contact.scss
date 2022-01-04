@@ -1,9 +1,3 @@
-@import "../abstracts/mixin";
-@import "../abstracts/variables";
-
-
-
-
 .contact{
     width: 100%;
     .col-lg-5,
@@ -19,7 +13,7 @@
         }
         p{
             @include fonts($font1,14px,14px, 500, $color8);
-            margin-bottom: 60px;
+            margin-bottom: 25px;
             margin-top: 10px;
             text-align: center;
         }
@@ -42,8 +36,9 @@
        }
       .info{
           width: 100%;
+          height: 200px;
           display: flex;
-          justify-content: center;
+          justify-content: space-between;
           flex-direction: column;
           align-items: center;
         .phone{
@@ -60,7 +55,7 @@
                 display: block;
                 li{
                 margin-top:5px;
-                    @include fonts($font1,14px,14px, 500, $color4);
+                    @include fonts($font1,14px,14px, 400, $color4);
                 }
             }
         }
@@ -78,7 +73,7 @@
                 display: block;
                 li{
                 margin-top:5px;
-                    @include fonts($font1,14px,14px, 500, $color4);
+                    @include fonts($font1,14px,14px, 400, $color4);
                 }
             }
         }
@@ -96,7 +91,7 @@
                 display: block;
                 li{
                 margin-top:5px;
-                    @include fonts($font1,14px,14px, 500, $color4);
+                    @include fonts($font1,14px,14px, 400, $color4);
                 }
             }
         }
@@ -105,7 +100,7 @@
 
     }
     .message{
-        padding-top: 30px;
+        padding-top: 70px;
         width: 100%;
         height: 500px;
         background: $color5;
@@ -119,7 +114,6 @@
             content: '';
             position: absolute;
             top: 50%;
-
             left: -25px;
             width: 50px;
             height: 50px;
@@ -128,7 +122,7 @@
         }
 
         .all-input{
-            padding-top: 50px;
+            padding-top: 20px;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -149,104 +143,26 @@
                 margin-top: 30px;
                 width: 35%;
                 margin: 15px;
-                padding: 10px 25px;
+                padding: 10px 15px;
                 outline: none;
                 border-radius: 5px;
                 border: none;
                 box-shadow: $shadow3;
             }
-        } 
-                        
-        .button_container {
-            position: absolute;
-          left: 0;
-          right: 0;
-          bottom: 7%;
-          .btn {
-            border: none;
-            display: block;
-            text-align: center;
-            cursor: pointer;
-            text-transform: uppercase;
-            outline: none;
-            overflow: hidden;
-            position: relative;
-            color: #fff;
-            font-weight: 600;
-            font-size: 14px;
-            background-color: #222;
-            padding: 10px 45px;
-            margin: 0 auto;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.20);
-            font-family: $font1;
-          }
-          .btn span {
-            position: relative; 
-            z-index: 1;
-          }
-          
-          .btn:after {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 0;
-            height: 490%;
-            width: 140%;
-            background: $color5;
-            -webkit-transition: all .5s ease-in-out;
-            transition: all .5s ease-in-out;
-            -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
-            transform: translateX(-98%) translateY(-25%) rotate(45deg);
-          }
-          
-          .btn:hover:after {
-            -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
-            transform: translateX(-9%) translateY(-25%) rotate(45deg);
-          }
-        }
-        
-          
-          
+        }  
 
     }
 }
-
-
 // responsive start
 
-
-
-
-// responsive start 
+// screem >= 320
 @media (min-width: 320px) and (max-width: 575.98px){
    .contact{
        padding-bottom: 30px;
        .number-email{
            border: none;
            padding: 50px;
-           height: auto;
 
-           .phone{
-              ul{
-                  li{
-                    font-weight: 400;
-                  }
-              }
-           }
-           .email{
-            ul{
-                li{
-                  font-weight: 400;
-                }
-            }
-         }
-         .location{
-            ul{
-                li{
-                  font-weight: 400;
-                }
-            }
-         }
            h2{
                font-size: 32px;
                line-height: 32px;
@@ -437,8 +353,27 @@
 // screem >= 992
 @media (min-width: 992px) and (max-width: 1199.98px){
   
-
+    .contact{
+        .number-email{
+            h2{
+                font-size: 32px;
+                line-height: 32px;
+                font-family: $font1;
+            }
+            
+        }
+    }
 }
+// screem >= 1200
 @media (min-width: 1200px) and (max-width: 1399.98px){
-  
+    .contact{
+        .number-email{
+            h2{
+                font-size: 36px;
+                line-height: 32px;
+                font-family: $font1;
+            }
+            
+        }
+    }
 }
