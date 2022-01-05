@@ -1,13 +1,4 @@
 
-@import "../abstracts/mixin";
-@import "../abstracts/variables";
-
-
-
-
-
-
-
 .ad-banner{
     background: url(../images/adbanner/bg.png) no-repeat center;
     background-size: cover;
@@ -23,8 +14,6 @@
         .inn-slider{
             display: flex !important;
             justify-content: space-between;
-           
-           
             .text{
                margin-top: 45px;
                margin-left: 60px;
@@ -80,11 +69,7 @@
     }
     
 }
-
-
 // responsive start
-
-
 
 
 // responsive start 

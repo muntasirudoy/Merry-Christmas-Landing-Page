@@ -149,6 +149,10 @@
                 border: none;
                 box-shadow: $shadow3;
             }
+            .btn{
+                width: 100px;
+                
+            }
         }  
 
     }
@@ -192,12 +196,7 @@
                    width: 90%;
                }
            }
-           .button_container{
-               bottom: 28px;
-           }
        }
-
-        
 }
 
 }
@@ -266,9 +265,6 @@
                 textarea{
                     width: 94.5%;
                 }
-            }
-            .button_container{
-                bottom: 28px;
             }
         }
  
@@ -340,9 +336,6 @@
                 textarea{
                     width: 94.5%;
                 }
-            }
-            .button_container{
-                bottom: 28px;
             }
         }
  
