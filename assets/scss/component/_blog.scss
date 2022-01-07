@@ -1,0 +1,84 @@
+.blog{
+    width: 100%;
+    .top{
+        .first-row{
+            margin-top: 120px;
+            background: rgb(255, 248, 248);
+            display: flex;
+            .text{
+                height: 400px;
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                padding: 40px 30px;
+                .top-text{
+                    display: flex;
+                    .category-name{
+                        margin-right: 20px;
+                        background: $color5;
+                        padding: 6px 15px;
+                        border-radius: 5px;
+                        @include fonts($font1, 14px, 14px, 400, $color1);
+                    }
+                    .date{
+                        @include fonts($font1, 14px, 28px, 400, $color8);
+                    }
+                }
+                .blog-title{
+                    @include fonts($font1, 38px, 42px, 700, $color4);
+                    margin: 15px 0;
+                }
+                .blog-para{
+                    margin: 10px 0px;
+                    @include fonts($font1, 14px, 28px, 400, $color8);
+                }
+            }
+            .image{
+                height: 400px;
+                transform: translateY(-60px);
+                width: 30%;
+                margin: 0 auto;
+                overflow: hidden;
+                background: red;
+                border-radius: 20px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .secound-row{
+        margin-top: 20px;
+
+        .blog-card{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            .image{
+                width: 30%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .text{
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                padding: 10px;
+                .title{
+                    @include fonts($font1, 20px, 20px, 700, $color4);
+                    text-align: left
+                }
+                .date{
+                    @include fonts($font1, 14px, 14px, 400, $color8);
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+   
+}
