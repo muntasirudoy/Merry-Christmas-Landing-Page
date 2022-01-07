@@ -4437,12 +4437,6 @@ button .navbar-toggler-icon {
   height: 100%;
 }
 
-.blog .top .first-row .nextbtn {
-  top: 0;
-  right: 0;
-  position: absolute;
-}
-
 .blog .secound-row {
   margin-top: 20px;
 }
@@ -4496,6 +4490,28 @@ button .navbar-toggler-icon {
   margin-top: 15px;
 }
 
+.blog .prevbtn {
+  position: absolute;
+  top: -110px;
+  left: 28%;
+  font-size: 24px;
+  color: #C82222;
+  border: 1px solid #C82222;
+  border-radius: 5px;
+  font-weight: 300;
+}
+
+.blog .nextbtn {
+  position: absolute;
+  top: -110px;
+  right: 28%;
+  font-size: 24px;
+  color: #C82222;
+  border: 1px solid #C82222;
+  border-radius: 5px;
+  font-weight: 300;
+}
+
 @media (min-width: 320px) and (max-width: 575.98px) {
   .blog .top .first-row .all-sliders {
     -webkit-box-orient: vertical;
@@ -4526,6 +4542,18 @@ button .navbar-toggler-icon {
   }
   .blog .secound-row .blog-card .text .title {
     font-size: 16px;
+  }
+  .blog .prevbtn {
+    position: absolute;
+    top: -100px;
+    left: 3%;
+    padding: 10px;
+  }
+  .blog .nextbtn {
+    position: absolute;
+    top: -100px;
+    right: 3%;
+    padding: 10px;
   }
 }
 

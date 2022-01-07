@@ -48,12 +48,6 @@
                 }
             }
           }
-
-          .nextbtn{
-              top: 0;
-              right: 0;
-              position: absolute;
-          }
         }
     }
 
@@ -91,6 +85,32 @@
         }
     }
    
+    .prevbtn {
+        position: absolute;
+        top: -110px;
+        left: 28%;
+        font-size: 24px;
+        color: $color5;
+        border: 1px solid $color5;
+        border-radius: 5px;
+        font-weight: 300;
+    }
+
+    .nextbtn {
+        position: absolute;
+        top: -110px;
+        right: 28%;
+        font-size: 24px;
+        color: $color5;
+        border: 1px solid $color5;
+        border-radius: 5px;
+        font-weight: 300;
+
+    }
+
+
+
+
 }
 
 
@@ -130,5 +150,23 @@
                 }
             }
         }
+        .prevbtn {
+            position: absolute;
+            top: -100px;
+            left: 3%;
+            padding: 10px;
+        }
+    
+        .nextbtn {
+            position: absolute;
+            top: -100px;
+            right: 3%;
+            padding: 10px;
+        }
+
+
+
        }
+
     }
+    
