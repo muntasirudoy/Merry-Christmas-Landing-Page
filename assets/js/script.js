@@ -207,3 +207,40 @@ $(window).scroll(function(){
       }
     ]
   });
+
+  $('.blog-slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow:'<i  class="far fa-angle-left prevbtn arrow"></i>',
+    nextArrow:'<i  class="far fa-angle-right nextbtn arrow"></i> ',
+  
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          fade:false,
+      
+         
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
