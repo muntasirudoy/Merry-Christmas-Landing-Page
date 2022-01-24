@@ -1,0 +1,269 @@
+@import "../abstracts/mixin";
+@import "../abstracts/variables";
+
+footer{
+    background: $color5;
+    padding: 100px 0 0 0;
+    border-top: 1px solid $color1;
+
+    .gallery{
+        ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0px;
+            li{
+                width: 60px;
+                height: 60px;
+                a{
+                    width: 100%;
+                    height: 100%;
+                    transition: 0.3s;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+       }
+   .all-items{
+       width: 100%;
+       .bottom-logo{
+           width: 50%;
+       }
+       p{
+           margin-top: 10px;
+           padding: 0 ;
+        @include fonts($font1, 14px, 24px, 400, $color1);
+       }
+       h3{
+        @include fonts($font1, 24px, 21px, 600, $color1);
+        padding-bottom: 15px;
+       }
+
+
+       ul{
+           padding-left: 0px;
+           li{
+            margin: 5px;
+            padding: 0;
+            a{
+                @include fonts($font1, 14px, 21px, 400, $color1);
+            }
+           }
+       }
+       .icons{
+           margin-top: 30px;
+           i{
+               font-size: 32px;
+               margin-right:10px;
+               color: $color1;
+               box-shadow: $shadow2;
+               transition: 0.3s;
+               cursor: pointer;
+               &:hover{
+                   transform: translateY(-6px);
+               }
+           }
+       }
+   }
+
+
+
+
+
+    .copywrite{
+        margin-top: 20px;
+    width: 100%;
+    border-top: 1px solid $color1; 
+    background: $color5;
+    text-align: center;
+    color: $color1;
+    padding: 3px 0;
+    font-family: $font1;
+    font-size: 14px;
+    }
+}
+// Responsive 320px - 575px 
+@media (min-width: 320px) and (max-width: 575.98px){
+    footer{
+        text-align: center;
+        padding-top: 20px; 
+        .all-items{
+            width: 100%;
+            margin-top: 35px;
+            h3{
+                font-size: 20px;
+                padding-bottom: 10px;
+            }
+            p{
+                font-weight: 400;
+            }
+        }
+        .copywrite{
+            margin-top: 10px;
+        }
+        .gallery{
+            ul{
+                margin: 0;
+                padding: 0;
+                justify-content: center;
+                li{
+                    margin:5px;
+                    width: 60px;
+                   height: 60px;
+                   img{
+                       width: 100%;
+                       height: 100%;
+                   }
+                }
+            }
+           }
+    }
+}
+// Responsive 576px - 767px 
+@media (min-width: 576px) and (max-width:767.98px) {
+
+    footer{
+        text-align: center;
+        padding-top: 20px;
+        .all-items{
+            margin-top: 35px;
+            h3{
+                font-size: 24px;
+            }
+            p{
+                font-weight: 400;
+            }  
+        }
+        .copywrite{
+            margin-top: 20px;
+        }
+        .gallery{
+            ul{
+                justify-content: center;
+                li{
+                   margin:5px;
+                   width: 80px;
+                   height: 80px;
+                }
+            }
+           }
+    }
+
+}
+// Responsive 768px - 991px 
+@media (min-width: 768px) and (max-width:991.98px){
+
+    footer{
+        text-align: center;
+        padding-top: 20px;
+        .all-items{
+            width: 100%;
+            margin-top: 30px;
+            .bottom-logo{
+                width: 35%;
+            }
+            p{
+                padding: 0 50px;
+            }
+           .icons{
+            i{
+                font-size: 36px;
+                margin-left: 15px;
+            }
+           }
+        }
+        .copywrite{
+            margin-top: 20px;
+        }
+        .gallery{
+            ul{
+                justify-content: center;
+                padding: 0;
+                width: 100%;
+                li{
+                   margin: 5;
+                   width: 80px;
+                   height: 80px;
+                }
+              }
+           }
+        }
+}
+// Responsive 992px - 1200px 
+@media (min-width: 992px) and (max-width: 1199.98px){  
+    footer{
+        .all-items{
+            h3{
+                font-size: 18px;
+            }
+            p{
+                padding: 0;
+            }
+            .bottom-logo{
+                width:70%;
+            }
+           .icons{
+            i{
+                font-size: 36px;
+                margin-left: 5px;
+            }
+           }
+        
+        }
+        .gallery{
+            ul{
+                padding: 0;
+                justify-content: flex-start;
+                li{
+                   margin: 5px;
+                   width: 50px;
+                   height: 50px;
+                }
+            }
+           }
+}
+
+}
+// Responsive 1200px - 1400px 
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    footer{
+        .all-items{
+            h3{
+                font-size: 18px;
+            }
+            p{
+                padding: 0;
+            }
+            .bottom-logo{
+                width:70%;
+            }
+           .icons{
+            i{
+                font-size: 36px;
+                margin-left: 5px;
+            }
+           }
+        
+        }
+        .gallery{
+            ul{
+                padding: 0;
+                justify-content: flex-start;
+                li{
+                   margin: 5px;
+                   width: 50px;
+                   height: 50px;
+                }
+            }
+           }
+}
+}

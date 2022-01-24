@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+.section-gap{
+    height: 80px;
+}
+
+.slick-slide {
+    padding: 15px;
+}
+/*common css responsive start*/
+
+
+@media (min-width: 320px) and (max-width: 575.98px){
+    .section-gap{
+        height: 30px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width:767.98px){
+    .section-gap{
+        height: 30px;
+    }
+
+}
+// screem >= 768
+@media (min-width: 768px) and (max-width: 991.98px){
+  
+    .section-gap{
+        height: 40px;
+    }
+}
+// screem >= 992
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .section-gap{
+        height: 60px;
+    }
+
+}
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    .section-gap{
+        height: 80px;
+    }
+}
