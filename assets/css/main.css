@@ -2501,8 +2501,8 @@ button .navbar-toggler-icon {
 }
 
 .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .right .phone-img {
-  width: 115px;
-  height: 180px;
+  width: 160px;
+  height: 150px;
 }
 
 .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .right .phone-img img {
@@ -3987,6 +3987,7 @@ button .navbar-toggler-icon {
   background-size: cover;
   height: 580px;
   position: relative;
+  overflow: hidden;
 }
 
 .ad-banner .decoration-right {

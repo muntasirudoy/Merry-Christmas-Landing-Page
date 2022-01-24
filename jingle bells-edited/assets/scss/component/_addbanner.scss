@@ -4,6 +4,7 @@
     background-size: cover;
     height: 580px;
     position: relative;
+    overflow: hidden;
     .decoration-right{
         position: absolute;
         right: 0;
@@ -40,6 +41,7 @@
                 height: auto;
                 margin-top: 42px;
                 margin-right: 90px;
+               
                
                 img{
                     width: 100%;
