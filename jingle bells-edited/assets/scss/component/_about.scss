@@ -2,7 +2,6 @@
     width: 100%;
     height: 500px;
     padding: 100px 0px;
-    
     .text{
         padding-right: 20px;
         position: relative;
@@ -10,9 +9,7 @@
             @include fonts($font3, 46px, 45px, 700, $color2);
             margin-bottom: 20px;
         }
-
         p{  
-           
             @include fonts($font1, 14px, 25px, 500, $color8);
             text-align: justify;
         }
@@ -29,7 +26,6 @@
         }
     }
    .service-cards{
-       
        width: 100%;
        display: flex;
        justify-content: flex-end;
@@ -93,18 +89,15 @@
     }
        
    }
-
-
 }
 
 // responsive start
 
-
 // responsive start 
-@media (min-width: 320px) and (max-width: 575.98px){
+@media (min-width: 320px) and (max-width: 379.98px){
 
 .about{
-    padding: 0;
+    padding: 30px 0;
     width: 100%;
     height: 100%;
     .text{
@@ -122,7 +115,6 @@
        }
     }
     .service-cards{
-        margin-top: 40px;
         flex-wrap: wrap;
         width: 100%;
         .posti{
@@ -147,16 +139,122 @@
     }
 }
 }
+
+@media (min-width: 380px) and (max-width: 475.98px){ 
+.about{
+    padding: 30px 0;
+    width: 100%;
+    height: 100%;
+    .text{
+        text-align: center;
+        padding: 0;
+        padding: 0 15px;
+        i{
+            font-size: 30px;
+            margin-left: 15px;
+        }
+       h2{
+        font-size: 32px;
+        line-height: 36px;
+       }
+       p{
+           font-size: 14px;
+           line-height: 24px;
+           
+       }
+    }
+    .service-cards{
+        flex-wrap: wrap;
+        width: 100%;
+        .posti{
+            width: 100%;
+            margin: 0 10px;
+          .service-card{
+            width: 100%;
+            margin-top: 40px;
+            box-shadow: none;
+            padding: 0 25px;
+            border: 1px solid $color11;
+            .circle{
+                top: 17%;
+            }
+            h3{
+                font-size: 22px;
+            }
+            p{
+                font-size: 14px;
+            }
+          }
+        }
+    }
+}
+
+
+    }
+@media (min-width: 476px) and (max-width: 575.98px){
+
+      
+.about{
+    padding: 30px 0;
+    width: 100%;
+    height: 100%;
+    .text{
+        text-align: center;
+        padding: 0;
+        padding: 0 15px;
+        i{
+            font-size: 32px;
+            margin-left: 15px;
+        }
+       h2{
+        font-size: 32px;
+        line-height: 36px;
+       }
+       p{
+           font-size: 14px;
+           line-height: 24px;
+           
+       }
+    }
+    .service-cards{
+        flex-wrap: wrap;
+        padding: 0 55px;
+        width: 100%;
+        .posti{
+            width: 100%;
+            margin: 0 10px;
+          .service-card{
+            width: 100%;
+            margin-top: 40px;
+            box-shadow: none;
+            border: 1px solid $color11;
+            .circle{
+                top: 17%;
+            }
+            h3{
+                font-size: 22px;
+            }
+            p{
+                font-size: 14px;
+            }
+          }
+        }
+    }
+}
+
+
+
+        }
 // screem >=576
 @media (min-width: 576px) and (max-width:767.98px){
   
     .about{
-        padding: 0;
+        padding: 50px 0 ;
         width: 100%;
         height: 100%;
         .text{
             i{
-                font-size: 30px;
+                font-size: 32px;
                 margin-left: 15px;
             }
             text-align: center;
@@ -192,13 +290,13 @@
 // screem >= 768
 @media (min-width: 768px) and (max-width: 991.98px){
     .about{
-        padding: 0;
+        padding: 50px 0px;
         width: 100%;
         height: 100%;
         .text{
 
             i{
-                font-size: 30px;
+                font-size: 34px;
                 margin-left: 15px;
             }
             text-align: center;
@@ -230,19 +328,17 @@
                 }
             }
         }
-
-
 }
 // screem >= 992
 @media (min-width: 992px) and (max-width: 1199.98px){
     .about{
-        padding: 0;
+        padding: 60px 0;
         width: 100%;
         height: 100%;
         .text{
           width: 100%;
             i{
-                font-size: 30px;
+                font-size: 34px;
                 margin-left: 15px;
             }
             text-align: center;
@@ -281,7 +377,6 @@
 }
 @media (min-width: 1200px) and (max-width: 1399.98px){
     .about{
-        padding: 0;
         width: 100%;
         height: 100%;
         .text{

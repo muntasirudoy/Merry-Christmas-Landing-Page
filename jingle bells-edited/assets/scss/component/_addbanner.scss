@@ -37,9 +37,9 @@
                 }
             }
             .product-img{
-                width: 442px;
+                width: 350px;
                 height: auto;
-                margin-top: 42px;
+                margin-top: 30px;
                 margin-right: 90px;
                
                
@@ -77,18 +77,17 @@
 
 // responsive start 
 @media (min-width: 320px) and (max-width: 575.98px){
-   
     .ad-banner{
         height: 100%;
         width: 100%;
         .ad_slider{
             .inn-slider{
-                     padding: 50px 0;
+                padding: 15px 0;
                         .product-img {
                         width: 220px;
                         height: auto;
                         margin-top: 42px;
-                        margin: 0px auto;
+                        margin: 21px auto;
                         }
                         flex-direction:column-reverse;
                         .text{
@@ -147,12 +146,11 @@
         width: 100%;
         .ad_slider{
             .inn-slider{
-                     padding: 20px 0;
+                     padding: 15px 0;
                         .product-img {
-                        width: 350px;
+                        width: 260px;
                         height: auto;
-                        margin-top: 42px;
-                        margin: 0px auto;
+                        margin: 20px auto 30px;
                         }
                         flex-direction:column-reverse;
                         .text{
@@ -211,12 +209,11 @@
         width: 100%;
         .ad_slider{
             .inn-slider{
-                     padding: 20px 0;
+                     padding: 15px 0;
                         .product-img {
-                        width: 450px;
+                        width: 350px;
                         height: auto;
-                        margin-top: 42px;
-                        margin: 0px auto;
+                        margin: 40px auto;
                         }
                         flex-direction:column-reverse;
                         .text{
@@ -276,15 +273,16 @@
         width: 100%;
         .ad_slider{
             .inn-slider{
-                     padding: 20px 0;
+                     padding: 15px 0;
                         .product-img {
-                        width: 450px;
+                        margin-top: 0px;
+                        margin-right: 40px;
+                        width: 350px;
                         height: auto;
-                        margin-right: 30px !important;
                         }
                     
                         .text{
-                            margin: 30px auto;
+                            margin: 30px 40px;
                             h3{
                                 font-size: 48px;
                                 line-height: 48px;
@@ -301,9 +299,7 @@
                             }
                             .buy-btn-1{
                                 font-size: 14px;
-                                line-height: 15px;
-                                border-radius: 10px;
-                                padding: 15px 25px;
+                                line-height: 15px;                                
                             }
                             .buy-btn{
                                 margin-top: 20px;
@@ -338,7 +334,7 @@
         width: 100%;
         .ad_slider{
             .inn-slider{
-                     padding: 20px 0;
+                     padding: 15px 0;
                      .text{
                         h3{
                             font-size: 48px;

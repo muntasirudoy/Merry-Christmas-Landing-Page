@@ -38,8 +38,8 @@
             }
             .image{
                 height: 400px;
-                width: 30%;
-                margin: 0 auto;
+                width: 38%;
+                margin-left:  auto;
                 overflow: hidden;
                 border-radius: 20px;
                 img{
@@ -116,6 +116,7 @@
 
 @media (min-width: 320px) and (max-width: 575.98px){
     .blog{
+        padding: 30px 0;
         .top{
             .first-row{
               .all-sliders{

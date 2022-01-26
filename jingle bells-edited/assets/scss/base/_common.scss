@@ -21,8 +21,8 @@ body{
     overflow-x: hidden;
 }
 
-.section-gap{
-    height: 80px;
+.section-padding{
+    padding: 50px 0;
 }
 
 .slick-slide {
@@ -31,35 +31,24 @@ body{
 /*common css responsive start*/
 
 
-@media (min-width: 320px) and (max-width: 575.98px){
-    .section-gap{
-        height: 30px;
-    }
+// @media (min-width: 320px) and (max-width: 575.98px){
 
-}
+// }
 
-@media (min-width: 576px) and (max-width:767.98px){
-    .section-gap{
-        height: 30px;
-    }
+// @media (min-width: 576px) and (max-width:767.98px){
+   
 
-}
-// screem >= 768
-@media (min-width: 768px) and (max-width: 991.98px){
+// }
+// // screem >= 768
+// @media (min-width: 768px) and (max-width: 991.98px){
   
-    .section-gap{
-        height: 40px;
-    }
-}
-// screem >= 992
-@media (min-width: 992px) and (max-width: 1199.98px){
-    .section-gap{
-        height: 60px;
-    }
+    
+// }
+// // screem >= 992
+// @media (min-width: 992px) and (max-width: 1199.98px){
+    
 
-}
-@media (min-width: 1200px) and (max-width: 1399.98px){
-    .section-gap{
-        height: 80px;
-    }
-}
+// }
+// @media (min-width: 1200px) and (max-width: 1399.98px){
+    
+// }

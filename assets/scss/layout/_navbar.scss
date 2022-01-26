@@ -173,8 +173,6 @@ button {
 
         .nav-btn {
             margin: 20px auto;
-            border-radius: 8px;
-
             &:hover {
                 color: $color2;
             }
@@ -187,23 +185,18 @@ button {
 @media (min-width: 576px) and (max-width:767.98px) {
     .navbar {
         background: $color5;
-
         .logo {
             width: 180px;
             height: 55px;
             margin: 6px 0;
         }
-
         ul {
             text-align: center;
             padding-left: 0;
-
             li {
                 display: inline-block;
-
                 a {
                     font-size: 14px;
-
                     &::after {
                         width: 0;
                         height: 2px;
@@ -216,57 +209,42 @@ button {
                         &:hover {
                             width: 100%;
                         }
-
                     }
-
                     &:hover::after {
                         width: 100%;
-
                     }
-
                     &:hover {
                         color: $color1;
                     }
-
-
-
                 }
             }
         }
-
         .navbar-collapse {
             padding-bottom: 10px;
         }
-
         .nav-btn {
             margin: 20px auto;
-            border-radius: 8px;
+            border-radius: 5px;
 
             &:hover {
                 color: $color2;
             }
         }
     }
-
-
     button {
         font-size: 24px;
         line-height: 31px;
-
         i {
             color: $color1;
         }
-
         .navbar-toggler-icon {
             display: flex;
             align-items: center;
         }
     }
-
     .navbar-toggler:focus {
         box-shadow: none;
     }
-
 }
 
 // Responsive 768px - 991px 
@@ -280,17 +258,13 @@ button {
             height: 55px;
             margin: 6px 0;
         }
-
         ul {
             text-align: center;
             padding-left: 0;
-
             li {
                 display: inline-block;
-
                 a {
                     font-size: 14px;
-
                     &::after {
                         width: 0;
                         height: 2px;
@@ -299,35 +273,25 @@ button {
                         position: absolute;
                         bottom: 0;
                         transition: .4s;
-
                         &:hover {
                             width: 100%;
                         }
-
                     }
-
                     &:hover::after {
                         width: 100%;
-
                     }
-
                     &:hover {
                         color: $color1;
                     }
-
-
-
                 }
             }
         }
-
         .navbar-collapse {
             padding-bottom: 10px;
         }
-
         .nav-btn {
             margin: 20px auto;
-            border-radius: 8px;
+            border-radius: 5px;
 
             &:hover {
                 color: $color2;

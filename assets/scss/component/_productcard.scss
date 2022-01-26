@@ -1,17 +1,18 @@
 
 .product-card {
-    
     position: relative;
+    padding-top: 80px;
+    padding-bottom: 40px;
     
     .decoration-image-left{
         position: absolute;
-        top: -80px;
+        top: -1px;
         left: 0px;
         width: 155px;
     }
     .decoration-image-right{
         position: absolute;
-        top: -80px;
+        top: -1px;
         right: 0px;
         width: 155px;
     }
@@ -117,12 +118,12 @@
     .product-card {
         position: relative;
         .decoration-image-left{
-            top: -30px;
+            top: -1px;
             left: 0px;
             width: 53px;
         }
         .decoration-image-right{
-            top: -30px;
+            top: -1px;
             right: 0px;
             width: 53px;
         }
@@ -150,8 +151,8 @@
                     margin-top: -120px;
                     width: 215px;
                     .product-image {
-                        width: 100px;
-                        height: 150px;
+                        width: 130px;
+                        height: 140px;
                     }
                 } 
                 .bottom {
@@ -189,12 +190,12 @@
     .product-card {
         position: relative;
         .decoration-image-left{
-            top: -30px;
+            top: -1px;
             left: 0px;
             width: 53px;
         }
         .decoration-image-right{
-            top: -30px;
+            top: -1px;
             right: 0px;
             width: 53px;
         }
@@ -209,12 +210,15 @@
         .all-card {
             display: flex;
             justify-content: center !important;
+            padding:  0 20px;
+            box-sizing: border-box;
             .slick-slide {
                 padding: 0;
             
             .card-item {
                 padding: 20px;
                 margin-top: 100px;
+                // width: 320px!important;
                
                 .top {
                     margin: auto;
@@ -224,7 +228,7 @@
                     background: $color1;
                     width: 215px;
                     .product-image {
-                        width: 100px;
+                        width: 130px;
                         height: 150px;
                     }
                 }
@@ -269,12 +273,12 @@
         position: relative;
         
         .decoration-image-left{
-            top: -30px;
+            top: -1px;
             left: 0px;
             width: 65px;
         }
         .decoration-image-right{
-            top: -30px;
+            top: -1px;
             right: 0px;
             width: 65px;
         }
@@ -288,6 +292,8 @@
         .all-card {
             display: flex;
             justify-content: center !important;
+            padding:  0 40px;
+            box-sizing: border-box;
             .slick-slide {
                 padding: 0;
   
@@ -303,7 +309,7 @@
                     width: 215px;
     
                     .product-image {
-                        width: 100px;
+                        width: 130px;
                         height: 150px;
     
                         img {
@@ -354,11 +360,11 @@
    
 
         .decoration-image-left{
-            top: -31px;
+            top: -1px;
             width: 100px;
         }
         .decoration-image-right{
-            top: -31px;
+            top: -1px;
             width: 100px;
         }
 
@@ -384,12 +390,12 @@
                 .top {
                     margin: auto;
                     width: auto;
-                    padding-top: 50px;
-                    padding-bottom: 50px;
+                    padding-top: 25px;
+                    padding-bottom: 25px;
                     margin-top: -120px;
     
                     .product-image {
-                        width: 160px;
+                        width: 140px;
                         height: 170px;
                     }
                 }
@@ -446,11 +452,11 @@
    
 
         .decoration-image-left{
-            top: -40px;
+            top: -1px;
             width: 100px;
         }
         .decoration-image-right{
-            top: -40px;
+            top: -1px;
             width: 100px;
         }
 
@@ -479,7 +485,8 @@
                     margin-top: -120px;
                     .product-image {
                         width: 160px;
-                        height: 230px;
+                        height: 195px;
+                      
                     }
                 }
     
@@ -536,11 +543,11 @@
    
 
         .decoration-image-left{
-            top: -60px;
+            top: -1px;
             width: 120px;
         }
         .decoration-image-right{
-            top: -60px;
+            top: -1px;
             width: 120px;
         }
         .title{
@@ -613,11 +620,11 @@
    
 
         .decoration-image-left{
-            top: -80px;
+            top: -1px;
             width: 130px;
         }
         .decoration-image-right{
-            top: -80px;
+            top: -1px;
             width: 130px;
         }
         .title{

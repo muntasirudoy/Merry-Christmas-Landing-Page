@@ -83,7 +83,6 @@
             width: 720px;
             .timer{
                 width: 120px;
-                height: 100%;
                 text-align: center;
                 h2{
                     @include fonts($font3,90px,1,600, $color3);
@@ -104,7 +103,7 @@
 }
 
 // responsive start 
-@media (min-width: 320px) and (max-width: 575.98px){
+@media (min-width: 320px) and (max-width: 379.98px){
     .main-banner{
         width: 100%;
         .banner-text{
@@ -137,7 +136,6 @@
            }
            .banner-timer{
                width: 450px;
-               height: 65px;
                margin-top: 40px;
                .dot{
                    font-size: 26px;
@@ -161,75 +159,23 @@
     .main-banner{
         width: 100%;
         .banner-text{
-           width: 100%;
-           h5{
-               font-size: 16px;
-               &::after{
-                top: 50%;
-                left: 9%;
-                width: 36px;
-                height: 1px;
-               }
-               &::before{
-                top: 50%;
-                right: 9%;
-                width: 36px;
-                height: 1px;
-               }
-           }
-           .text-box {
-            width: 310px;
-            height: 69px;
-            h1{
-                font-size: 40px;
-            }
-            h4{
-                bottom: -27px;
-                font-size: 50px;
-            }
-           }
-           .banner-timer{
-               width: 450px;
-               height: 65px;
-               margin-top: 40px;
-               .dot{
-                   font-size: 26px;
-               }
-               .timer{
-                h2{
-                    font-size: 46px;
-                }
-                p{
-                    font-size: 12px;
-                }
-
-               }
-           }
-    }
-
-}
-// screem >=475
-@media (min-width: 476px) and (max-width: 575.98px){
-    .main-banner{
         width: 100%;
-        .banner-text{
-           width: 100%;
-           h5{
-               font-size: 16px;
-               &::after{
+        h5{
+            font-size: 16px;
+            &::after{
                 top: 50%;
-                left: 12%;
+                left: 10%;
                 width: 60px;
                 height: 1px;
-               }
-               &::before{
+            }
+            &::before{
                 top: 50%;
-                right: 12%;
+                right: 10%;
                 width: 60px;
                 height: 1px;
-               }
-           }
-           .text-box {
+            }
+        }
+        .text-box {
             width: 360px;
             height: 80px;
             h1{
@@ -239,15 +185,14 @@
                 bottom: -27px;
                 font-size: 50px;
             }
-           }
-           .banner-timer{
-               width: 510px;
-               height: 65px;
-               margin-top: 50px;
-               .dot{
-                   font-size: 35px;
-               }
-               .timer{
+        }
+        .banner-timer{
+            width: 510px;
+            margin-top: 50px;
+            .dot{
+                font-size: 35px;
+            }
+            .timer{
                 h2{
                     font-size: 55px;
                 }
@@ -255,11 +200,60 @@
                     font-size: 14px;
                 }
 
-               }
-           }
+            }
+        }
         }
     }
-
+}
+@media (min-width: 476px) and (max-width: 575.98px){
+    .main-banner{
+        width: 100%;
+        .banner-text{
+           width: 100%;
+           h5{
+               font-size: 16px;
+               &::after{
+                top: 50%;
+                left: 9%;
+                width: 70px;
+                height: 1px;
+               }
+               &::before{
+                top: 50%;
+                right: 9%;
+                width: 70px;
+                height: 1px;
+               }
+           }
+           .text-box {
+            width: 380px;
+            height: 85px;
+            h1{
+                font-size: 48px;
+            }
+            h4{
+                bottom: -27px;
+                font-size: 60px;
+            }
+           }
+           .banner-timer{
+               width: 490px;
+               margin-top: 40px;
+               .dot{
+                   font-size: 28px;
+               }
+               .timer{
+                h2{
+                    font-size: 50px;
+                }
+                p{
+                    font-size: 12px;
+                }
+    
+               }
+           } 
+        }
+    }
 }
 // screem >=576
 @media (min-width: 576px) and (max-width:767.98px){
@@ -268,7 +262,7 @@
         background-size:cover;
         .banner-text{
            width: 100%;
-           padding-top: 200px;
+           padding-top: 160px;
            h5{
                font-size: 16px;
                &::after{
@@ -297,7 +291,6 @@
            }
            .banner-timer{
                width: 572px;
-               height: 70px;
                margin-top: 60px;
                .dot{
                    font-size: 26px;
@@ -352,8 +345,7 @@
            }
            .banner-timer{
                width: 650px;
-               margin-top: 75px;
-               height: 85px;
+               margin-top: 60px;
                .dot{
                    font-size: 45px;
                }
@@ -378,7 +370,7 @@
         height: 100vh;
         .banner-text{
            width: 100%;
-           padding-top: 200px;
+           padding-top: 180px;
            h5{
                font-size: 16px;
                &::after{
@@ -407,8 +399,7 @@
            }
            .banner-timer{
             width: 650px;
-            margin-top: 80px;
-            height: 85px;
+            margin-top: 60px;
             .dot{
                 font-size: 45px;
             }
@@ -434,7 +425,7 @@
         height: 100vh;
         .banner-text{
            width: 100vh;
-           padding-top: 145px;
+           padding-top: 180px;
            h5{
                font-size: 18px;
                &::after{
@@ -463,8 +454,7 @@
            }
            .banner-timer{
                width: 610px;
-               height: 78px;
-               margin-top: 50px;
+               margin-top: 60px;
                .dot{
                    font-size: 26px;
                }
@@ -481,5 +471,7 @@
            
         }
     } 
-} 
-}
+  } 
+
+
+          

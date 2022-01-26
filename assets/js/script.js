@@ -54,6 +54,7 @@ $(window).scroll(function(){
     slidesToScroll: 1,
     prevArrow:'<i  class="far fa-angle-left prevbtn arrow"></i>',
     nextArrow:'<i  class="far fa-angle-right nextbtn arrow"></i> ',
+
     responsive: [
       {
         breakpoint: 1399,
@@ -95,7 +96,8 @@ $(window).scroll(function(){
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-       
+          centerMode: true,
+          fade:true,
         }
       }
     ]
