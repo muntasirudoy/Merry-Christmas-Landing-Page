@@ -78,7 +78,7 @@
                 }
                 .date{
                     @include fonts($font1, 14px, 14px, 400, $color8);
-                    margin-top: 15px;
+                    margin-top: 10px;
                 }
             }
         }
@@ -112,6 +112,11 @@
    @media (min-width: 320px) and (max-width: 475.98px){
        .blog{
         padding: 30px 0;
+        .title{
+            h2{
+                font-size: 22px;
+            }
+        }
         .top{
             .first-row{
               .all-sliders{
@@ -169,6 +174,11 @@
     @media (min-width: 476px) and (max-width: 575.98px){
         .blog{
          padding: 30px 20px;
+         .title{
+            h2{
+                font-size: 22px;
+            }
+        }
          .top{
              .first-row{
                .all-sliders{
@@ -194,7 +204,7 @@
          .secound-row{
              margin-top: 0;
              .blog-card{
-                 margin-top: 15px;
+                margin-top: 15px;
                  height: 80px;
                  .text{
                      .title{
@@ -226,6 +236,11 @@
     @media (min-width: 576px) and (max-width: 768.98px){
         .blog{
          padding: 30px 0;
+         .title{
+            h2{
+                font-size: 32px;
+            }
+        }
          .top{
              .first-row{
                .all-sliders{
@@ -251,7 +266,7 @@
          .secound-row{
              margin-top: 0;
              .blog-card{
-                 margin-top: 15px;
+                margin-top: 15px;
                  height: 80px;
                  .image{
                     width: 20%;
@@ -286,6 +301,137 @@
      }
 
      @media (min-width: 769px) and (max-width: 991.98px){
+        .blog{
+         padding: 30px 0;
+         .title{
+             h2{
+                 font-size: 32px;
+             }
+         }
+         .top{
+             .first-row{
+               .all-sliders{
+                 .text{
+                      padding: 10px 15px;
+                      width: 60%;
+                      .blog-title{
+                       font-size: 26px;
+                       margin: 10px 0;
+                       line-height: 34px;
+                     }
+                   }
+                   .image{
+                     width: 40%;
+                     height: 250px;
+                     border-radius: 15px;
+                     margin-top: 50px;
+                 }
+                 }
+             }
+         }
+         .secound-row{
+             margin-top: 0;
+             .blog-card{
+                margin-top: 15px;
+                 height: 100px;
+                 .image{
+                    width: 22%;
+                    height: 100%;
+                 }
+                 .text{
+                    width: 80%;
+                     .title{
+                         font-size: 18px;
+                     }
+                 }
+             }
+         }
+         .prevbtn {
+             position: absolute;
+             top: -100px;
+             left: 3%;
+             padding: 10px;
+         }
+     
+         .nextbtn {
+             position: absolute;
+             top: -100px;
+             right: 3%;
+             padding: 10px;
+         }
+ 
+ 
+ 
+        }
+ 
+     }
+
+     @media (min-width: 992px) and (max-width: 1199.98px){
+        .blog{
+         padding: 30px 0;
+         .title {
+             h2{
+               font-weight: 600;
+             }
+         }
+         .top{
+             .first-row{
+               .all-sliders{
+                 .text{
+                      padding: 10px 15px;
+                      width: 60%;
+                      .blog-title{
+                       font-size: 26px;
+                       margin: 10px 0;
+                       line-height: 34px;
+                     }
+                   }
+                   .image{
+                     width: 40%;
+                     height: 250px;
+                     border-radius: 15px;
+                     margin-top: 10px;
+                 }
+                 }
+             }
+         }
+         .secound-row{
+             margin-top: 0;
+             .blog-card{
+                margin-top: 15px;
+                 height: 73px;
+                 .image{
+                    width: 30%;
+                    height: 100%;
+                 }
+                 .text{
+                    width: 80%;
+                     .title{
+                         font-size: 16px;
+                     }
+                 }
+             }
+         }
+         .prevbtn {
+             position: absolute;
+             top: -100px;
+             left: 3%;
+             padding: 10px;
+         }
+     
+         .nextbtn {
+             position: absolute;
+             top: -100px;
+             right: 3%;
+             padding: 10px;
+         }
+ 
+ 
+ 
+        }
+ 
+     }
+     @media (min-width: 1200px) and (max-width: 1399.98px){
         .blog{
          padding: 30px 0;
          .top{
