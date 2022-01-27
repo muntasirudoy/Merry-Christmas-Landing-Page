@@ -680,7 +680,7 @@ button .navbar-toggler-icon {
 .main-banner .banner-text h5 {
   position: relative;
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1;
   font-weight: 400;
   color: #FFFFFF;
@@ -897,13 +897,13 @@ button .navbar-toggler-icon {
   }
   .main-banner .banner-text h5::after {
     top: 50%;
-    left: 9%;
+    left: 13%;
     width: 70px;
     height: 1px;
   }
   .main-banner .banner-text h5::before {
     top: 50%;
-    right: 9%;
+    right: 13%;
     width: 70px;
     height: 1px;
   }
@@ -1044,7 +1044,7 @@ button .navbar-toggler-icon {
     padding-top: 180px;
   }
   .main-banner .banner-text h5 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .main-banner .banner-text h5::after {
     top: 50%;
@@ -1099,13 +1099,13 @@ button .navbar-toggler-icon {
   }
   .main-banner .banner-text h5::after {
     top: 50%;
-    left: 22%;
+    left: 18%;
     width: 130px;
     height: 2px;
   }
   .main-banner .banner-text h5::before {
     top: 50%;
-    right: 22%;
+    right: 18%;
     width: 130px;
     height: 2px;
   }
@@ -1352,7 +1352,6 @@ button .navbar-toggler-icon {
     margin-top: 40px;
     -webkit-box-shadow: none;
             box-shadow: none;
-    padding: 0 25px;
     border: 1px solid rgba(0, 0, 0, 0.164);
   }
   .about .service-cards .posti .service-card .circle {
@@ -1855,14 +1854,11 @@ button .navbar-toggler-icon {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  .product-card .all-card .slick-slide {
-    padding: 0;
-  }
-  .product-card .all-card .slick-slide .card-item {
+  .product-card .all-card .card-item {
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 75px !important;
   }
-  .product-card .all-card .slick-slide .card-item .top {
+  .product-card .all-card .card-item .top {
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1870,25 +1866,25 @@ button .navbar-toggler-icon {
     background: #FFFFFF;
     width: 215px;
   }
-  .product-card .all-card .slick-slide .card-item .top .product-image {
+  .product-card .all-card .card-item .top .product-image {
     width: 130px;
     height: 150px;
   }
-  .product-card .all-card .slick-slide .card-item h4 {
+  .product-card .all-card .card-item h4 {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     line-height: 32px;
     font-weight: 600;
     color: #C82222;
   }
-  .product-card .all-card .slick-slide .card-item .bottom .price p {
+  .product-card .all-card .card-item .bottom .price p {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     line-height: 22px;
     font-weight: 600;
     color: #C82222;
   }
-  .product-card .all-card .slick-slide .card-item .bottom .price p span {
+  .product-card .all-card .card-item .bottom .price p span {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -1927,7 +1923,7 @@ button .navbar-toggler-icon {
     margin-bottom: 0px;
   }
   .product-card .title h2 {
-    font-size: 22px;
+    font-size: 24px;
     font-family: "Open Sans", sans-serif;
   }
   .product-card .all-card {
@@ -2016,10 +2012,10 @@ button .navbar-toggler-icon {
     margin-bottom: 0;
   }
   .product-card .title h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
   .product-card .all-card {
-    margin: 0;
+    margin-top: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2034,6 +2030,7 @@ button .navbar-toggler-icon {
     width: 100%;
     background: #FFFFFF;
     padding: 12px !important;
+    margin-top: 100px;
   }
   .product-card .all-card .slick-slide .card-item .top {
     margin: auto;
@@ -2078,13 +2075,13 @@ button .navbar-toggler-icon {
   }
   .product-card .prevbtn {
     position: absolute;
-    top: -50px;
+    top: -100px;
     left: 3%;
     padding: 10px;
   }
   .product-card .nextbtn {
     position: absolute;
-    top: -50px;
+    top: -100px;
     right: 3%;
     padding: 10px;
   }
@@ -2107,10 +2104,11 @@ button .navbar-toggler-icon {
     margin-bottom: 0;
   }
   .product-card .title h2 {
-    font-size: 32px;
+    font-size: 30px;
+    font-weight: 600;
   }
   .product-card .all-card {
-    margin: 0;
+    margin-top: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2124,6 +2122,7 @@ button .navbar-toggler-icon {
   .product-card .all-card .slick-slide .card-item {
     width: 100%;
     padding: 20px !important;
+    margin-top: 100px;
   }
   .product-card .all-card .slick-slide .card-item .top {
     margin: auto;
@@ -2174,13 +2173,13 @@ button .navbar-toggler-icon {
   }
   .product-card .prevbtn {
     position: absolute;
-    top: -50px;
+    top: -100px;
     left: 15%;
     padding: 10px;
   }
   .product-card .nextbtn {
     position: absolute;
-    top: -50px;
+    top: -100px;
     right: 15%;
     padding: 10px;
   }
@@ -2200,13 +2199,14 @@ button .navbar-toggler-icon {
     width: 120px;
   }
   .product-card .title h2 {
-    font-size: 34px;
+    font-size: 32px;
   }
   .product-card .all-card {
-    margin: 0;
+    margin-top: 60px;
   }
   .product-card .all-card .slick-slide .card-item {
     padding: 20px;
+    margin-top: 100px;
   }
   .product-card .all-card .slick-slide .card-item h4 {
     font-size: 24px;
@@ -2251,12 +2251,12 @@ button .navbar-toggler-icon {
   }
   .product-card .prevbtn {
     position: absolute;
-    top: -50px;
+    top: -106px;
     left: 15%;
   }
   .product-card .nextbtn {
     position: absolute;
-    top: -50px;
+    top: -106px;
     right: 15%;
   }
 }
@@ -4352,6 +4352,48 @@ button .navbar-toggler-icon {
   }
 }
 
+@media (min-width: 576px) and (max-width: 778.98px) {
+  .title {
+    text-align: center;
+  }
+  .title .off-badge {
+    margin-bottom: 30px;
+  }
+  .title .off-badge p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #C82222;
+    display: inline-block;
+    padding: 5px 18px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 14px 44px 0px #DD3F3F59;
+            box-shadow: 0px 14px 44px 0px #DD3F3F59;
+  }
+  .title .off-badge p .img-1 {
+    padding-right: 30px;
+  }
+  .title .off-badge p .img-2 {
+    padding-left: 30px;
+  }
+  .title h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #242424;
+  }
+  .title .title-pra {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #666666;
+  }
+}
+
 .ad-banner {
   background: url(../images/adbanner/bg.png) no-repeat center;
   background-size: cover;
@@ -5105,8 +5147,8 @@ button .navbar-toggler-icon {
     font-weight: 400;
   }
   .contact .message {
+    padding: 50px 0;
     height: 100%;
-    padding-bottom: 100px;
   }
   .contact .message::after {
     display: none;
@@ -5149,14 +5191,14 @@ button .navbar-toggler-icon {
     margin-top: 30px;
   }
   .contact .message {
+    padding: 50px 0;
     height: 100%;
-    padding-bottom: 100px;
   }
   .contact .message::after {
     display: none;
   }
   .contact .message h3 {
-    font-size: 20px;
+    font-size: 24px;
   }
   .contact .message .all-input {
     padding-top: 10px;
@@ -5193,8 +5235,8 @@ button .navbar-toggler-icon {
     font-weight: 400;
   }
   .contact .message {
+    padding: 50px 0;
     height: 100%;
-    padding-bottom: 100px;
   }
   .contact .message::after {
     display: none;
@@ -5218,6 +5260,9 @@ button .navbar-toggler-icon {
     font-size: 32px;
     line-height: 32px;
     font-family: "Open Sans", sans-serif;
+  }
+  .contact .message {
+    padding: 50px 0;
   }
 }
 

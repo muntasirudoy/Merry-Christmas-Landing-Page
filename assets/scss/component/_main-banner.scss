@@ -23,7 +23,7 @@
         margin: 0 auto;
         h5{
             position: relative;
-            @include fonts($font1,24px,1,400, $color1);
+            @include fonts($font1,22px,1,400, $color1);
             margin: 10px 0;
             text-align: center;
             width: 100%;
@@ -214,13 +214,13 @@
                font-size: 16px;
                &::after{
                 top: 50%;
-                left: 9%;
+                left: 13%;
                 width: 70px;
                 height: 1px;
                }
                &::before{
                 top: 50%;
-                right: 9%;
+                right: 13%;
                 width: 70px;
                 height: 1px;
                }
@@ -372,7 +372,7 @@
            width: 100%;
            padding-top: 180px;
            h5{
-               font-size: 16px;
+               font-size: 18px;
                &::after{
                 top: 50%;
                 left: 25%;
@@ -430,13 +430,13 @@
                font-size: 18px;
                &::after{
                 top: 50%;
-                left: 22%;
+                left: 18%;
                 width: 130px;
                 height: 2px;
                }
                &::before{
                 top: 50%;
-                right: 22%;
+                right: 18%;
                 width: 130px;
                 height: 2px;
                }

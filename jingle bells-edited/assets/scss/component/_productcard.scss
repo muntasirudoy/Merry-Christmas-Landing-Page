@@ -211,13 +211,10 @@
             display: flex;
             justify-content: center !important;
             padding:  0 20px;
-            box-sizing: border-box;
-            .slick-slide {
-                padding: 0;
-            
+            box-sizing: border-box; 
             .card-item {
                 padding: 20px;
-                margin-top: 100px;
+                margin-top: 75px!important;
                 // width: 320px!important;
                
                 .top {
@@ -250,7 +247,7 @@
                     }
                 }
             }
-        }
+        
     }
     
         .prevbtn {
@@ -285,7 +282,7 @@
     .title{
         margin-bottom: 0px;
         h2{
-            font-size:22px ;
+            font-size:24px ;
             font-family: $font1;
         }
     }
@@ -371,11 +368,11 @@
       .title{
         margin-bottom: 0;
         h2{
-            font-size: 32px;
+            font-size: 28px;
         }
         }
         .all-card {
-            margin: 0;
+            margin-top: 60px;
             display: flex;
             justify-content: center !important;
             .slick-slide{
@@ -385,7 +382,7 @@
                 width: 100%;
                 background: $color1;
                 padding: 12px!important;
-               
+                margin-top: 100px;
 
                 .top {
                     margin: auto;
@@ -429,7 +426,7 @@
         
         .prevbtn {
             position: absolute;
-            top: -50px;
+            top: -100px;
             left: 3%;
             padding: 10px;
         }
@@ -437,7 +434,7 @@
     
         .nextbtn {
             position: absolute;
-            top: -50px;
+            top: -100px;
             right: 3%;      
             padding: 10px;
         }
@@ -463,11 +460,12 @@
       .title{
         margin-bottom: 0;
         h2{
-            font-size: 32px;
+            font-size: 30px;
+            font-weight: 600;
         }
         }
         .all-card {
-            margin: 0;
+            margin-top: 60px;
             display: flex;
             justify-content: center !important;
             .slick-slide{
@@ -476,7 +474,7 @@
             .card-item {
                 width: 100%;
                 padding: 20px!important;
-               
+                margin-top: 100px;
                 .top {
                     margin: auto;
                     width: auto;
@@ -520,7 +518,7 @@
     
         .prevbtn {
             position: absolute;
-            top: -50px;
+            top: -100px;
             left: 15%;
             padding: 10px;
         }
@@ -528,7 +526,7 @@
     
         .nextbtn {
             position: absolute;
-            top: -50px;
+            top: -100px;
             right: 15%;      
             padding: 10px;
         }
@@ -552,16 +550,17 @@
         }
         .title{
             h2{
-                font-size: 34px;
+                font-size: 32px;
             }
         }
 
         .all-card {
-            margin: 0;
+            margin-top: 60px;
             .slick-slide{
 
             .card-item {
                 padding: 20px;
+                margin-top: 100px;
                 h4{
                     font-size: 24px;
                 }
@@ -601,13 +600,13 @@
     
         .prevbtn {
             position: absolute;
-            top: -50px;
+            top: -106px;
             left: 15%;
         }
     
         .nextbtn {
             position: absolute;
-            top: -50px;
+            top: -106px;
             right: 15%;      
         }
     }

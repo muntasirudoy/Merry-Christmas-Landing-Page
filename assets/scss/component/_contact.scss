@@ -157,6 +157,7 @@
        }
        
        .message{
+           padding: 50px 0;
            &::after{
                display: none;
            }
@@ -164,7 +165,6 @@
                font-size: 20px;
            }
            height: 100%;
-           padding-bottom: 100px;
            
            .all-input{
             padding-top: 10px;
@@ -203,14 +203,14 @@
             }
         }
         .message{
+            padding: 50px 0;
             &::after{
                 display: none;
             }
             h3{
-                font-size: 20px;
+                font-size: 24px;
             }
             height: 100%;
-            padding-bottom: 100px;
             
             .all-input{
              padding-top: 10px;
@@ -250,6 +250,8 @@
             }
         }
         .message{
+                padding: 50px 0;
+            
             &::after{
                 display: none;
             }
@@ -257,7 +259,6 @@
                 font-size: 26px;
             }
             height: 100%;
-            padding-bottom: 100px;
             
             .all-input{
              padding: 20px 45px;
@@ -285,6 +286,9 @@
                 font-family: $font1;
             }
             
+        }
+        .message{
+            padding: 50px 0;
         }
     }
 }
