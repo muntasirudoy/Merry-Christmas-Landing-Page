@@ -13,7 +13,7 @@
                 width: 60%;
                 display: flex;
                 flex-direction: column;
-                padding: 40px 30px;
+                padding: 40px 50px;
                 .top-text{
                     display: flex;
                     .category-name{
@@ -53,12 +53,11 @@
 
 
     .secound-row{
-        margin-top: 20px;
-
         .blog-card{
             width: 100%;
             height: 100px;
             display: flex;
+            margin-top: 20px;
             .image{
                 width: 30%;
                 height: 100%;
@@ -107,15 +106,11 @@
         font-weight: 300;
 
     }
+  }
 
 
-
-
-}
-
-
-@media (min-width: 320px) and (max-width: 575.98px){
-    .blog{
+   @media (min-width: 320px) and (max-width: 475.98px){
+       .blog{
         padding: 30px 0;
         .top{
             .first-row{
@@ -170,4 +165,183 @@
        }
 
     }
-    
+
+    @media (min-width: 476px) and (max-width: 575.98px){
+        .blog{
+         padding: 30px 20px;
+         .top{
+             .first-row{
+               .all-sliders{
+                   flex-direction:column-reverse;
+ 
+                 .text{
+                      width: 100%;
+                      padding: 20px 0;
+                      .blog-title{
+                       font-size: 26px;
+                       margin: 10px 0;
+                       line-height: 34px;
+                     }
+                   }
+                   .image{
+                     width: 100%;
+                     height: 250px;
+                     border-radius: 15px;
+                 }
+                 }
+             }
+         }
+         .secound-row{
+             margin-top: 0;
+             .blog-card{
+                 margin-top: 15px;
+                 height: 80px;
+                 .text{
+                     .title{
+                         font-size: 16px;
+                     }
+                 }
+             }
+         }
+         .prevbtn {
+             position: absolute;
+             top: -100px;
+             left: 3%;
+             padding: 10px;
+         }
+     
+         .nextbtn {
+             position: absolute;
+             top: -100px;
+             right: 3%;
+             padding: 10px;
+         }
+ 
+ 
+ 
+        }
+ 
+     }
+
+    @media (min-width: 576px) and (max-width: 768.98px){
+        .blog{
+         padding: 30px 0;
+         .top{
+             .first-row{
+               .all-sliders{
+                   flex-direction:column-reverse;
+ 
+                 .text{
+                      width: 100%;
+                      padding: 20px 0;
+                      .blog-title{
+                       font-size: 26px;
+                       margin: 10px 0;
+                       line-height: 34px;
+                     }
+                   }
+                   .image{
+                     width: 100%;
+                     height: 250px;
+                     border-radius: 15px;
+                 }
+                 }
+             }
+         }
+         .secound-row{
+             margin-top: 0;
+             .blog-card{
+                 margin-top: 15px;
+                 height: 80px;
+                 .image{
+                    width: 20%;
+                    height: 100%;
+                 }
+                 .text{
+                    width: 80%;
+                     .title{
+                         font-size: 18px;
+                     }
+                 }
+             }
+         }
+         .prevbtn {
+             position: absolute;
+             top: -100px;
+             left: 3%;
+             padding: 10px;
+         }
+     
+         .nextbtn {
+             position: absolute;
+             top: -100px;
+             right: 3%;
+             padding: 10px;
+         }
+ 
+ 
+ 
+        }
+ 
+     }
+
+     @media (min-width: 769px) and (max-width: 991.98px){
+        .blog{
+         padding: 30px 0;
+         .top{
+             .first-row{
+               .all-sliders{
+                 .text{
+                      padding: 10px 15px;
+                      width: 60%;
+                      .blog-title{
+                       font-size: 26px;
+                       margin: 10px 0;
+                       line-height: 34px;
+                     }
+                   }
+                   .image{
+                     width: 40%;
+                     height: 250px;
+                     border-radius: 15px;
+                     margin-top: 50px;
+                 }
+                 }
+             }
+         }
+         .secound-row{
+             margin-top: 0;
+             .blog-card{
+                 margin-top: 15px;
+                 height: 80px;
+                 .image{
+                    width: 20%;
+                    height: 100%;
+                 }
+                 .text{
+                    width: 80%;
+                     .title{
+                         font-size: 18px;
+                     }
+                 }
+             }
+         }
+         .prevbtn {
+             position: absolute;
+             top: -100px;
+             left: 3%;
+             padding: 10px;
+         }
+     
+         .nextbtn {
+             position: absolute;
+             top: -100px;
+             right: 3%;
+             padding: 10px;
+         }
+ 
+ 
+ 
+        }
+ 
+     }
