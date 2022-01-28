@@ -56,7 +56,7 @@
             }
 
             h4 {
-                @include fonts($font1, 24px, 35px, 600, $color5);
+                @include fonts($font2, 24px, 35px, 600, $color5);
                 margin-top: 30px;
                 margin-bottom: 5px
             }
@@ -231,7 +231,7 @@
                 }
     
                 h4 {
-                    @include fonts($font1, 24px, 32px, 600, $color5);
+                    @include fonts($font2, 24px, 32px, 600, $color5);
                 }
     
     
@@ -317,7 +317,7 @@
                 }
     
                 h4 {
-                    @include fonts($font1, 26px, 32px, 600, $color5);
+                    @include fonts($font2, 24px, 32px, 600, $color5);
                 }
                 .bottom {
                     .price {
@@ -398,7 +398,7 @@
                 }
     
                 h4 {
-                    @include fonts($font1, 22px, 32px, 600, $color5);
+                    @include fonts($font2, 24px, 32px, 600, $color5);
                     margin-top: 30px;
                     margin-bottom: 5px
                 }
@@ -489,7 +489,7 @@
                 }
     
                 h4 {
-                    @include fonts($font1, 22px, 32px, 600, $color5);
+                    @include fonts($font2, 26px, 32px, 600, $color5);
                     margin-top: 30px;
                     margin-bottom: 5px
                 }
@@ -568,12 +568,12 @@
                     
                     .product-image {
                         width: 160px;
-                        height: 230px;
+                        height: 200px;
                     }
                 }
     
                 h4 {
-                    @include fonts($font1, 22px, 32px, 600, $color5);
+                    @include fonts($font2, 22px, 32px, 600, $color5);
                 }
     
                 .details {
@@ -642,7 +642,7 @@
                     
                     .product-image {
                         width: 160px;
-                        height: 230px;
+                        height: 200px;
     
                         img {
                             width: 100%;
@@ -652,7 +652,7 @@
                 }
     
                 h4 {
-                    @include fonts($font1, 22px, 32px, 600, $color5);
+                    @include fonts($font2, 22px, 32px, 600, $color5);
                 }
     
                 .details {

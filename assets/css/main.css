@@ -459,7 +459,7 @@ button .navbar-toggler-icon {
   font-size: 18px;
   line-height: 32px;
   font-weight: 600;
-  color: #242424;
+  color: #3a3a3a;
   background: #FFFFFF;
   border-radius: 5px;
   padding: 10px 40px;
@@ -477,6 +477,9 @@ button .navbar-toggler-icon {
   padding: 12px 16px;
   text-transform: capitalize;
   position: relative;
+  border: 1px solid transparent;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .buy-btn-2 span {
@@ -495,7 +498,9 @@ button .navbar-toggler-icon {
 }
 
 .buy-btn-2:hover {
-  color: #FFFFFF;
+  color: #C82222;
+  background: #FFFFFF;
+  border: 1px solid #C82222;
 }
 
 .buy-btn-3 {
@@ -1256,7 +1261,7 @@ button .navbar-toggler-icon {
   font-size: 20px;
   line-height: 31px;
   font-weight: 500;
-  color: #242424;
+  color: #3a3a3a;
 }
 
 .about .service-cards .posti .service-card p {
@@ -1265,7 +1270,7 @@ button .navbar-toggler-icon {
   font-size: 12px;
   line-height: 21px;
   font-weight: 400;
-  color: #242424;
+  color: #3a3a3a;
 }
 
 .about .service-cards .posti .service-card:hover {
@@ -1350,6 +1355,7 @@ button .navbar-toggler-icon {
   .about .service-cards .posti {
     width: 100%;
     margin: 0 10px;
+    padding: 0 25px;
   }
   .about .service-cards .posti .service-card {
     width: 100%;
@@ -1673,7 +1679,7 @@ button .navbar-toggler-icon {
 }
 
 .product-card .all-card .slick-slide .card-item h4 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Signika Negative", sans-serif;
   font-size: 24px;
   line-height: 35px;
   font-weight: 600;
@@ -1875,7 +1881,7 @@ button .navbar-toggler-icon {
     height: 150px;
   }
   .product-card .all-card .card-item h4 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Signika Negative", sans-serif;
     font-size: 24px;
     line-height: 32px;
     font-weight: 600;
@@ -1965,8 +1971,8 @@ button .navbar-toggler-icon {
     height: 100%;
   }
   .product-card .all-card .slick-slide .card-item h4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 26px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 24px;
     line-height: 32px;
     font-weight: 600;
     color: #C82222;
@@ -2048,8 +2054,8 @@ button .navbar-toggler-icon {
     height: 170px;
   }
   .product-card .all-card .slick-slide .card-item h4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 22px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 24px;
     line-height: 32px;
     font-weight: 600;
     color: #C82222;
@@ -2140,8 +2146,8 @@ button .navbar-toggler-icon {
     height: 195px;
   }
   .product-card .all-card .slick-slide .card-item h4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 22px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 26px;
     line-height: 32px;
     font-weight: 600;
     color: #C82222;
@@ -2217,10 +2223,10 @@ button .navbar-toggler-icon {
   }
   .product-card .all-card .slick-slide .card-item .top .product-image {
     width: 160px;
-    height: 230px;
+    height: 200px;
   }
   .product-card .all-card .slick-slide .card-item h4 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Signika Negative", sans-serif;
     font-size: 22px;
     line-height: 32px;
     font-weight: 600;
@@ -2289,14 +2295,14 @@ button .navbar-toggler-icon {
   }
   .product-card .all-card .slick-slide .card-item .top .product-image {
     width: 160px;
-    height: 230px;
+    height: 200px;
   }
   .product-card .all-card .slick-slide .card-item .top .product-image img {
     width: 100%;
     height: 100%;
   }
   .product-card .all-card .slick-slide .card-item h4 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Signika Negative", sans-serif;
     font-size: 22px;
     line-height: 32px;
     font-weight: 600;
@@ -2631,7 +2637,6 @@ button .navbar-toggler-icon {
   }
   .mobiles .title h2 {
     font-size: 22px;
-    font-family: "Open Sans", sans-serif;
   }
   .mobiles .mobile-slider .slick-slide {
     padding: 0;
@@ -2773,7 +2778,6 @@ button .navbar-toggler-icon {
   }
   .mobiles .title h2 {
     font-size: 22px;
-    font-family: "Open Sans", sans-serif;
   }
   .mobiles .mobile-slider .slick-slide {
     padding: 0;
@@ -2916,7 +2920,6 @@ button .navbar-toggler-icon {
   }
   .mobiles .title h2 {
     font-size: 22px;
-    font-family: "Open Sans", sans-serif;
   }
   .mobiles .mobile-slider .slick-slide {
     padding: 0;
@@ -3056,7 +3059,6 @@ button .navbar-toggler-icon {
   }
   .mobiles .title h2 {
     font-size: 32px;
-    font-family: "Open Sans", sans-serif;
   }
   .mobiles .mobile-slider .slick-slide {
     padding: 0;
@@ -3143,7 +3145,7 @@ button .navbar-toggler-icon {
   }
   .mobiles .title h2 {
     font-size: 32px;
-    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
   }
   .mobiles .mobile-slider .slick-slide {
     padding: 0;
@@ -3363,7 +3365,7 @@ button .navbar-toggler-icon {
   }
   .mobiles .nextbtn {
     top: -95px;
-    right: 15%important;
+    right: 15% !important;
   }
 }
 
@@ -3913,7 +3915,7 @@ button .navbar-toggler-icon {
   font-size: 24px;
   line-height: 32px;
   font-weight: 600;
-  color: #242424;
+  color: #3a3a3a;
   margin-bottom: 5px;
 }
 
@@ -3922,7 +3924,7 @@ button .navbar-toggler-icon {
   font-size: 16px;
   line-height: 21px;
   font-weight: 500;
-  color: #242424;
+  color: #3a3a3a;
   margin-bottom: 30px;
 }
 
@@ -3974,7 +3976,6 @@ button .navbar-toggler-icon {
   }
   .testimonial .title h2 {
     font-size: 22px;
-    font-family: "Open Sans", sans-serif;
   }
   .testimonial .title .title-pra {
     width: 100%;
@@ -4039,7 +4040,6 @@ button .navbar-toggler-icon {
   }
   .testimonial .title h2 {
     font-size: 32px;
-    font-family: "Open Sans", sans-serif;
   }
   .testimonial .title .title-pra {
     width: 100%;
@@ -4104,7 +4104,7 @@ button .navbar-toggler-icon {
   }
   .testimonial .title h2 {
     font-size: 32px;
-    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
   }
   .testimonial .title .title-pra {
     width: 100%;
@@ -4169,7 +4169,6 @@ button .navbar-toggler-icon {
   }
   .testimonial .title h2 {
     font-size: 32px;
-    font-family: "Open Sans", sans-serif;
   }
   .testimonial .title .title-pra {
     width: 100%;
@@ -4237,7 +4236,6 @@ button .navbar-toggler-icon {
   }
   .testimonial .title h2 {
     font-size: 32px;
-    font-family: "Open Sans", sans-serif;
   }
   .testimonial .title .title-pra {
     width: 100%;
@@ -4279,7 +4277,7 @@ button .navbar-toggler-icon {
   font-family: "Open Sans", sans-serif;
   font-size: 36px;
   line-height: 48px;
-  font-weight: 700;
+  font-weight: 600;
   color: #FFFFFF;
   background: #C82222;
   display: inline-block;
@@ -4300,11 +4298,11 @@ button .navbar-toggler-icon {
 }
 
 .title h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Signika Negative", sans-serif;
   font-size: 38px;
   line-height: 50px;
-  font-weight: 700;
-  color: #242424;
+  font-weight: 600;
+  color: #3a3a3a;
 }
 
 .title .title-pra {
@@ -4342,11 +4340,11 @@ button .navbar-toggler-icon {
     padding-left: 30px;
   }
   .title h2 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Signika Negative", sans-serif;
     font-size: 24px;
     line-height: 42px;
     font-weight: 600;
-    color: #242424;
+    color: #3a3a3a;
   }
   .title .title-pra {
     font-family: "Open Sans", sans-serif;
@@ -4384,11 +4382,11 @@ button .navbar-toggler-icon {
     padding-left: 30px;
   }
   .title h2 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Signika Negative", sans-serif;
     font-size: 24px;
     line-height: 42px;
     font-weight: 600;
-    color: #242424;
+    color: #3a3a3a;
   }
   .title .title-pra {
     font-family: "Open Sans", sans-serif;
@@ -4981,7 +4979,7 @@ button .navbar-toggler-icon {
   font-size: 38px;
   line-height: 38px;
   font-weight: 600;
-  color: #242424;
+  color: #3a3a3a;
   text-align: center;
 }
 
@@ -5059,7 +5057,7 @@ button .navbar-toggler-icon {
   font-size: 14px;
   line-height: 14px;
   font-weight: 400;
-  color: #242424;
+  color: #3a3a3a;
   display: inline-block;
 }
 
@@ -5341,7 +5339,7 @@ button .navbar-toggler-icon {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #242424;
+  color: #3a3a3a;
   margin: 15px 0;
 }
 
@@ -5404,7 +5402,7 @@ button .navbar-toggler-icon {
   font-size: 20px;
   line-height: 20px;
   font-weight: 700;
-  color: #242424;
+  color: #3a3a3a;
   text-align: left;
 }
 
@@ -5605,6 +5603,7 @@ button .navbar-toggler-icon {
   }
   .blog .title h2 {
     font-size: 32px;
+    font-weight: 600;
   }
   .blog .top .first-row .all-sliders .text {
     padding: 10px 15px;
@@ -5641,13 +5640,13 @@ button .navbar-toggler-icon {
   .blog .prevbtn {
     position: absolute;
     top: -100px;
-    left: 3%;
+    left: 15%;
     padding: 10px;
   }
   .blog .nextbtn {
     position: absolute;
     top: -100px;
-    right: 3%;
+    right: 15%;
     padding: 10px;
   }
 }

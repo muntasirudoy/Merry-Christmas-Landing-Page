@@ -146,7 +146,6 @@
             margin-bottom: 0px;
             h2{
                 font-size:22px ;
-                font-family: $font1;
             }
         }
         
@@ -290,7 +289,6 @@
             margin-bottom: 0px;
             h2{
                 font-size:22px ;
-                font-family: $font1;
             }
         }
         
@@ -435,7 +433,6 @@
             margin-bottom: 0px;
             h2{
                 font-size:22px ;
-                font-family: $font1;
             }
         }
         
@@ -579,7 +576,6 @@
             margin-bottom: 0px;
             h2{
                 font-size:32px ;
-                font-family: $font1;
             }
         }
         .mobile-slider {
@@ -665,8 +661,8 @@
         .title {
             margin-bottom: 0px;
             h2{
-                font-size:32px ;
-                font-family: $font1;
+                font-size:32px;
+                font-weight: 600;
             }
         }
         .mobile-slider {
@@ -892,7 +888,7 @@
         }
         .nextbtn {
             top: -95px;
-            right:15%important;
+            right:15%!important;
         }
     }
 }

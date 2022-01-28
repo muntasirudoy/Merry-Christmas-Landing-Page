@@ -305,6 +305,7 @@
          .title{
              h2{
                  font-size: 32px;
+                 font-weight: 600;
              }
          }
          .top{
@@ -348,14 +349,14 @@
          .prevbtn {
              position: absolute;
              top: -100px;
-             left: 3%;
+             left: 15%;
              padding: 10px;
          }
      
          .nextbtn {
              position: absolute;
              top: -100px;
-             right: 3%;
+             right: 15%;
              padding: 10px;
          }
  

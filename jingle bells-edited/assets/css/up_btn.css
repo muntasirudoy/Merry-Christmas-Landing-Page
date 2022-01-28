@@ -38,3 +38,11 @@
   width: 100%;
   max-width: 100%;
 }
+@media (min-width: 320px) and (max-width: 475.98px){
+  .up-btn {
+    width: 35px;
+    height: 35px;
+    right: 10px;
+    bottom: 30px;
+  }
+}
