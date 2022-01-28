@@ -435,7 +435,7 @@ button .navbar-toggler-icon {
   line-height: 21px;
   font-weight: 600;
   color: #FFFFFF;
-  padding: 15px 20px;
+  padding: 12px 25px;
 }
 
 .mainbanner-wh-btn .button:hover {
@@ -630,6 +630,9 @@ button .navbar-toggler-icon {
     padding: 10px 20px;
     line-height: 29px;
   }
+  .mainbanner-wh-btn .add-btn {
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -642,6 +645,9 @@ button .navbar-toggler-icon {
   .mainbanner-wh-btn .button a {
     padding: 10px 20px;
     line-height: 29px;
+  }
+  .mainbanner-wh-btn .add-btn {
+    margin-left: 0;
   }
 }
 
@@ -1576,7 +1582,7 @@ button .navbar-toggler-icon {
     line-height: 24px;
   }
   .about .service-cards {
-    margin-top: 50px;
+    margin-top: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2418,7 +2424,7 @@ button .navbar-toggler-icon {
     padding: 15px;
   }
   .addbanner-short .row .banner-box {
-    height: 200px;
+    height: 170px;
   }
 }
 
@@ -2429,7 +2435,7 @@ button .navbar-toggler-icon {
     padding: 15px;
   }
   .addbanner-short .row .banner-box {
-    height: 240px;
+    height: 160px;
   }
 }
 
@@ -3239,9 +3245,7 @@ button .navbar-toggler-icon {
   }
   .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card {
     width: 365px;
-    padding-top: 40px;
-    padding-left: 25px;
-    padding-bottom: 20px;
+    padding: 25px;
     margin-top: 0;
   }
   .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .top h3 {
@@ -3260,7 +3264,7 @@ button .navbar-toggler-icon {
     list-style: disc;
   }
   .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .bottom {
-    margin-top: 40px;
+    margin-top: 20px;
     height: 60px;
   }
   .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .bottom .mobile-btn {
@@ -3269,9 +3273,13 @@ button .navbar-toggler-icon {
   }
   .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .right {
     width: 170px;
-    height: 200px;
+    height: 170px;
     top: 50%;
     right: 0;
+  }
+  .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .right .phone-img {
+    width: 110px;
+    height: 110px;
   }
   .mobiles .prevbtn {
     left: 15% !important;
@@ -3302,9 +3310,7 @@ button .navbar-toggler-icon {
   }
   .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card {
     width: 440px;
-    padding-top: 40px;
-    padding-left: 60px;
-    padding-bottom: 15px;
+    padding: 45px;
     background: #C82222;
     border-radius: 20px;
     position: relative;
@@ -3319,7 +3325,7 @@ button .navbar-toggler-icon {
     list-style: disc;
   }
   .mobiles .mobile-slider .all-items .first-row .mobile-card-width .moblie-card .left .bottom {
-    margin-top: 40px;
+    margin-top: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3378,7 +3384,7 @@ button .navbar-toggler-icon {
 }
 
 .tv .tv-top-slider .tv-slider-items .top h3 {
-  font-family: "Lobster Two", cursive;
+  font-family: "Signika Negative", sans-serif;
   font-size: 67px;
   line-height: 70px;
   font-weight: 400;
@@ -3456,7 +3462,7 @@ button .navbar-toggler-icon {
     height: 400px;
   }
   .tv .tv-top-slider .tv-slider-items .top h3 {
-    font-family: "Lobster Two", cursive;
+    font-family: "Signika Negative", sans-serif;
     font-size: 28px;
     line-height: 38px;
     font-weight: 400;
@@ -3515,8 +3521,8 @@ button .navbar-toggler-icon {
     height: 400px;
   }
   .tv .tv-top-slider .tv-slider-items .top h3 {
-    font-family: "Lobster Two", cursive;
-    font-size: 40px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 38px;
     line-height: 70px;
     font-weight: 600;
     color: #FFFFFF;
@@ -3574,7 +3580,7 @@ button .navbar-toggler-icon {
     height: 400px;
   }
   .tv .tv-top-slider .tv-slider-items .top h3 {
-    font-family: "Lobster Two", cursive;
+    font-family: "Signika Negative", sans-serif;
     font-size: 44px;
     line-height: 70px;
     font-weight: 600;
@@ -3631,7 +3637,7 @@ button .navbar-toggler-icon {
     height: 513px;
   }
   .tv .tv-top-slider .tv-slider-items .top h3 {
-    font-family: "Lobster Two", cursive;
+    font-family: "Signika Negative", sans-serif;
     font-size: 48px;
     line-height: 56px;
     font-weight: 400;
@@ -3688,24 +3694,25 @@ button .navbar-toggler-icon {
     height: 513px;
   }
   .tv .tv-top-slider .tv-slider-items .top h3 {
-    font-family: "Lobster Two", cursive;
-    font-size: 48px;
-    line-height: 56px;
-    font-weight: 400;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 58px;
+    line-height: 66px;
+    font-weight: 600;
     color: #FFFFFF;
   }
   .tv .tv-top-slider .tv-slider-items .top p {
+    margin-top: 10px;
     font-family: "Open Sans", sans-serif;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 28px;
+    line-height: 32px;
     font-weight: 600;
     color: #FFFFFF;
   }
   .tv .tv-top-slider .tv-slider-items .top .price {
-    font-family: "Open Sans", sans-serif;
-    font-size: 32px;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 42px;
     line-height: 48px;
-    font-weight: 700;
+    font-weight: 600;
     color: #FFFFFF;
   }
   .tv .tv-top-slider .tv-slider-items .inner-img {
@@ -4216,7 +4223,7 @@ button .navbar-toggler-icon {
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .testimonial {
-    padding-top: 60px;
+    padding-top: 120px;
   }
   .testimonial .decoration-left-2 {
     display: none;
@@ -4422,7 +4429,7 @@ button .navbar-toggler-icon {
 }
 
 .ad-banner .ad_slider .inn-slider .text h3 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Signika Negative", sans-serif;
   font-size: 64px;
   line-height: 87px;
   font-weight: 600;
@@ -4747,9 +4754,9 @@ button .navbar-toggler-icon {
     font-size: 32px;
   }
   .ad-banner .ad_slider .inn-slider .product-img {
-    width: 450px;
-    height: auto;
+    width: 400px;
     margin-right: 90px;
+    margin-top: 0;
   }
   .ad-banner .prevbtn {
     top: 50%;
@@ -5057,7 +5064,7 @@ button .navbar-toggler-icon {
 }
 
 .contact .message {
-  padding: 30px 0;
+  padding: 50px 0;
   width: 100%;
   height: 500px;
   background: #C82222;
@@ -5629,7 +5636,7 @@ button .navbar-toggler-icon {
     width: 80%;
   }
   .blog .secound-row .blog-card .text .title {
-    font-size: 18px;
+    font-size: 20px;
   }
   .blog .prevbtn {
     position: absolute;
@@ -5653,7 +5660,7 @@ button .navbar-toggler-icon {
     font-weight: 600;
   }
   .blog .top .first-row .all-sliders .text {
-    padding: 10px 15px;
+    padding: 30px;
     width: 60%;
   }
   .blog .top .first-row .all-sliders .text .blog-title {
@@ -5663,7 +5670,7 @@ button .navbar-toggler-icon {
   }
   .blog .top .first-row .all-sliders .image {
     width: 40%;
-    height: 250px;
+    height: 300px;
     border-radius: 15px;
     margin-top: 10px;
   }
@@ -5687,14 +5694,14 @@ button .navbar-toggler-icon {
   .blog .prevbtn {
     position: absolute;
     top: -100px;
-    left: 3%;
-    padding: 10px;
+    left: 15%;
+    padding: 10px 20px;
   }
   .blog .nextbtn {
     position: absolute;
     top: -100px;
-    right: 3%;
-    padding: 10px;
+    right: 15%;
+    padding: 10px 20px;
   }
 }
 
@@ -5703,7 +5710,7 @@ button .navbar-toggler-icon {
     padding: 30px 0;
   }
   .blog .top .first-row .all-sliders .text {
-    padding: 10px 15px;
+    padding: 40px;
     width: 60%;
   }
   .blog .top .first-row .all-sliders .text .blog-title {
@@ -5713,9 +5720,9 @@ button .navbar-toggler-icon {
   }
   .blog .top .first-row .all-sliders .image {
     width: 40%;
-    height: 250px;
+    height: 350px;
     border-radius: 15px;
-    margin-top: 50px;
+    margin-top: 10px;
   }
   .blog .secound-row {
     margin-top: 0;
@@ -5735,16 +5742,12 @@ button .navbar-toggler-icon {
     font-size: 18px;
   }
   .blog .prevbtn {
-    position: absolute;
     top: -100px;
-    left: 3%;
-    padding: 10px;
+    left: 15%;
   }
   .blog .nextbtn {
-    position: absolute;
     top: -100px;
-    right: 3%;
-    padding: 10px;
+    right: 15%;
   }
 }
 

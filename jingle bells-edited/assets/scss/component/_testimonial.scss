@@ -466,29 +466,24 @@
 @media (min-width: 1200px) and (max-width:1399.98px) {
 
     .testimonial {
-    
-        padding-top: 60px;
+        padding-top: 120px;
                .decoration-left-2{
                    display: none;
                }
-
                .decoration-right-2{
                display: none;
                }
-
                .title{
                    width: 100%;
                    margin-bottom: 0px;
                    h2{
                        font-size:32px ;
                       font-family: $font1;
-                      
                    }
                    .title-pra{
                        width: 100%;
                    }
                }
-
        .all{
            .testimonial-slider{
                margin-top: 30px;
@@ -514,7 +509,5 @@
                padding: 10px 20px;
            }
    }
-
-
     }
 }

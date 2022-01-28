@@ -13,7 +13,7 @@
                 text-align: center;
     
                 h3 {
-                    @include fonts($font3, 67px, 70px, 400, $color1);
+                    @include fonts($font2, 67px, 70px, 400, $color1);
                 }
     
                 p {
@@ -79,7 +79,7 @@
                 height: 400px;
                 .top {
                     h3 {
-                        @include fonts($font3, 28px, 38px, 400, $color1);
+                        @include fonts($font2, 28px, 38px, 400, $color1);
                     }
         
                     p {
@@ -136,7 +136,7 @@
             .top {
     
                 h3 {
-                    @include fonts($font3, 40px, 70px, 600, $color1);
+                    @include fonts($font2, 38px, 70px, 600, $color1);
                 }
     
                 p {
@@ -197,7 +197,7 @@
             .top {
     
                 h3 {
-                    @include fonts($font3, 44px, 70px, 600, $color1);
+                    @include fonts($font2, 44px, 70px, 600, $color1);
                 }
     
                 p {
@@ -254,7 +254,7 @@
                 .top {
         
                     h3 {
-                        @include fonts($font3, 48px, 56px, 400, $color1);
+                        @include fonts($font2, 48px, 56px, 400, $color1);
                     }
         
                     p {
@@ -306,15 +306,16 @@
                 height: 513px;
                 .top {
                     h3 {
-                        @include fonts($font3, 48px, 56px, 400, $color1);
+                        @include fonts($font2, 58px, 66px, 600, $color1);
                     }
         
                     p {
-                        @include fonts($font1, 24px, 28px, 600, $color1);
+                        margin-top: 10px;
+                        @include fonts($font1, 28px, 32px, 600, $color1);
                     }
         
                     .price {
-                        @include fonts($font1, 32px, 48px, 700, $color1);
+                        @include fonts($font2, 42px, 48px, 600, $color1);
                     }
                 }
                     .inner-img {            
