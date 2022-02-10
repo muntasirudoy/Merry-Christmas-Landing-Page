@@ -6,7 +6,7 @@
     position: absolute;
     background: transparent;
     width: 100%;
-    z-index: 11111;
+    z-index: 999999;
     margin: 0 auto;
     padding: 0;
 
@@ -76,7 +76,7 @@
     position: fixed !important;
     top: 0 !important;
     width: 100%;
-    // background:url(../images/nav/sticky.png) center no-repeat;
+    // background:url(../images/nav/home-bg-px-1) center no-repeat;
     // background-size: cover;
     background: $color5;
     z-index: 999;

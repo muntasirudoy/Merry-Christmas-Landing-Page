@@ -2,24 +2,42 @@
 .ad-banner{
     background: url(../images/adbanner/bg.png) no-repeat center;
     background-size: cover;
-    height: 580px;
     position: relative;
     overflow: hidden;
+    padding: 50px 0 200px;
     .decoration-right{
         position: absolute;
         right: 0;
         top: 0;
         width: 178px;
     }
+    .decoration-bottom{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width:100%;
+    }
+
+    .decoration-box-right{
+        position: absolute;
+        left: 200px;
+        bottom: 57px;
+        transform: rotate(10deg);
+    }
+
+
     .ad_slider{
+        z-index: 11;
         .inn-slider{
             display: flex !important;
             justify-content: space-between;
             .text{
                margin-top: 45px;
                margin-left: 90px;
+              
                 h3{
                     @include fonts($font2,64px,87px,600, $color1);
+                   
                 }
                 ul{
                     padding-left: 0;
@@ -74,12 +92,18 @@
 }
 // responsive start
 
-
 // responsive start 
 @media (min-width: 320px) and (max-width: 575.98px){
     .ad-banner{
         height: 100%;
         width: 100%;
+        padding:0px;
+        .decoration-bottom{
+            display: none;
+        }
+        .decoration-box-right{
+            display: none;
+        }
         .ad_slider{
             .inn-slider{
                 padding: 15px 0;
@@ -144,6 +168,13 @@
     .ad-banner{
         height: 100%;
         width: 100%;
+        padding:0px;
+        .decoration-bottom{
+            display: none;
+        }
+        .decoration-box-right{
+            display: none;
+        }
         .ad_slider{
             .inn-slider{
                      padding: 15px 0;
@@ -207,6 +238,13 @@
     .ad-banner{
         height: 100%;
         width: 100%;
+        padding:0px;
+        .decoration-bottom{
+            display: none;
+        }
+        .decoration-box-right{
+            display: none;
+        }
         .ad_slider{
             .inn-slider{
                      padding: 15px 0;
@@ -271,6 +309,13 @@
     .ad-banner{
         height: 100%;
         width: 100%;
+        padding:0px;
+        .decoration-bottom{
+            display: none;
+        }
+        .decoration-box-right{
+            display: none;
+        }
         .ad_slider{
             .inn-slider{
                      padding: 15px 0;
@@ -332,6 +377,13 @@
     .ad-banner{
         height: 100%;
         width: 100%;
+        padding:0px;
+        .decoration-bottom{
+            display: none;
+        }
+        .decoration-box-right{
+            display: none;
+        }
         .ad_slider{
             .inn-slider{
                      padding: 15px 0;

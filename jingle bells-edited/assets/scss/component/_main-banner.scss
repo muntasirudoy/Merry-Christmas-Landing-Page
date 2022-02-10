@@ -3,15 +3,45 @@
 .main-banner{
     overflow: hidden;
     position: relative;
-    .decoration-image-bottom{
-    position: absolute;
-    bottom: -30px;
-    left: 0;
-    }
-            width: 100%;
-            height: 800px;
-            background: url(../images/banner/banner.png) center no-repeat;
-            background-size: cover;
+    width: 100%;
+    height: 800px;
+    background: url(../images/banner/banner.png) center no-repeat;
+    background-size: cover;
+            .decoration-image-bottom{
+                position: absolute;
+                bottom: -30px;
+                left: 0;
+            }
+
+           .decoration-flak1{
+            position: absolute;
+            top: 40%;
+            left: 20%;
+           }
+
+           .decoration-flak9{
+            position: absolute;
+            top: 20%;
+            right: 17%;
+           }
+
+           .decoration-flak4{
+            position: absolute;
+            bottom :15%;
+            right: 15%;
+           }
+           .decoration-flak3{
+            position: absolute;
+            top: 10%;
+            left: 10%;
+           }
+
+           .decoration-flak2{
+            position: absolute;
+            bottom: 15%;
+            right: 50%;
+           }
+        // decoration png end   
             
     .banner-text{
         width: 70%;
@@ -106,6 +136,28 @@
 @media (min-width: 320px) and (max-width: 379.98px){
     .main-banner{
         width: 100%;
+    // decoration png start 
+       .decoration-flak1{
+        display: none;
+       }
+       .decoration-flak9{
+        display: none;
+       }
+
+       .decoration-flak4{
+        display: none;
+       }
+       .decoration-flak3{
+        display: none;
+       }
+       .decoration-flak2{
+        display: none;
+       }
+    // decoration png end   
+
+
+
+
         .banner-text{
            width: 100%;
            h5{
@@ -158,6 +210,24 @@
 @media (min-width: 380px) and (max-width: 475.98px){
     .main-banner{
         width: 100%;
+         // decoration png start 
+       .decoration-flak1{
+        display: none;
+       }
+       .decoration-flak9{
+        display: none;
+       }
+
+       .decoration-flak4{
+        display: none;
+       }
+       .decoration-flak3{
+        display: none;
+       }
+       .decoration-flak2{
+        display: none;
+       }
+    // decoration png end   
         .banner-text{
         width: 100%;
         h5{
@@ -208,6 +278,24 @@
 @media (min-width: 476px) and (max-width: 575.98px){
     .main-banner{
         width: 100%;
+         // decoration png start 
+       .decoration-flak1{
+        display: none;
+       }
+       .decoration-flak9{
+        display: none;
+       }
+
+       .decoration-flak4{
+        display: none;
+       }
+       .decoration-flak3{
+        display: none;
+       }
+       .decoration-flak2{
+        display: none;
+       }
+    // decoration png end   
         .banner-text{
            width: 100%;
            h5{
@@ -257,8 +345,27 @@
 }
 // screem >=576
 @media (min-width: 576px) and (max-width:767.98px){
+
     .main-banner{
         width: 100%;
+         // decoration png start 
+       .decoration-flak1{
+        display: none;
+       }
+       .decoration-flak9{
+        display: none;
+       }
+
+       .decoration-flak4{
+        display: none;
+       }
+       .decoration-flak3{
+        display: none;
+       }
+       .decoration-flak2{
+        display: none;
+       }
+    // decoration png end   
         background-size:cover;
         .banner-text{
            width: 100%;
@@ -313,6 +420,24 @@
 @media (min-width: 768px) and (max-width: 991.98px){
     .main-banner{
         width: 100%;
+         // decoration png start 
+       .decoration-flak1{
+        display: none;
+       }
+       .decoration-flak9{
+        display: none;
+       }
+
+       .decoration-flak4{
+        display: none;
+       }
+       .decoration-flak3{
+        display: none;
+       }
+       .decoration-flak2{
+        display: none;
+       }
+    // decoration png end   
         background-size:cover;
         .banner-text{
            padding-top: 145px;
@@ -367,6 +492,24 @@
      .main-banner{
         width: 100%;
         background-size:cover;
+         // decoration png start 
+       .decoration-flak1{
+        display: none;
+       }
+       .decoration-flak9{
+        display: none;
+       }
+
+       .decoration-flak4{
+        display: none;
+       }
+       .decoration-flak3{
+        display: none;
+       }
+       .decoration-flak2{
+        display: none;
+       }
+    // decoration png end   
         .banner-text{
            width: 100%;
            padding-top: 180px;
