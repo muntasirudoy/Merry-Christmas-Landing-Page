@@ -1,51 +1,55 @@
 
 .testimonial {
     padding-top: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     position: relative;
     display: flex;
     justify-content: center;
-    .decoration-left-2{
-        position: absolute;
-        left: 40px;
-        top: -110px;
-        width: 150px;
-        animation: updown 3s infinite;
-        z-index: -1;
-        animation: updown2 3s 1s infinite;
-    }
-    @keyframes updown2 {
-        0%{
-            transform: translatey(0);
-        }
-        50%{
-            transform: translatey(25px);
-        }
-        100%{
-            transform: translatey(0px);
-        }
-    }
-    .decoration-right-2{
-        position: absolute;
-        right: 40px;
-        top: -110px;
-        width: 150px;
-        animation: updown 3s infinite;
-        z-index: -1;
-    }
+// decoration img
 
-
-    @keyframes updown {
-        0%{
-            transform: translatey(0);
-        }
-        50%{
-            transform: translatey(25px);
-        }
-        100%{
-            transform: translatey(0px);
-        }
+.decoration-left-2{
+    position: absolute;
+    left: 40px;
+    top: -110px;
+    width: 150px;
+    animation: updown 3s infinite;
+    z-index: -1;
+    animation: updown2 3s 1s infinite;
+    display: none;
+}
+@keyframes updown2 {
+    0%{
+        transform: translatey(0);
     }
+    50%{
+        transform: translatey(25px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
+.decoration-right-2{
+    position: absolute;
+    right: 40px;
+    top: -110px;
+    width: 150px;
+    animation: updown 3s infinite;
+    z-index: -1;
+    display: none;
+}
+@keyframes updown {
+    0%{
+        transform: translatey(0);
+    }
+    50%{
+        transform: translatey(25px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
+
+// decoratiion imf end
 
     .title {
         margin-bottom: 30px;

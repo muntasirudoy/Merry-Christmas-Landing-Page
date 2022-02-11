@@ -2,20 +2,37 @@
 .tv {
     background: url(../images/tv/tv-img1.png) no-repeat center;
     background-size: cover;
-    height: 680px;
-    padding-top: 100px;
+    height: 700px;
+    padding-top: 70px;
     position: relative;
 
-    .decoration-overlay{
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
+// decoratio start
+.decoration-overlay{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.decoration-img-right{
+    position: absolute;
+    width: 245px;
+    bottom: 58px;
+    right: 266px;
+}
+.decoration-img-left{
+    position: absolute;
+    width: 200px;
+    bottom: 58px;
+    left: 266px;
+}
+// decoration end
+
+
+
 
     .tv-top-slider {
         .tv-slider-items {
            
-            height: 600px;
+            height: 580px;
             .top {
                 text-align: center;
     

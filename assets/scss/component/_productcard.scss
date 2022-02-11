@@ -3,18 +3,21 @@
     position: relative;
     padding-top: 80px;
     padding-bottom: 40px;
+ 
     
     .decoration-image-left{
         position: absolute;
         top: -1px;
         left: 0px;
         width: 155px;
+        display: none;
     }
     .decoration-image-right{
         position: absolute;
         top: -1px;
         right: 0px;
         width: 155px;
+        display: none;
     }
 
     .all-card {

@@ -5,13 +5,39 @@
     .title {
         margin-bottom: 50px;
     }
-    .decoration-tree-left{
-        position: absolute;
-        bottom: 0;
-        left: 40px;
-        opacity: 0.06;
-        z-index: -1;
-    }
+
+//   decoration icon css
+.decoration-tree-left{
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    opacity: 0.06;
+    z-index: -1;
+}
+.decoration-icons-left-top{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 150px;
+    top: 100px;
+}
+.decoration-icons-right-top{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 150px;
+    top: -400px;
+}
+.decoration-icons-left-mid{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 100px;
+    top: 50%;
+
+}
+// decoration css end
+
     .mobile-slider {
         .all-items {
             .first-row {
@@ -21,6 +47,8 @@
 
                 .mobile-card-width {
                     width: 100%;
+                    position: relative;
+                    
                     .moblie-card {
                         width: 72%;
                         padding: 30px 40px;
@@ -29,7 +57,20 @@
                         position: relative;
                         transition: 0.3s;
                         cursor: pointer;
+                        .decoration-icon{
+                            position: absolute;
+                            width: 100%;
+                            height: 60%;
+                            left: 0;
+                            top: 0;
+                            -webkit-transform: rotate(90deg);
+                            transform: rotate(180deg);
+                            opacity: 0.8;
+                            }
+
                         .left {
+                            z-index: 111;
+                            overflow: hidden;
                             .top {
                                 h3 {
                                     @include fonts($font1, 26px, 35px, 600, $color1);

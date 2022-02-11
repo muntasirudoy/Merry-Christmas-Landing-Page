@@ -4,26 +4,27 @@
     background-size: cover;
     position: relative;
     overflow: hidden;
-    padding: 50px 0 200px;
-    .decoration-right{
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 178px;
-    }
-    .decoration-bottom{
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        width:100%;
-    }
-
-    .decoration-box-right{
-        position: absolute;
-        left: 200px;
-        bottom: 57px;
-        transform: rotate(10deg);
-    }
+    padding: 50px 0 250px;
+ // decoration img
+ .decoration-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 178px;
+}
+.decoration-bottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width:100%;
+}
+.decoration-box-right{
+    position: absolute;
+    left: 234px;
+    bottom: 62px;
+    width: 156px;
+}
+ //decoration img end
 
 
     .ad_slider{
