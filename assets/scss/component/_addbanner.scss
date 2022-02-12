@@ -310,12 +310,18 @@
     .ad-banner{
         height: 100%;
         width: 100%;
-        padding:0px;
+        padding:50px 0 150PX;
         .decoration-bottom{
-            display: none;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width:100%;
         }
         .decoration-box-right{
-            display: none;
+            position: absolute;
+            left: 111px;
+            bottom: 25px;
+            width: 100px;
         }
         .ad_slider{
             .inn-slider{
@@ -378,12 +384,19 @@
     .ad-banner{
         height: 100%;
         width: 100%;
-        padding:0px;
+        padding:50px 0 150px;
         .decoration-bottom{
-            display: none;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width:100%;
         }
         .decoration-box-right{
-            display: none;
+            position: absolute;
+            left: 111px;
+            bottom: 30px;
+            width: 125px;
+        
         }
         .ad_slider{
             .inn-slider{

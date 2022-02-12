@@ -62,11 +62,7 @@
                 margin-bottom: 0;
                 li{
                 margin-top:5px;
-                a{
-                    @include fonts($font1,14px,14px, 400, $color4);
-                    display: inline-block;
-                }
-                    
+                @include fonts($font1,14px,14px, 400, $color4);
                 }
             }
          }
