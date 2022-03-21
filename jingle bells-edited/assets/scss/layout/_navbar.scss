@@ -79,17 +79,19 @@
     // background:url(../images/nav/home-bg-px-1) center no-repeat;
     // background-size: cover;
     background: $color5;
-    z-index: 999;
+    z-index: 99999;
     transition: .4s;
     box-shadow: 0px 0px 25px rgba(47, 47, 47, 0.664);
 
     ul {
+
         li {
             a {
                 font-size: 14px;
             }
         }
     }
+
 
 }
 

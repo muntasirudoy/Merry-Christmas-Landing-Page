@@ -1,0 +1,452 @@
+
+.ad-banner{
+    background: url(../images/adbanner/bg.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0 250px;
+ // decoration img
+ .decoration-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 178px;
+}
+.decoration-bottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width:100%;
+}
+.decoration-box-right{
+    position: absolute;
+    left: 234px;
+    bottom: 62px;
+    width: 156px;
+}
+ //decoration img end
+
+
+    .ad_slider{
+        z-index: 11;
+        .inn-slider{
+            padding-bottom:20px;
+            display: flex !important;
+            justify-content: center;
+            .text{
+               margin-top: 45px;
+               margin-left: 90px;
+               margin-right: 90px;
+              
+                h3{
+                    @include fonts($font2,64px,87px,600, $color1);
+                   
+                }
+                ul{
+                    padding-left: 0;
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    li{
+                        @include fonts($font1,20px,36px,400, $color1);
+                    }
+                }
+                .price{
+                    @include fonts($font1,34px,61px,700, $color1);
+                }
+                .buy-btn{
+                    margin-top: 30px;
+                }
+            }
+            .product-img{
+                width: 350px;
+                height: auto;
+                margin-top: 30px;
+                margin-right: 90px;
+               
+               
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .prevbtn{
+        position: absolute;
+        padding: 10px 20px;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 111;
+        color: $color1;
+        
+    }
+    .nextbtn{
+        position: absolute;
+        padding: 10px 20px;
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: $color1;
+        z-index: 111;
+    }
+    
+}
+// responsive start
+
+// responsive start 
+@media (min-width: 320px) and (max-width: 575.98px){
+    .ad-banner{
+        height: 100%;
+        width: 100%;
+        padding:0px;
+        .decoration-bottom{
+            display: none;
+        }
+        .decoration-box-right{
+            display: none;
+        }
+        .ad_slider{
+            .inn-slider{
+                padding: 15px 0;
+                        .product-img {
+                        width: 220px;
+                        height: auto;
+                        margin: 0px auto;
+                        padding: 20px 0;
+                        }
+                        flex-direction:column-reverse;
+                        .text{
+                            margin: 0px auto;
+                            padding: 20px 0;
+                            text-align: center;
+                            h3{
+                                font-size: 40px;
+                                line-height: 40px;
+                            }
+                            ul{
+                                li{
+                                    font-size: 16px;
+                                    line-height: 30px;
+                                    
+                                }
+                            }
+                            .price{
+                                font-size: 24px;
+                            }
+                            .buy-btn-1{
+                                font-size: 14px;
+                                line-height: 15px;
+                                border-radius: 10px;
+                                padding: 10px 20px;
+                            }
+                            .buy-btn{
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+
+                }
+                .prevbtn{
+                    left: 0px;
+                    top: 32%;
+                   padding: 15px 10px;
+                   font-size: 22px;
+                   z-index: 11;
+                   color: $color1;
+            
+                }
+                .nextbtn{
+                    padding: 15px 10px;
+                    font-size: 22px;
+                    right: 0px;
+                    top: 32%;
+                    color: $color1;
+                }
+            }     
+}
+// screem >=576
+@media (min-width: 576px) and (max-width:767.98px){
+  
+    .ad-banner{
+        height: 100%;
+        width: 100%;
+        padding:0px;
+        .decoration-bottom{
+            display: none;
+        }
+        .decoration-box-right{
+            display: none;
+        }
+        .ad_slider{
+            .inn-slider{
+                     padding: 15px 0;
+                        .product-img {
+                        width: 260px;
+                        height: auto;
+                        margin: 0px auto;
+                        padding: 30px 0;
+                        }
+                        flex-direction:column-reverse;
+                        .text{
+                            margin: 0px auto;
+                            padding: 30px 0;
+                            text-align: center;
+                            h3{
+                                font-size: 44px;
+                                line-height: 40px;
+                            }
+                            ul{
+                                li{
+                                    font-size: 16px;
+                                    line-height: 30px;
+                                    
+                                }
+                            }
+                            .price{
+                                font-size: 28px;
+                            }
+                            .buy-btn-1{
+                                font-size: 14px;
+                                line-height: 15px;
+                                border-radius: 10px;
+                                padding: 15px 25px;
+                            }
+                            .buy-btn{
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+
+                }
+                .prevbtn{
+                    left: 0px;
+                    top: 50%;
+                   padding: 15px 10px;
+                   font-size: 22px;
+                   z-index: 11;
+                   color: $color1;
+                  transform: translateY(-50%);
+                }
+                .nextbtn{
+                    padding: 15px 10px;
+                    font-size: 22px;
+                    right: 0px;
+                    top: 50%;
+                    color: $color1;
+                    transform: translateY(-50%);
+                }
+            }  
+}
+// screem >= 768
+@media (min-width: 768px) and (max-width: 991.98px){
+    .ad-banner{
+        height: 100%;
+        width: 100%;
+        padding:0px;
+        .decoration-bottom{
+            display: none;
+        }
+        .decoration-box-right{
+            display: none;
+        }
+        .ad_slider{
+            .inn-slider{
+                     padding: 15px 0;
+                        .product-img {
+                        width: 330px;
+                        height: auto;
+                        margin: 0px auto;
+                        padding: 30px 0;
+                        }
+                        flex-direction:column-reverse;
+                        .text{
+                            margin: 0px auto;
+                            padding: 30px 0;
+                            text-align: center;
+                            h3{
+                                font-size: 48px;
+                                line-height: 48px;
+                            }
+                            ul{
+                                li{
+                                    font-size: 18px;
+                                    line-height: 36px;
+                                    
+                                }
+                            }
+                            .price{
+                                font-size: 28px;
+                            }
+                            .buy-btn-1{
+                                font-size: 14px;
+                                line-height: 15px;
+                                border-radius: 10px;
+                                padding: 15px 25px;
+                            }
+                            .buy-btn{
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+
+                }
+                .prevbtn{
+                    left: 0px;
+                    top: 50%;
+                   padding: 15px 10px;
+                   font-size: 22px;
+                   z-index: 11;
+                   color: $color1;
+                  transform: translateY(-50%);
+                }
+                .nextbtn{
+                    padding: 15px 10px;
+                    font-size: 22px;
+                    right: 0px;
+                    top: 50%;
+                    color: $color1;
+                    transform: translateY(-50%);
+                }
+            }  
+
+}
+// screem >= 992
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .ad-banner{
+        height: 100%;
+        width: 100%;
+        padding:50px 0 150PX;
+        .decoration-bottom{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width:100%;
+        }
+        .decoration-box-right{
+            position: absolute;
+            left: 111px;
+            bottom: 25px;
+            width: 100px;
+        }
+        .ad_slider{
+            .inn-slider{
+                     padding: 15px 0;
+                        .product-img {
+                        margin-top: 0px;
+                        margin-right: 40px;
+                        width: 350px;
+                        height: auto;
+                        }
+                    
+                        .text{
+                            margin: 30px 40px;
+                            h3{
+                                font-size: 48px;
+                                line-height: 48px;
+                            }
+                            ul{
+                                li{
+                                    font-size: 18px;
+                                    line-height: 36px;
+                                    
+                                }
+                            }
+                            .price{
+                                font-size: 28px;
+                            }
+                            .buy-btn-1{
+                                font-size: 14px;
+                                line-height: 15px;                                
+                            }
+                            .buy-btn{
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+
+                }
+                .prevbtn{
+                    left: 0px;
+                    top: 50%;
+                   padding: 15px 10px;
+                   font-size: 22px;
+                   z-index: 11;
+                   color: $color1;
+                  transform: translateY(-50%);
+                }
+                .nextbtn{
+                    padding: 15px 10px;
+                    font-size: 22px;
+                    right: 0px;
+                    top: 50%;
+                    color: $color1;
+                    transform: translateY(-50%);
+                }
+            }  
+
+}
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    .ad-banner{
+        height: 100%;
+        width: 100%;
+        padding:50px 0 150px;
+        .decoration-bottom{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width:100%;
+        }
+        .decoration-box-right{
+            position: absolute;
+            left: 111px;
+            bottom: 30px;
+            width: 125px;
+        
+        }
+        .ad_slider{
+            .inn-slider{
+                     padding: 15px 0;
+                     .text{
+                        h3{
+                            font-size: 48px;
+                            line-height: 48px;
+                        }
+                        margin-left: 90px !important;
+
+                        .price{
+                            font-size: 32px;
+                        }
+                    }
+                        .product-img {
+                        width: 400px;
+                        margin-right: 90px;
+                        margin-top: 0;
+                        }
+                    }
+
+                }
+                .prevbtn{
+                    top: 50%;
+                   font-size: 22px;
+                   z-index: 111;
+                  transform: translateY(-50%);
+                  padding: 10px 20px;
+                  i{
+                      color: $color1;
+                  }
+                }
+                .nextbtn{
+                    padding: 10px 20px;
+                    font-size: 22px;
+                    top: 50%;
+                    color: $color1;
+                    z-index: 111;
+                    transform: translateY(-50%);
+                    i{
+                      color: $color1;
+                  }
+                }
+            } 
+}

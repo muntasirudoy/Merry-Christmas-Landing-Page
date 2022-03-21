@@ -6,6 +6,7 @@ $(window).scroll(function(){
     $(".main-menu").addClass("sticky")
   }else{
     $(".main-menu").removeClass("sticky")
+
   }
 
 })

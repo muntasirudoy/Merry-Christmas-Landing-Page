@@ -125,7 +125,7 @@ body {
   top: 0 !important;
   width: 100%;
   background: #C82222;
-  z-index: 999;
+  z-index: 99999;
   -webkit-transition: .4s;
   transition: .4s;
   -webkit-box-shadow: 0px 0px 25px rgba(47, 47, 47, 0.664);
@@ -3733,6 +3733,7 @@ button .navbar-toggler-icon {
   position: absolute;
   width: 100%;
   bottom: 0;
+  height: 100%;
 }
 
 .tv .decoration-img-right {
