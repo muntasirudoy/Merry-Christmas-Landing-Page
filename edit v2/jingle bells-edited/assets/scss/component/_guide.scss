@@ -1,0 +1,41 @@
+.guide{
+    .guide-bg{
+        width: 100%;
+        min-height: calc(100vh - 50vh);
+        background: url(../images/guide/bg1.jpg) center no-repeat;
+        background-size: cover;
+        margin-top: 50px;
+        background-attachment: fixed;
+        position: relative;
+        
+        .guide-div{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding:100px  0;
+            z-index: 1;
+           
+           h3{
+            @include fonts($font3, 44px, 55px, 600, $color1);
+           }
+           p{
+            @include fonts($font1, 16px, 25px, 300, $color1);
+            letter-spacing: 1.1px;
+            margin-top: 20px;
+           }
+        }
+        .overlay{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgb(190,27,27);
+background: linear-gradient(90deg, rgba(190,27,27,0.773546918767507) 32%, rgba(255,0,0,0) 100%);
+            .guide-button{
+                margin-top: 15px;
+            }
+        }
+    }
+ 
+}

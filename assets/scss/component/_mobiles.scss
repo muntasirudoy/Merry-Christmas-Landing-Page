@@ -21,7 +21,6 @@
     .all-card {
         display: flex;
         justify-content: space-between;
-        margin-top: 60px;
         display: flex;
         justify-content: center;
         .slick-slide{
@@ -119,7 +118,7 @@
 
     .prevbtn {
         position: absolute;
-        top: -110px;
+        top: -55px;
         left: 28%;
         font-size: 24px;
         color: $color5;
@@ -129,7 +128,7 @@
 
     .nextbtn {
         position: absolute;
-        top: -110px;
+        top: -55px;
         right: 28%;
         font-size: 24px;
         color: $color5;

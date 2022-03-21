@@ -14,6 +14,7 @@
         left: 40px;
         opacity: 0.06;
         z-index: -1;
+        width: 100%;
     }
 
     .decoration-icons-left-top {
@@ -48,7 +49,6 @@
             .first-row {
                 display: flex;
                 justify-content: space-between;
-                margin-top: 40px;
 
                 .laptop-card-width {
                     width: 100%;
@@ -178,6 +178,9 @@
                     }
                 }
 
+            }
+            .secound-row{
+                margin-top: 40px;
             }
         }
     }

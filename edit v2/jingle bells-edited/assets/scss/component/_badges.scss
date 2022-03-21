@@ -25,8 +25,8 @@
         }
     }
     h2{
-        @include fonts($font2,38px,50px,600, $color4);  
-        text-transform: uppercase;
+        @include fonts($font3,38px,50px,600, $color4);  
+        
     }
     .title-pra{
         @include fonts($font1,14px,19px,400, $color8);   
