@@ -479,7 +479,7 @@ button .navbar-toggler-icon {
   font-size: 18px;
   line-height: 32px;
   font-weight: 500;
-  color: #0c0b0b;
+  color: #332f2f;
   background: #FFFFFF;
   border-radius: 5px;
   padding: 10px 40px;
@@ -666,7 +666,7 @@ button .navbar-toggler-icon {
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .mainbanner-wh-btn {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .mainbanner-wh-btn .button {
     margin: 0 10px;
@@ -760,7 +760,7 @@ button .navbar-toggler-icon {
   top: 50%;
   left: 10px;
   background: #FFFFFF;
-  width: 120px;
+  width: 140px;
   height: 2px;
 }
 
@@ -770,7 +770,7 @@ button .navbar-toggler-icon {
   top: 50%;
   right: 10px;
   background: #FFFFFF;
-  width: 120px;
+  width: 140px;
   height: 2px;
 }
 
@@ -794,13 +794,14 @@ button .navbar-toggler-icon {
 
 .main-banner .banner-text .text-box h1 {
   font-family: "Berkshire Swash", cursive;
-  font-size: 68px;
+  font-size: 80px;
   font-weight: 700;
   margin: 0;
   padding: 0;
   color: white;
   text-shadow: -4px 5px 6px rgba(128, 128, 128, 0.294);
   text-align: center;
+  letter-spacing: 1.4px;
 }
 
 .main-banner .banner-text .text-box h4 {
@@ -815,7 +816,7 @@ button .navbar-toggler-icon {
 }
 
 .main-banner .banner-text .banner-timer {
-  margin-top: 60px;
+  margin-top: 80px;
   padding: 0 90px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -832,26 +833,26 @@ button .navbar-toggler-icon {
 }
 
 .main-banner .banner-text .banner-timer .timer h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 90px;
-  line-height: 1;
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  line-height: 82px;
   font-weight: 600;
   color: #FFD057;
-  text-shadow: -4px 5px 6px rgba(80, 80, 80, 0.466);
+  text-shadow: -4px 5px 6px rgba(0, 0, 0, 0.13);
 }
 
 .main-banner .banner-text .banner-timer .timer p {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  line-height: 1;
+  line-height: 28px;
   font-weight: 500;
   color: #FFFFFF;
 }
 
 .main-banner .banner-text .banner-timer .dot {
-  font-size: 58px;
+  font-size: 50px;
   color: #FFD057;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -900,7 +901,7 @@ button .navbar-toggler-icon {
     height: 67px;
   }
   .main-banner .banner-text .text-box h1 {
-    font-size: 32px;
+    font-size: 40px;
   }
   .main-banner .banner-text .text-box h4 {
     bottom: -19px;
@@ -911,10 +912,11 @@ button .navbar-toggler-icon {
     margin-top: 40px;
   }
   .main-banner .banner-text .banner-timer .dot {
-    font-size: 26px;
+    font-size: 25px;
   }
   .main-banner .banner-text .banner-timer .timer h2 {
-    font-size: 46px;
+    font-size: 40px;
+    line-height: 40px;
   }
   .main-banner .banner-text .banner-timer .timer p {
     font-size: 12px;
@@ -978,10 +980,11 @@ button .navbar-toggler-icon {
     margin-top: 50px;
   }
   .main-banner .banner-text .banner-timer .dot {
-    font-size: 35px;
+    font-size: 30px;
   }
   .main-banner .banner-text .banner-timer .timer h2 {
-    font-size: 55px;
+    font-size: 45px;
+    line-height: 45px;
   }
   .main-banner .banner-text .banner-timer .timer p {
     font-size: 14px;
@@ -1034,7 +1037,7 @@ button .navbar-toggler-icon {
     height: 85px;
   }
   .main-banner .banner-text .text-box h1 {
-    font-size: 42px;
+    font-size: 50px;
   }
   .main-banner .banner-text .text-box h4 {
     bottom: -27px;
@@ -1042,13 +1045,14 @@ button .navbar-toggler-icon {
   }
   .main-banner .banner-text .banner-timer {
     width: 490px;
-    margin-top: 40px;
+    margin-top: 50px;
   }
   .main-banner .banner-text .banner-timer .dot {
-    font-size: 28px;
+    font-size: 31px;
   }
   .main-banner .banner-text .banner-timer .timer h2 {
-    font-size: 50px;
+    font-size: 52px;
+    line-height: 50px;
   }
   .main-banner .banner-text .banner-timer .timer p {
     font-size: 12px;
@@ -1112,10 +1116,11 @@ button .navbar-toggler-icon {
     margin-top: 60px;
   }
   .main-banner .banner-text .banner-timer .dot {
-    font-size: 26px;
+    font-size: 36px;
   }
   .main-banner .banner-text .banner-timer .timer h2 {
-    font-size: 58px;
+    font-size: 56px;
+    line-height: 56px;
   }
   .main-banner .banner-text .banner-timer .timer p {
     font-size: 14px;
@@ -1284,7 +1289,7 @@ button .navbar-toggler-icon {
     height: 127px;
   }
   .main-banner .banner-text .text-box h1 {
-    font-size: 68px;
+    font-size: 70px;
   }
   .main-banner .banner-text .text-box h4 {
     bottom: -46px;
@@ -1292,10 +1297,10 @@ button .navbar-toggler-icon {
   }
   .main-banner .banner-text .banner-timer {
     width: 610px;
-    margin-top: 60px;
+    margin-top: 70px;
   }
   .main-banner .banner-text .banner-timer .dot {
-    font-size: 26px;
+    font-size: 48px;
   }
   .main-banner .banner-text .banner-timer .timer h2 {
     font-size: 78px;
@@ -1342,10 +1347,24 @@ button .navbar-toggler-icon {
 }
 
 .about .text i {
-  font-size: 24px;
+  font-size: 16px;
   margin-right: 15px;
-  color: #DD3F3F;
   margin-top: 30px;
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  border-radius: 50%;
+  background: #DD3F3F;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -1438,7 +1457,7 @@ button .navbar-toggler-icon {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-  color: #0c0b0b;
+  color: #332f2f;
 }
 
 .about .service-cards .posti .service-card:hover {
@@ -1460,6 +1479,7 @@ button .navbar-toggler-icon {
   .about .text h2 {
     font-size: 32px;
     line-height: 36px;
+    margin: 20px 0;
   }
   .about .text p {
     font-size: 14px;
@@ -1496,7 +1516,7 @@ button .navbar-toggler-icon {
 
 @media (min-width: 380px) and (max-width: 475.98px) {
   .about {
-    padding: 30px 0;
+    padding: 0;
     width: 100%;
     height: 100%;
   }
@@ -1504,10 +1524,10 @@ button .navbar-toggler-icon {
     text-align: center;
     padding: 0;
     padding: 0 15px;
+    margin-bottom: 20px;
   }
   .about .text i {
-    font-size: 30px;
-    margin-left: 15px;
+    font-size: 18px;
   }
   .about .text h2 {
     font-size: 32px;
@@ -1556,15 +1576,14 @@ button .navbar-toggler-icon {
   .about .text {
     text-align: center;
     padding: 0;
-    padding: 0 15px;
   }
   .about .text i {
-    font-size: 32px;
-    margin-left: 15px;
+    font-size: 18px;
   }
   .about .text h2 {
     font-size: 32px;
     line-height: 36px;
+    margin-bottom: 20px;
   }
   .about .text p {
     font-size: 14px;
@@ -1602,20 +1621,19 @@ button .navbar-toggler-icon {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .about {
-    padding: 50px 0;
+    padding: 20px 0;
     width: 100%;
     height: 100%;
   }
   .about .text {
     text-align: center;
-    padding: 0;
-    padding: 0 15px;
   }
   .about .text i {
-    font-size: 32px;
+    font-size: 18px;
     margin-left: 15px;
   }
   .about .text h2 {
+    margin-bottom: 20px;
     font-size: 38px;
     line-height: 36px;
   }
@@ -1655,15 +1673,15 @@ button .navbar-toggler-icon {
   .about .text {
     text-align: center;
     padding: 0;
-    padding: 0 15px;
   }
   .about .text i {
-    font-size: 34px;
+    font-size: 18px;
     margin-left: 15px;
   }
   .about .text h2 {
     font-size: 38px;
     line-height: 36px;
+    margin-bottom: 20px;
   }
   .about .text p {
     text-align: center;
@@ -1707,7 +1725,7 @@ button .navbar-toggler-icon {
     padding: 0 15px;
   }
   .about .text i {
-    font-size: 24px;
+    font-size: 18px;
     margin-left: 5px;
   }
   .about .text h2 {
@@ -1751,15 +1769,15 @@ button .navbar-toggler-icon {
   }
   .about .text {
     padding: 0;
-    padding: 0 15px;
   }
   .about .text i {
-    font-size: 30px;
+    font-size: 18px;
     margin-right: 15px;
   }
   .about .text h2 {
     font-size: 38px;
     line-height: 36px;
+    margin-bottom: 20px;
   }
   .about .text p {
     font-size: 14px;
@@ -1981,6 +1999,7 @@ button .navbar-toggler-icon {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
+    margin-top: 30px;
   }
   .mobiles .all-card .slick-slide {
     padding: 0;
@@ -1997,8 +2016,8 @@ button .navbar-toggler-icon {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     width: 215px;
   }
   .mobiles .all-card .slick-slide .card-item .top .product-image {
@@ -2021,13 +2040,13 @@ button .navbar-toggler-icon {
   }
   .mobiles .prevbtn {
     position: absolute;
-    top: -100px;
+    top: -75px;
     left: 3%;
     padding: 10px;
   }
   .mobiles .nextbtn {
     position: absolute;
-    top: -100px;
+    top: -75px;
     right: 3%;
     padding: 10px;
   }
@@ -2535,6 +2554,14 @@ button .navbar-toggler-icon {
   }
 }
 
+.addbanner-short {
+  margin-top: 50px;
+}
+
+.addbanner-short .title .off-badge {
+  display: none;
+}
+
 .addbanner-short .all-banner {
   margin-top: 50px;
 }
@@ -2542,7 +2569,6 @@ button .navbar-toggler-icon {
 .addbanner-short .all-banner .long-banner {
   width: 100%;
   height: 625px;
-  background: red;
 }
 
 .addbanner-short .all-banner .long-banner img {
@@ -2553,7 +2579,6 @@ button .navbar-toggler-icon {
 .addbanner-short .all-banner .short-banner {
   width: 100%;
   height: 300px;
-  background: black;
 }
 
 .addbanner-short .all-banner .short-banner img {
@@ -2566,13 +2591,102 @@ button .navbar-toggler-icon {
   margin-top: 25px;
   width: 100%;
   height: 300px;
-  background: #621111;
 }
 
 .addbanner-short .all-banner .short-banner-log-width img {
   width: 100%;
   height: 100%;
   image-orientation: flip;
+}
+
+@media (min-width: 320px) and (max-width: 474.98px) {
+  .addbanner-short {
+    margin-top: 0;
+  }
+  .addbanner-short .all-banner {
+    padding: 0 10px;
+  }
+  .addbanner-short .all-banner .long-banner {
+    height: 550px;
+  }
+  .addbanner-short .all-banner .short-banner {
+    height: 230px;
+    margin-top: 15px;
+  }
+  .addbanner-short .all-banner .short-banner-log-width {
+    margin-top: 15px;
+    height: 160px;
+  }
+}
+
+@media (min-width: 475px) and (max-width: 575.98px) {
+  .addbanner-short .all-banner {
+    padding: 0px 50px;
+    margin-top: 30px;
+  }
+  .addbanner-short .all-banner .long-banner {
+    height: 550px;
+  }
+  .addbanner-short .all-banner .short-banner {
+    height: 230px;
+    margin-top: 15px;
+  }
+  .addbanner-short .all-banner .short-banner-log-width {
+    margin-top: 15px;
+    height: 170px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .addbanner-short .all-banner {
+    padding: 0px 70px;
+    margin-top: 30px;
+  }
+  .addbanner-short .all-banner .long-banner {
+    height: 550px;
+  }
+  .addbanner-short .all-banner .short-banner {
+    height: 230px;
+    margin-top: 15px;
+  }
+  .addbanner-short .all-banner .short-banner-log-width {
+    margin-top: 15px;
+    height: 180px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .addbanner-short .all-banner {
+    padding: 0px 80px;
+    margin-top: 30px;
+  }
+  .addbanner-short .all-banner .long-banner {
+    height: 650px;
+  }
+  .addbanner-short .all-banner .short-banner {
+    height: 230px;
+    margin-top: 20px;
+  }
+  .addbanner-short .all-banner .short-banner-log-width {
+    margin-top: 20px;
+    height: 230px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .addbanner-short .all-banner {
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+  .addbanner-short .all-banner .long-banner {
+    height: 455px;
+  }
+  .addbanner-short .all-banner .short-banner {
+    height: 200px;
+  }
+  .addbanner-short .all-banner .short-banner-log-width {
+    height: 230px;
+  }
 }
 
 .laptops {
@@ -2586,11 +2700,12 @@ button .navbar-toggler-icon {
 
 .laptops .decoration-tree-left {
   position: absolute;
-  bottom: 0;
+  bottom: -110px;
   left: 40px;
   opacity: 0.06;
   z-index: -1;
-  width: 100%;
+  width: 90%;
+  height: 1700px;
 }
 
 .laptops .decoration-icons-left-top {
@@ -2785,8 +2900,8 @@ button .navbar-toggler-icon {
 }
 
 .laptops .laptop-slider .all-items .first-row .laptop-card-width .laptop-card:hover .laptop-img {
-  -webkit-transform: rotateY(180deg) scale(1.1);
-          transform: rotateY(180deg) scale(1.1);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .laptops .laptop-slider .all-items .secound-row {
@@ -2817,6 +2932,9 @@ button .navbar-toggler-icon {
   .laptops {
     padding: 30px 0;
   }
+  .laptops .title {
+    margin-bottom: 0;
+  }
   .laptops .decoration-tree-left {
     display: none;
   }
@@ -2831,12 +2949,6 @@ button .navbar-toggler-icon {
   }
   .laptops .decoration-tree-left {
     display: none;
-  }
-  .laptops .title {
-    margin-bottom: 0px;
-  }
-  .laptops .title h2 {
-    font-size: 22px;
   }
   .laptops .laptop-slider .slick-slide {
     padding: 0;
@@ -2860,7 +2972,7 @@ button .navbar-toggler-icon {
     position: relative;
     -webkit-box-shadow: none;
             box-shadow: none;
-    margin-top: 167px;
+    margin-top: 130px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
@@ -2932,7 +3044,7 @@ button .navbar-toggler-icon {
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width .laptop-card .right {
     width: 200px;
-    height: 215px;
+    height: 180px;
     border: 2px solid #C82222;
     border-radius: 10px;
     background: #FFFFFF;
@@ -2988,12 +3100,6 @@ button .navbar-toggler-icon {
   }
   .laptops .decoration-tree-left {
     display: none;
-  }
-  .laptops .title {
-    margin-bottom: 0px;
-  }
-  .laptops .title h2 {
-    font-size: 22px;
   }
   .laptops .laptop-slider .slick-slide {
     padding: 0;
@@ -3089,7 +3195,7 @@ button .navbar-toggler-icon {
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width .laptop-card .right {
     width: 200px;
-    height: 215px;
+    height: 180px;
     border: 2px solid #C82222;
     border-radius: 10px;
     background: #FFFFFF;
@@ -3142,12 +3248,6 @@ button .navbar-toggler-icon {
   }
   .laptops .decoration-tree-left {
     display: none;
-  }
-  .laptops .title {
-    margin-bottom: 0px;
-  }
-  .laptops .title h2 {
-    font-size: 22px;
   }
   .laptops .laptop-slider .slick-slide {
     padding: 0;
@@ -3243,7 +3343,7 @@ button .navbar-toggler-icon {
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width .laptop-card .right {
     width: 200px;
-    height: 215px;
+    height: 190px;
     border: 2px solid #C82222;
     border-radius: 10px;
     background: #FFFFFF;
@@ -3647,10 +3747,9 @@ button .navbar-toggler-icon {
 
 .guide .guide-bg {
   width: 100%;
-  min-height: calc(100vh - 50vh);
+  min-height: 65vh;
   background: url(../images/guide/bg1.jpg) center no-repeat;
   background-size: cover;
-  margin-top: 50px;
   background-attachment: fixed;
   position: relative;
 }
@@ -3667,7 +3766,6 @@ button .navbar-toggler-icon {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 100px  0;
   z-index: 1;
 }
 
@@ -3693,7 +3791,14 @@ button .navbar-toggler-icon {
   position: absolute;
   top: 0;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
+  padding: 75px 20px;
   background: #be1b1b;
   background: -webkit-gradient(linear, left top, right top, color-stop(32%, rgba(190, 27, 27, 0.773547)), to(rgba(255, 0, 0, 0)));
   background: linear-gradient(90deg, rgba(190, 27, 27, 0.773547) 32%, rgba(255, 0, 0, 0) 100%);
@@ -3701,6 +3806,114 @@ button .navbar-toggler-icon {
 
 .guide .guide-bg .overlay .guide-button {
   margin-top: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 379.98px) {
+  .guide .guide-bg {
+    min-height: 64vh;
+  }
+  .guide .guide-bg .overlay {
+    padding: 25px 20px;
+  }
+  .guide .guide-bg .overlay .guide-div h3 {
+    font-size: 33px;
+    line-height: 46px;
+  }
+  .guide .guide-bg .overlay .guide-div p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 474.98px) {
+  .guide .guide-bg {
+    min-height: 52vh;
+  }
+  .guide .guide-bg .overlay {
+    padding: 25px 20px;
+  }
+  .guide .guide-bg .overlay .guide-div h3 {
+    font-size: 33px;
+    line-height: 46px;
+  }
+  .guide .guide-bg .overlay .guide-div p {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (min-width: 475px) and (max-width: 575.98px) {
+  .guide .guide-bg {
+    min-height: 52vh;
+  }
+  .guide .guide-bg .overlay {
+    padding: 35px 20px;
+  }
+  .guide .guide-bg .overlay .guide-div h3 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .guide .guide-bg .overlay .guide-div p {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1.1px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .guide .guide-bg {
+    min-height: 55vh;
+  }
+  .guide .guide-bg .overlay {
+    padding: 35px 20px;
+  }
+  .guide .guide-bg .overlay .guide-div h3 {
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .guide .guide-bg .overlay .guide-div p {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1.1px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .guide .guide-bg {
+    min-height: 60vh;
+  }
+  .guide .guide-bg .overlay {
+    padding: 35px 20px;
+  }
+  .guide .guide-bg .overlay .guide-div h3 {
+    font-size: 46px;
+    line-height: 46px;
+  }
+  .guide .guide-bg .overlay .guide-div p {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1.1px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .guide .guide-bg {
+    min-height: 60vh;
+  }
+  .guide .guide-bg .overlay {
+    padding: 35px 20px;
+  }
+  .guide .guide-bg .overlay .guide-div h3 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  .guide .guide-bg .overlay .guide-div p {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1.1px;
+  }
 }
 
 .tv {
@@ -3720,16 +3933,16 @@ button .navbar-toggler-icon {
 
 .tv .decoration-img-right {
   position: absolute;
-  width: 245px;
-  bottom: 58px;
-  right: 266px;
+  width: 235px;
+  bottom: 25px;
+  right: 155px;
 }
 
 .tv .decoration-img-left {
   position: absolute;
-  width: 200px;
+  width: 190px;
   bottom: 58px;
-  left: 266px;
+  left: 155px;
 }
 
 .tv .tv-top-slider .tv-slider-items {
@@ -4307,7 +4520,7 @@ button .navbar-toggler-icon {
   font-size: 24px;
   line-height: 32px;
   font-weight: 600;
-  color: #0c0b0b;
+  color: #332f2f;
   margin-bottom: 5px;
 }
 
@@ -4316,7 +4529,7 @@ button .navbar-toggler-icon {
   font-size: 16px;
   line-height: 21px;
   font-weight: 400;
-  color: #0c0b0b;
+  color: #332f2f;
   margin-bottom: 10px;
 }
 
@@ -4361,7 +4574,7 @@ button .navbar-toggler-icon {
 
 @media (min-width: 320px) and (max-width: 575.98px) {
   .testimonial {
-    padding-top: 80px;
+    padding: 50px 0;
   }
   .testimonial .decoration-left-2 {
     display: none;
@@ -4369,18 +4582,7 @@ button .navbar-toggler-icon {
   .testimonial .decoration-right-2 {
     display: none;
   }
-  .testimonial .title {
-    width: 100%;
-    margin-bottom: 0px;
-  }
-  .testimonial .title h2 {
-    font-size: 22px;
-  }
-  .testimonial .title .title-pra {
-    width: 100%;
-  }
   .testimonial .all .testimonial-slider {
-    margin-top: 30px;
     width: 100%;
     font-size: 50px;
     padding: 15px;
@@ -4702,7 +4904,7 @@ button .navbar-toggler-icon {
   font-size: 38px;
   line-height: 50px;
   font-weight: 600;
-  color: #0c0b0b;
+  color: #332f2f;
 }
 
 .title .title-pra {
@@ -4740,11 +4942,11 @@ button .navbar-toggler-icon {
     padding-left: 30px;
   }
   .title h2 {
-    font-family: "Poppins", sans-serif;
-    font-size: 22px;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 30px;
     line-height: 42px;
     font-weight: 600;
-    color: #0c0b0b;
+    color: #332f2f;
   }
   .title .title-pra {
     font-family: "Roboto", sans-serif;
@@ -4782,11 +4984,11 @@ button .navbar-toggler-icon {
     padding-left: 30px;
   }
   .title h2 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Berkshire Swash", cursive;
     font-size: 28px;
     line-height: 42px;
     font-weight: 600;
-    color: #0c0b0b;
+    color: #332f2f;
   }
   .title .title-pra {
     font-family: "Roboto", sans-serif;
@@ -5426,6 +5628,11 @@ button .navbar-toggler-icon {
   padding: 0;
 }
 
+.contact #map {
+  height: 400px;
+  width: 100%;
+}
+
 .contact .number-email {
   padding: 50px 100px;
   width: 100%;
@@ -5445,19 +5652,19 @@ button .navbar-toggler-icon {
 }
 
 .contact .number-email h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Berkshire Swash", cursive;
   font-size: 38px;
   line-height: 38px;
   font-weight: 600;
-  color: #0c0b0b;
+  color: #DD3F3F;
   text-align: center;
 }
 
 .contact .number-email p {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  line-height: 14px;
-  font-weight: 500;
+  line-height: 21px;
+  font-weight: 400;
   color: #666666;
   margin-bottom: 25px;
   margin-top: 10px;
@@ -5524,7 +5731,7 @@ button .navbar-toggler-icon {
   font-size: 14px;
   line-height: 14px;
   font-weight: 400;
-  color: #0c0b0b;
+  color: #332f2f;
 }
 
 .contact .message {
@@ -5538,7 +5745,7 @@ button .navbar-toggler-icon {
 
 .contact .message h3 {
   font-family: "Roboto", sans-serif;
-  font-size: 26px;
+  font-size: 30px;
   line-height: 32px;
   font-weight: 500;
   color: #FFFFFF;
@@ -5607,6 +5814,10 @@ button .navbar-toggler-icon {
   .contact .number-email {
     border: none;
     padding: 50px;
+    height: 400px;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .contact .number-email h2 {
     font-size: 32px;
@@ -5895,7 +6106,7 @@ button .navbar-toggler-icon {
   font-size: 18px;
   line-height: 25px;
   font-weight: 500;
-  color: #0c0b0b;
+  color: #332f2f;
 }
 
 .blog .container .card .card-info .card-creator {
@@ -5917,7 +6128,7 @@ button .navbar-toggler-icon {
   font-size: 14px;
   line-height: 14px;
   font-weight: 400;
-  color: #0c0b0b;
+  color: #332f2f;
 }
 
 .blog .container .card:hover {
@@ -5991,9 +6202,12 @@ button .navbar-toggler-icon {
   .blog {
     padding: 40px 0;
   }
+  .blog .container .card-container {
+    margin-top: 40px;
+  }
   .blog .container .prevbtn {
     position: absolute;
-    top: -104px;
+    top: -85px;
     left: 6%;
     width: 34px;
     padding: 0px;
@@ -6002,7 +6216,7 @@ button .navbar-toggler-icon {
   }
   .blog .container .nextbtn {
     position: absolute;
-    top: -104px;
+    top: -85px;
     right: 6%;
     width: 34px;
     padding: 0px;
@@ -6184,24 +6398,36 @@ footer .footer-content .all-items ul li a {
   color: #FFFFFF;
 }
 
-footer .footer-content .all-items .icons {
-  margin-top: 30px;
-}
-
 footer .footer-content .all-items .icons i {
-  font-size: 24px;
-  margin-right: 10px;
+  margin-top: 30px;
+  font-size: 16px;
+  margin-right: 15px;
+  margin-top: 30px;
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  border-radius: 50%;
+  background: #DD3F3F;
   color: #FFFFFF;
-  -webkit-box-shadow: 0px 17px 39px 0px #00000040;
-          box-shadow: 0px 17px 39px 0px #00000040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: -4px 5px 6px rgba(128, 128, 128, 0.294);
+          box-shadow: -4px 5px 6px rgba(128, 128, 128, 0.294);
+  cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  cursor: pointer;
 }
 
 footer .footer-content .all-items .icons i:hover {
-  -webkit-transform: translateY(-6px);
-          transform: translateY(-6px);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 footer .copywrite {

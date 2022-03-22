@@ -1,10 +1,9 @@
 .guide{
     .guide-bg{
         width: 100%;
-        min-height: calc(100vh - 50vh);
+        min-height:65vh;
         background: url(../images/guide/bg1.jpg) center no-repeat;
         background-size: cover;
-        margin-top: 50px;
         background-attachment: fixed;
         position: relative;
         
@@ -13,7 +12,6 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding:100px  0;
             z-index: 1;
            
            h3{
@@ -29,9 +27,12 @@
             position: absolute;
             top: 0;
             width: 100%;
+            display: flex;
+            align-items: center;
             height: 100%;
+            padding: 75px 20px;
             background: rgb(190,27,27);
-background: linear-gradient(90deg, rgba(190,27,27,0.773546918767507) 32%, rgba(255,0,0,0) 100%);
+            background: linear-gradient(90deg, rgba(190,27,27,0.773546918767507) 32%, rgba(255,0,0,0) 100%);
             .guide-button{
                 margin-top: 15px;
             }
@@ -39,3 +40,152 @@ background: linear-gradient(90deg, rgba(190,27,27,0.773546918767507) 32%, rgba(2
     }
  
 }
+
+
+
+@media (min-width: 320px) and (max-width: 379.98px){
+
+    .guide{
+        .guide-bg {
+            min-height: 64vh;
+            .overlay{
+                padding: 25px 20px;
+                .guide-div {
+                        h3 {
+                            font-size: 33px;
+                            line-height: 46px;
+                          }
+                          p {
+                            font-size: 14px;
+                            line-height: 20px;
+                            letter-spacing: 1px;
+                          }
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 380px) and (max-width: 474.98px){
+
+    .guide{
+        .guide-bg {
+            min-height: 52vh;
+            .overlay{
+                padding: 25px 20px;
+                .guide-div {
+                        h3 {
+                            font-size: 33px;
+                            line-height: 46px;
+                          }
+                          p {
+                            font-size: 14px;
+                            line-height: 21px;
+                            letter-spacing: 1px;
+                          }
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 475px) and (max-width: 575.98px){
+    .guide{
+        .guide-bg {
+            min-height: 52vh;
+            .overlay{
+                padding: 35px 20px;
+                .guide-div {
+                        h3 {
+                            font-size: 38px;
+                            line-height: 46px;
+                          }
+                          p {
+                            font-size: 14px;
+                            line-height: 26px;
+                            letter-spacing: 1.1px;
+                          }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+    .guide{
+        .guide-bg {
+            min-height: 55vh;
+            .overlay{
+                padding: 35px 20px;
+                .guide-div {
+                        h3 {
+                            font-size: 42px;
+                            line-height: 46px;
+                          }
+                          p {
+                            font-size: 14px;
+                            line-height: 26px;
+                            letter-spacing: 1.1px;
+                          }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    .guide{
+        .guide-bg {
+            min-height: 60vh;
+            .overlay{
+                padding: 35px 20px;
+                .guide-div {
+                        h3 {
+                            font-size: 46px;
+                            line-height: 46px;
+                          }
+                          p {
+                            font-size: 14px;
+                            line-height: 26px;
+                            letter-spacing: 1.1px;
+                          }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .guide{
+        .guide-bg {
+            min-height: 60vh;
+            .overlay{
+                padding: 35px 20px;
+                .guide-div {
+                        h3 {
+                            font-size: 46px;
+                            line-height: 60px;
+                          }
+                          p {
+                            font-size: 14px;
+                            line-height: 26px;
+                            letter-spacing: 1.1px;
+                          }
+                }
+            }
+        }
+    }
+
+}
+
+// @media (min-width: 1200px) and (max-width: 1399.98px){
+
+    
+
+// }

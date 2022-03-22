@@ -6,14 +6,18 @@
         padding: 0
     }
    
-    
+    #map {
+        height: 400px;
+        width: 100%;
+      }
+      
     .number-email{
         h2{
-            @include fonts($font1,38px,38px, 600, $color4);
+            @include fonts($font3,38px,38px, 600, $color2);
             text-align: center;
         }
         p{
-            @include fonts($font1,14px,14px, 500, $color8);
+            @include fonts($font1,14px,21px, 400, $color8);
             margin-bottom: 25px;
             margin-top: 10px;
             text-align: center;
@@ -83,7 +87,7 @@
         position: relative;
         text-align: center;
         h3{
-            @include fonts($font1,26px,32px, 500, $color1);
+            @include fonts($font1,30px,32px, 500, $color1);
         }
         &::after{
             background: $color5;
@@ -142,6 +146,10 @@
        .number-email{
            border: none;
            padding: 50px;
+           height: 400px;
+           padding-top: 0;
+           padding-left: 15px;
+           padding-right: 15px;
 
            h2{
                font-size: 32px;

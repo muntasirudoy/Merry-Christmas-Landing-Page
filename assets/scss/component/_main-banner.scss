@@ -63,7 +63,7 @@
                 top: 50%;
                 left: 10px;
                 background: $color1;
-                width: 120px;
+                width: 140px;
                 height: 2px;
              }
 
@@ -73,7 +73,7 @@
                 top: 50%;
                 right: 10px;
                 background: $color1;
-                width: 120px;
+                width: 140px;
                 height: 2px;
              }
         }
@@ -90,13 +90,14 @@
             h1{
 
                 font-family: $font3;
-                font-size: 68px;
+                font-size: 80px;
                 font-weight: 700;
                 margin: 0;
                 padding: 0;
                 color: rgb(255, 255, 255);
                 text-shadow: -4px 5px 6px rgba(128, 128, 128, 0.294);
-                text-align: center
+                text-align: center;
+                letter-spacing: 1.4px;
             }
             h4{
                 position: absolute;
@@ -107,7 +108,7 @@
 
         }
         .banner-timer{
-            margin-top: 60px;
+            margin-top: 80px;
             padding: 0 90px;
             display: flex;
             justify-content: space-between;
@@ -116,17 +117,17 @@
                 width: 120px;
                 text-align: center;
                 h2{
-                    @include fonts($font2,90px,1,600, $color3);
-                    text-shadow: -4px 5px 6px rgba(80, 80, 80, 0.466);
+                    @include fonts($font1,70px,82px,600, $color3);
+                    text-shadow: -4px 5px 6px rgba(0, 0, 0, 0.13);
                 }
                 p{
-                    @include fonts($font1,18px,1,500, $color1);
+                    @include fonts($font1,18px,28px,500, $color1);
                 }
             }
             .dot{
-                font-size: 58px;
+                font-size: 50px;
                 color: $color3;
-                font-weight: 600;
+                font-weight: 700;
                 text-align: center;
             }
         }    
@@ -179,7 +180,7 @@
             width: 300px;
             height: 67px;
             h1{
-                font-size: 32px;
+                font-size: 40px;
             }
             h4{
                 bottom: -19px;
@@ -190,11 +191,12 @@
                width: 450px;
                margin-top: 40px;
                .dot{
-                   font-size: 26px;
+                   font-size: 25px;
                }
                .timer{
                 h2{
-                    font-size: 46px;
+                    font-size: 40px;
+                    line-height: 40px;
                 }
                 p{
                     font-size: 12px;
@@ -264,11 +266,12 @@
             width: 510px;
             margin-top: 50px;
             .dot{
-                font-size: 35px;
+                font-size: 30px;
             }
             .timer{
                 h2{
-                    font-size: 55px;
+                    font-size: 45px;
+                    line-height: 45px;
                 }
                 p{
                     font-size: 14px;
@@ -325,7 +328,7 @@
             width: 380px;
             height: 85px;
             h1{
-                font-size: 42px;
+                font-size: 50px;
             }
             h4{
                 bottom: -27px;
@@ -334,13 +337,14 @@
            }
            .banner-timer{
                width: 490px;
-               margin-top: 40px;
+               margin-top: 50px;
                .dot{
-                   font-size: 28px;
+                   font-size: 31px;
                }
                .timer{
                 h2{
-                    font-size: 50px;
+                    font-size: 52px;
+                    line-height: 50px;
                 }
                 p{
                     font-size: 12px;
@@ -410,11 +414,12 @@
                width: 572px;
                margin-top: 60px;
                .dot{
-                   font-size: 26px;
+                   font-size: 36px;
                }
                .timer{
                 h2{
-                    font-size: 58px;
+                    font-size: 56px;
+                    line-height: 56px;
                 }
                 p{
                     font-size: 14px;
@@ -599,7 +604,7 @@
             width: 570px;
             height: 127px;
             h1{
-                font-size: 68px;
+                font-size: 70px;
             }
             h4{
                 bottom: -46px;
@@ -608,9 +613,9 @@
            }
            .banner-timer{
                width: 610px;
-               margin-top: 60px;
+               margin-top: 70px;
                .dot{
-                   font-size: 26px;
+                   font-size: 48px;
                }
                .timer{
                 h2{

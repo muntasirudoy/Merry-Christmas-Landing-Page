@@ -238,9 +238,12 @@
   .blog{
     padding: 40px 0;
     .container{
+      .card-container{
+        margin-top: 40px;
+      }
       .prevbtn {
         position: absolute;
-        top: -104px;
+        top: -85px;
         left: 6%;
         width: 34px;
         padding: 0px;
@@ -250,7 +253,7 @@
 
     .nextbtn {
         position: absolute;
-        top: -104px;
+        top: -85px;
         right:6%;
         width: 34px;
         padding: 0px;
@@ -262,10 +265,6 @@
   
       }
   }
-
-
-
-
 
 @media (min-width: 440px) and (max-width:575.98px) {
 

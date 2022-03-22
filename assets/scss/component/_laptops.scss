@@ -10,11 +10,12 @@
     //   decoration icon css
     .decoration-tree-left {
         position: absolute;
-        bottom: 0;
+        bottom: -110px;
         left: 40px;
         opacity: 0.06;
         z-index: -1;
-        width: 100%;
+        width: 90%;
+        height: 1700px;
     }
 
     .decoration-icons-left-top {
@@ -173,7 +174,7 @@
 
                         }
                         &:hover .laptop-img {
-                            transform: rotateY(180deg) scale(1.1);
+                            transform: rotateY(180deg);
                           }
                     }
                 }
@@ -211,6 +212,9 @@
 @media (min-width: 320px) and (max-width: 379.98px) {
     .laptops {
         padding: 30px 0;
+        .title{
+            margin-bottom: 0;
+        }
 
         //   decoration icon css
         .decoration-tree-left {
@@ -231,16 +235,6 @@
 
         .decoration-tree-left {
             display: none;
-        }
-
-        // decoration css end
-
-        .title {
-            margin-bottom: 0px;
-
-            h2 {
-                font-size: 22px;
-            }
         }
 
         .laptop-slider {
@@ -264,7 +258,7 @@
                                 border-radius: 20px;
                                 position: relative;
                                 box-shadow: none;
-                                margin-top: 167px;
+                                margin-top: 130px;
                                 padding-left: 30px;
                                 padding-right: 30px;
                                 text-align: center;
@@ -332,7 +326,7 @@
                                 .right {
 
                                     width: 200px;
-                                    height: 215px;
+                                    height: 180px;
                                     border: 2px solid $color5;
                                     border-radius: 10px;
                                     background: $color1;
@@ -408,14 +402,6 @@
 
         .decoration-tree-left {
             display: none;
-        }
-
-        .title {
-            margin-bottom: 0px;
-
-            h2 {
-                font-size: 22px;
-            }
         }
 
         .laptop-slider {
@@ -507,7 +493,7 @@
                                 .right {
 
                                     width: 200px;
-                                    height: 215px;
+                                    height: 180px;
                                     border: 2px solid $color5;
                                     border-radius: 10px;
                                     background: $color1;
@@ -575,15 +561,6 @@
 
         .decoration-tree-left {
             display: none;
-        }
-
-        // decoration css end
-        .title {
-            margin-bottom: 0px;
-
-            h2 {
-                font-size: 22px;
-            }
         }
 
         .laptop-slider {
@@ -675,7 +652,7 @@
                                 .right {
 
                                     width: 200px;
-                                    height: 215px;
+                                    height: 190px;
                                     border: 2px solid $color5;
                                     border-radius: 10px;
                                     background: $color1;

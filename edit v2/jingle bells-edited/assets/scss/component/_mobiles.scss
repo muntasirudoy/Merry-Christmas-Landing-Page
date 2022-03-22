@@ -154,6 +154,7 @@
         .all-card {
             display: flex;
             justify-content: center !important;
+            margin-top: 30px;
             .slick-slide {
                 padding: 0;
             .card-item {
@@ -163,8 +164,8 @@
                     width: auto;
                     display: flex;
                     justify-content: center;
-                    padding-top: 50px;
-                    padding-bottom: 50px;
+                    padding-top: 35px;
+                    padding-bottom: 35px;
                     width: 215px;
                     .product-image {
                         width: 130px;
@@ -188,14 +189,14 @@
     
         .prevbtn {
             position: absolute;
-            top: -100px;
+            top: -75px;
             left: 3%;
             padding: 10px;
         }
     
         .nextbtn {
             position: absolute;
-            top: -100px;
+            top: -75px;
             right: 3%;
             padding: 10px;
         }
