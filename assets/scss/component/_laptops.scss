@@ -126,7 +126,7 @@
                         }
 
                         .right {
-                            width: 200px;
+                            width: 190px;
                             height: 180px;
                             border: 2px solid $color5;
                             border-radius: 10px;
@@ -138,13 +138,12 @@
                             top: 50%;
                             right: 0;
                             transform: translate(50%, -50%);
-                            box-shadow: -14px 3px 56px 0px #0000002b;
                            transition: all .3s ease-in-out;
                            padding: 20px 15px;
 
                             .laptop-img {
-                                width: 100%;
-                                height: 100%;
+                                width: 90%;
+                                height: 90%;
                                 position: relative;
                                 text-align: center;
                                 transition: transform 0.8s;
@@ -316,7 +315,7 @@
                                             }
 
                                             span {
-                                                @include fonts($font1, 28px, 38px, 600, $color1);
+                                                @include fonts($font1, 26px, 32px, 600, $color1);
                                                 display: inline-block;
                                             }
                                         }
@@ -376,6 +375,9 @@
 @media (min-width: 380px) and (max-width: 475.98px) {
     .laptops {
         padding: 30px 0;
+        .title{
+            margin-bottom: 0;
+        }
 
         //   decoration icon css
         .decoration-tree-left {
@@ -398,12 +400,6 @@
             display: none;
         }
 
-        // decoration css end
-
-        .decoration-tree-left {
-            display: none;
-        }
-
         .laptop-slider {
             .slick-slide {
                 padding: 0;
@@ -414,7 +410,6 @@
                     .first-row {
                         flex-direction: column;
                         margin-top: 0;
-                        padding: 0 20px;
 
                         .laptop-card-width {
 
@@ -426,7 +421,7 @@
                                 border-radius: 20px;
                                 position: relative;
                                 box-shadow: none;
-                                margin-top: 167px;
+                                margin-top: 140px;
                                 padding-left: 30px;
                                 padding-right: 30px;
                                 text-align: center;
@@ -462,6 +457,7 @@
                                         justify-content: center;
 
                                         .laptop-btn {
+                                            margin-right: 15px!important;
                                             .buy-btn-3 {
                                                 padding: 13px 16px;
                                                 border-radius: 5px;
@@ -483,7 +479,7 @@
                                             }
 
                                             span {
-                                                @include fonts($font1, 28px, 38px, 600, $color1);
+                                                @include fonts($font1, 26px, 32px, 600, $color1);
                                                 display: inline-block;
                                             }
                                         }
@@ -504,8 +500,10 @@
                                     top: 0;
                                     right: 50%;
                                     transform: translate(50%, -50%);
+                                    
 
                                     .laptop-img {
+
                                         img {
                                             width: 100%;
                                             height: 100%;
@@ -522,13 +520,13 @@
         }
 
         .prevbtn {
-            left: 3%;
+            left: 6%;
             padding: 10px;
             top: -42px;
         }
 
         .nextbtn {
-            right: 3%;
+            right: 6%;
             padding: 10px;
             top: -42px;
         }
@@ -536,11 +534,15 @@
     }
 
 
+
 }
 
 @media (min-width: 476px) and (max-width: 575.98px) {
     .laptops {
         padding: 30px 0;
+        .title{
+            margin-bottom: 0;
+        }
 
         //   decoration icon css
         .decoration-tree-left {
@@ -569,11 +571,11 @@
 
                 .all-items {
                     width: 100%;
+                    padding: 0 50px;
 
                     .first-row {
                         flex-direction: column;
                         margin-top: 0;
-                        padding: 0 45px;
 
                         .laptop-card-width {
 
@@ -585,7 +587,7 @@
                                 border-radius: 20px;
                                 position: relative;
                                 box-shadow: none;
-                                margin-top: 167px;
+                                margin-top: 140px;
                                 padding-left: 30px;
                                 padding-right: 30px;
                                 text-align: center;
@@ -621,6 +623,7 @@
                                         justify-content: center;
 
                                         .laptop-btn {
+                                            margin-right: 15px!important;
                                             .buy-btn-3 {
                                                 padding: 13px 16px;
                                                 border-radius: 5px;
@@ -642,7 +645,7 @@
                                             }
 
                                             span {
-                                                @include fonts($font1, 28px, 38px, 600, $color1);
+                                                @include fonts($font1, 26px, 32px, 600, $color1);
                                                 display: inline-block;
                                             }
                                         }
@@ -652,7 +655,7 @@
                                 .right {
 
                                     width: 200px;
-                                    height: 190px;
+                                    height: 180px;
                                     border: 2px solid $color5;
                                     border-radius: 10px;
                                     background: $color1;
@@ -663,8 +666,10 @@
                                     top: 0;
                                     right: 50%;
                                     transform: translate(50%, -50%);
+                                    
 
                                     .laptop-img {
+
                                         img {
                                             width: 100%;
                                             height: 100%;
@@ -681,13 +686,13 @@
         }
 
         .prevbtn {
-            left: 3%;
+            left: 10%;
             padding: 10px;
             top: -42px;
         }
 
         .nextbtn {
-            right: 3%;
+            right: 10%;
             padding: 10px;
             top: -42px;
         }
@@ -700,6 +705,9 @@
 @media (min-width: 576px) and (max-width: 768.98px) {
     .laptops {
 
+        .title{
+            margin-bottom:0 ;
+        }
         //   decoration icon css
         .decoration-tree-left {
             display: none;
@@ -719,15 +727,6 @@
 
         .decoration-tree-left {
             display: none;
-        }
-
-        // decoration css end
-        .title {
-            margin-bottom: 0px;
-
-            h2 {
-                font-size: 32px;
-            }
         }
 
         .laptop-slider {
@@ -751,7 +750,7 @@
                                 border-radius: 20px;
                                 position: relative;
                                 box-shadow: none;
-                                margin-top: 167px;
+                                margin-top: 150px;
                                 padding-left: 30px;
                                 padding-right: 30px;
                                 text-align: center;
@@ -804,15 +803,15 @@
         }
 
         .prevbtn {
-            left: 3%;
+            left: 12%;
             padding: 10px;
-            top: -45px;
+            top: -40px;
         }
 
         .nextbtn {
-            right: 3%;
+            right: 12%;
             padding: 10px;
-            top: -45px;
+            top: -40px;
         }
     }
 }
@@ -820,6 +819,9 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
     .laptops {
 
+        .title{
+            margin-bottom:0 ;
+        }
         //   decoration icon css
         .decoration-tree-left {
             display: none;
@@ -841,16 +843,6 @@
             display: none;
         }
 
-        // decoration css end
-        .title {
-            margin-bottom: 0px;
-
-            h2 {
-                font-size: 32px;
-                font-weight: 600;
-            }
-        }
-
         .laptop-slider {
             .slick-slide {
                 padding: 0;
@@ -859,24 +851,20 @@
                     width: 100%;
 
                     .first-row {
+                        flex-direction: column;
                         margin-top: 0;
-                        flex-direction: row;
+                        padding: 0 120px;
 
                         .laptop-card-width {
-                            flex-wrap: wrap;
-                            width: 100%;
-                            display: flex;
-                            flex-direction: row;
-
                             .laptop-card {
-                                width: 96%;
+                                width: 100%;
                                 padding-top: 128px;
                                 padding-left: 20px;
                                 background: $color5;
                                 border-radius: 20px;
                                 position: relative;
                                 box-shadow: none;
-                                margin-top: 167px;
+                                margin-top: 150px;
                                 padding-left: 30px;
                                 padding-right: 30px;
                                 text-align: center;
@@ -931,15 +919,14 @@
         .prevbtn {
             left: 15%;
             padding: 10px;
-            top: -47px;
+            top: -40px;
         }
 
         .nextbtn {
             right: 15%;
             padding: 10px;
-            top: -47px;
+            top: -40px;
         }
-
     }
 
 }
@@ -947,6 +934,9 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .laptops {
 
+        .title{
+            margin-bottom: 0;
+        }
         //   decoration icon css
         .decoration-tree-left {
             display: none;
@@ -968,14 +958,14 @@
         .laptop-slider {
             .all-items {
                 .first-row {
-                    margin-top: 50px;
+                    margin-top: 60px;
                     flex-direction: row;
 
                     .laptop-card-width {
                         width: 450px !important;
 
                         .laptop-card {
-                            width: 365px;
+                            width: 350px;
                             padding: 25px;
                             margin-top: 0;
 
@@ -999,7 +989,9 @@
                                 .bottom {
                                     margin-top: 20px;
                                     height: 60px;
-
+                                    .laptop-price{
+                                        margin-top: 10px;
+                                    }
                                     .laptop-btn {
                                         margin-right: 30px;
                                         margin-top: 10px
@@ -1026,16 +1018,16 @@
         }
 
         .prevbtn {
-            left: 15% !important;
+            left: 20% !important;
             padding: 10px 20px;
-            top: -95px;
+            top: -40px;
         }
 
         .nextbtn {
 
-            right: 15% !important;
+            right: 20% !important;
             padding: 10px 20px;
-            top: -95px;
+            top: -40px;
         }
 
     }
@@ -1075,6 +1067,7 @@
                 .first-row {
                     display: flex;
                     justify-content: space-between;
+                    // margin-top: 20px;
 
                     .laptop-card-width {
                         width: 535px !important;
@@ -1126,10 +1119,14 @@
                             }
 
                             .right {
-                                width: 180px;
-                                height: 200px;
+                                width: 190px;
+                                height: 180px;
                                 top: 50%;
                                 right: 0;
+                                .laptop-img {
+                                    width: 90%;
+                                    height: 90%;
+                                }
                             }
                         }
                     }
@@ -1140,12 +1137,12 @@
 
         .prevbtn {
             top: -95px;
-            left: 15% !important;
+            left: 30% !important;
         }
 
         .nextbtn {
             top: -95px;
-            right: 15% !important;
+            right: 30% !important;
         }
     }
 }

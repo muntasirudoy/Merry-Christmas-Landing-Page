@@ -824,7 +824,7 @@ button .navbar-toggler-icon {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 720px;
+  width: 590px;
 }
 
 .main-banner .banner-text .banner-timer .timer {
@@ -1812,22 +1812,6 @@ button .navbar-toggler-icon {
   padding-bottom: 40px;
 }
 
-.mobiles .decoration-image-left {
-  position: absolute;
-  top: -1px;
-  left: 0px;
-  width: 155px;
-  display: none;
-}
-
-.mobiles .decoration-image-right {
-  position: absolute;
-  top: -1px;
-  right: 0px;
-  width: 155px;
-  display: none;
-}
-
 .mobiles .all-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1839,6 +1823,7 @@ button .navbar-toggler-icon {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 30px;
 }
 
 .mobiles .all-card .slick-slide .card-item {
@@ -1848,6 +1833,7 @@ button .navbar-toggler-icon {
   padding: 20px;
   text-align: center;
   margin-top: 140px;
+  width: 100%;
 }
 
 .mobiles .all-card .slick-slide .card-item .top {
@@ -1960,8 +1946,8 @@ button .navbar-toggler-icon {
 
 .mobiles .prevbtn {
   position: absolute;
-  top: -55px;
-  left: 28%;
+  top: -80px;
+  left: 35%;
   font-size: 24px;
   color: #C82222;
   border: 1px solid #C82222;
@@ -1970,8 +1956,8 @@ button .navbar-toggler-icon {
 
 .mobiles .nextbtn {
   position: absolute;
-  top: -55px;
-  right: 28%;
+  top: -80px;
+  right: 35%;
   font-size: 24px;
   color: #C82222;
   border: 1px solid #C82222;
@@ -1982,16 +1968,6 @@ button .navbar-toggler-icon {
   .mobiles {
     position: relative;
   }
-  .mobiles .decoration-image-left {
-    top: -1px;
-    left: 0px;
-    width: 53px;
-  }
-  .mobiles .decoration-image-right {
-    top: -1px;
-    right: 0px;
-    width: 53px;
-  }
   .mobiles .all-card {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1999,7 +1975,8 @@ button .navbar-toggler-icon {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
-    margin-top: 30px;
+    margin-top: 40px;
+    padding: 0 10px;
   }
   .mobiles .all-card .slick-slide {
     padding: 0;
@@ -2040,14 +2017,14 @@ button .navbar-toggler-icon {
   }
   .mobiles .prevbtn {
     position: absolute;
-    top: -75px;
-    left: 3%;
+    top: -80px;
+    left: 4%;
     padding: 10px;
   }
   .mobiles .nextbtn {
     position: absolute;
-    top: -75px;
-    right: 3%;
+    top: -80px;
+    right: 4%;
     padding: 10px;
   }
 }
@@ -2056,16 +2033,6 @@ button .navbar-toggler-icon {
   .mobiles {
     position: relative;
   }
-  .mobiles .decoration-image-left {
-    top: -1px;
-    left: 0px;
-    width: 53px;
-  }
-  .mobiles .decoration-image-right {
-    top: -1px;
-    right: 0px;
-    width: 53px;
-  }
   .mobiles .all-card {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2073,91 +2040,8 @@ button .navbar-toggler-icon {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
-    padding: 0 20px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .mobiles .all-card .card-item {
-    padding: 20px;
-    margin-top: 85px !important;
-  }
-  .mobiles .all-card .card-item .top {
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background: #FFFFFF;
-    width: 215px;
-  }
-  .mobiles .all-card .card-item .top .product-image {
-    width: 130px;
-    height: 150px;
-  }
-  .mobiles .all-card .card-item h4 {
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 600;
-    color: #C82222;
-  }
-  .mobiles .all-card .card-item .bottom .price p {
-    font-family: "Roboto", sans-serif;
-    font-size: 24px;
-    line-height: 22px;
-    font-weight: 600;
-    color: #C82222;
-  }
-  .mobiles .all-card .card-item .bottom .price p span {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #C82222;
-  }
-  .mobiles .prevbtn {
-    position: absolute;
-    top: -100px;
-    left: 3%;
-    padding: 10px;
-  }
-  .mobiles .nextbtn {
-    position: absolute;
-    top: -100px;
-    right: 3%;
-    padding: 10px;
-  }
-}
-
-@media (min-width: 476px) and (max-width: 575.98px) {
-  .mobiles {
-    position: relative;
-  }
-  .mobiles .decoration-image-left {
-    top: -1px;
-    left: 0px;
-    width: 65px;
-  }
-  .mobiles .decoration-image-right {
-    top: -1px;
-    right: 0px;
-    width: 65px;
-  }
-  .mobiles .title {
-    margin-bottom: 0px;
-  }
-  .mobiles .title h2 {
-    font-size: 24px;
-    font-family: "Roboto", sans-serif;
-  }
-  .mobiles .all-card {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
-    padding: 0 40px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    margin-top: 40px;
+    padding: 0 30px;
   }
   .mobiles .all-card .slick-slide {
     padding: 0;
@@ -2167,27 +2051,20 @@ button .navbar-toggler-icon {
     margin-top: 100px;
   }
   .mobiles .all-card .slick-slide .card-item .top {
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: -108px;
-    background: #FFFFFF;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
     width: 215px;
   }
   .mobiles .all-card .slick-slide .card-item .top .product-image {
     width: 130px;
-    height: 150px;
-  }
-  .mobiles .all-card .slick-slide .card-item .top .product-image img {
-    width: 100%;
-    height: 100%;
-  }
-  .mobiles .all-card .slick-slide .card-item h4 {
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 600;
-    color: #C82222;
+    height: 140px;
   }
   .mobiles .all-card .slick-slide .card-item .bottom .price p {
     font-family: "Roboto", sans-serif;
@@ -2205,14 +2082,79 @@ button .navbar-toggler-icon {
   }
   .mobiles .prevbtn {
     position: absolute;
-    top: -100px;
-    left: 3%;
+    top: -80px;
+    left: 6%;
     padding: 10px;
   }
   .mobiles .nextbtn {
     position: absolute;
-    top: -100px;
-    right: 3%;
+    top: -80px;
+    right: 6%;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 476px) and (max-width: 575.98px) {
+  .mobiles {
+    position: relative;
+  }
+  .mobiles .all-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    margin-top: 40px;
+    padding: 0 45px;
+  }
+  .mobiles .all-card .slick-slide {
+    padding: 0;
+  }
+  .mobiles .all-card .slick-slide .card-item {
+    padding: 20px;
+    margin-top: 100px;
+  }
+  .mobiles .all-card .slick-slide .card-item .top {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 215px;
+  }
+  .mobiles .all-card .slick-slide .card-item .top .product-image {
+    width: 130px;
+    height: 140px;
+  }
+  .mobiles .all-card .slick-slide .card-item .bottom .price p {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #C82222;
+  }
+  .mobiles .all-card .slick-slide .card-item .bottom .price p span {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #C82222;
+  }
+  .mobiles .prevbtn {
+    position: absolute;
+    top: -80px;
+    left: 10%;
+    padding: 10px;
+  }
+  .mobiles .nextbtn {
+    position: absolute;
+    top: -80px;
+    right: 10%;
     padding: 10px;
   }
 }
@@ -2221,14 +2163,6 @@ button .navbar-toggler-icon {
   .mobiles {
     padding-top: 60px;
     position: relative;
-  }
-  .mobiles .decoration-image-left {
-    top: -1px;
-    width: 100px;
-  }
-  .mobiles .decoration-image-right {
-    top: -1px;
-    width: 100px;
   }
   .mobiles .all-card {
     margin-top: 60px;
@@ -2293,91 +2227,58 @@ button .navbar-toggler-icon {
   .mobiles .prevbtn {
     position: absolute;
     top: -100px;
-    left: 3%;
+    left: 12%;
     padding: 10px;
   }
   .mobiles .nextbtn {
     position: absolute;
     top: -100px;
-    right: 3%;
+    right: 12%;
     padding: 10px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .mobiles {
-    padding-top: 60px;
     position: relative;
   }
-  .mobiles .decoration-image-left {
-    top: -1px;
-    width: 100px;
-  }
-  .mobiles .decoration-image-right {
-    top: -1px;
-    width: 100px;
-  }
-  .mobiles .title {
-    margin-bottom: 0;
-  }
-  .mobiles .title h2 {
-    font-size: 30px;
-    font-weight: 600;
-  }
   .mobiles .all-card {
-    margin-top: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
+    margin-top: 60px;
+    padding: 0 45px;
   }
   .mobiles .all-card .slick-slide {
-    padding: 7px;
+    padding: 0 10px;
   }
   .mobiles .all-card .slick-slide .card-item {
-    width: 100%;
-    padding: 20px !important;
+    padding: 20px;
     margin-top: 100px;
   }
   .mobiles .all-card .slick-slide .card-item .top {
-    margin: auto;
     width: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: -120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 215px;
   }
   .mobiles .all-card .slick-slide .card-item .top .product-image {
-    width: 160px;
-    height: 195px;
-  }
-  .mobiles .all-card .slick-slide .card-item h4 {
-    font-family: "Poppins", sans-serif;
-    font-size: 26px;
-    line-height: 32px;
-    font-weight: 600;
-    color: #C82222;
-    margin-top: 30px;
-    margin-bottom: 5px;
-  }
-  .mobiles .all-card .slick-slide .card-item .details {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 400;
-    color: #000000;
-  }
-  .mobiles .all-card .slick-slide .card-item .bottom {
-    margin-top: 20px;
-  }
-  .mobiles .all-card .slick-slide .card-item .bottom .price {
-    margin-right: 20px;
+    width: 130px;
+    height: 140px;
   }
   .mobiles .all-card .slick-slide .card-item .bottom .price p {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
-    line-height: 24px;
+    line-height: 22px;
     font-weight: 600;
     color: #C82222;
   }
@@ -2406,17 +2307,6 @@ button .navbar-toggler-icon {
   .mobiles {
     padding-top: 60px;
     position: relative;
-  }
-  .mobiles .decoration-image-left {
-    top: -1px;
-    width: 120px;
-  }
-  .mobiles .decoration-image-right {
-    top: -1px;
-    width: 120px;
-  }
-  .mobiles .title h2 {
-    font-size: 32px;
   }
   .mobiles .all-card {
     margin-top: 60px;
@@ -2469,12 +2359,14 @@ button .navbar-toggler-icon {
   .mobiles .prevbtn {
     position: absolute;
     top: -106px;
-    left: 15%;
+    left: 20%;
+    padding: 10px 20px;
   }
   .mobiles .nextbtn {
     position: absolute;
     top: -106px;
-    right: 15%;
+    right: 20%;
+    padding: 10px 20px;
   }
 }
 
@@ -2483,19 +2375,12 @@ button .navbar-toggler-icon {
     padding-top: 60px;
     position: relative;
   }
-  .mobiles .decoration-image-left {
-    top: -1px;
-    width: 130px;
-  }
-  .mobiles .decoration-image-right {
-    top: -1px;
-    width: 130px;
-  }
-  .mobiles .title h2 {
-    font-size: 34px;
-  }
   .mobiles .all-card {
-    margin: 0;
+    margin-top: 60px;
+  }
+  .mobiles .all-card .slick-slide .card-item {
+    padding: 20px;
+    margin-top: 100px;
   }
   .mobiles .all-card .slick-slide .card-item h4 {
     font-size: 24px;
@@ -2503,10 +2388,6 @@ button .navbar-toggler-icon {
   .mobiles .all-card .slick-slide .card-item .top .product-image {
     width: 160px;
     height: 200px;
-  }
-  .mobiles .all-card .slick-slide .card-item .top .product-image img {
-    width: 100%;
-    height: 100%;
   }
   .mobiles .all-card .slick-slide .card-item h4 {
     font-family: "Poppins", sans-serif;
@@ -2531,7 +2412,7 @@ button .navbar-toggler-icon {
   .mobiles .all-card .slick-slide .card-item .bottom .price p {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
-    line-height: 40px;
+    line-height: 24px;
     font-weight: 600;
     color: #C82222;
   }
@@ -2544,13 +2425,15 @@ button .navbar-toggler-icon {
   }
   .mobiles .prevbtn {
     position: absolute;
-    top: -50px;
-    left: 15%;
+    top: -106px;
+    left: 30%;
+    padding: 10px 20px;
   }
   .mobiles .nextbtn {
     position: absolute;
-    top: -50px;
-    right: 15%;
+    top: -106px;
+    right: 30%;
+    padding: 10px 20px;
   }
 }
 
@@ -2835,7 +2718,7 @@ button .navbar-toggler-icon {
 }
 
 .laptops .laptop-slider .all-items .first-row .laptop-card-width .laptop-card .right {
-  width: 200px;
+  width: 190px;
   height: 180px;
   border: 2px solid #C82222;
   border-radius: 10px;
@@ -2854,16 +2737,14 @@ button .navbar-toggler-icon {
   right: 0;
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
-  -webkit-box-shadow: -14px 3px 56px 0px #0000002b;
-          box-shadow: -14px 3px 56px 0px #0000002b;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   padding: 20px 15px;
 }
 
 .laptops .laptop-slider .all-items .first-row .laptop-card-width .laptop-card .right .laptop-img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   position: relative;
   text-align: center;
   -webkit-transition: -webkit-transform 0.8s;
@@ -3036,8 +2917,8 @@ button .navbar-toggler-icon {
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width .laptop-card .left .bottom .laptop-price span {
     font-family: "Roboto", sans-serif;
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 26px;
+    line-height: 32px;
     font-weight: 600;
     color: #FFFFFF;
     display: inline-block;
@@ -3083,6 +2964,9 @@ button .navbar-toggler-icon {
   .laptops {
     padding: 30px 0;
   }
+  .laptops .title {
+    margin-bottom: 0;
+  }
   .laptops .decoration-tree-left {
     display: none;
   }
@@ -3093,9 +2977,6 @@ button .navbar-toggler-icon {
     display: none;
   }
   .laptops .decoration-icons-left-mid {
-    display: none;
-  }
-  .laptops .decoration-tree-left {
     display: none;
   }
   .laptops .decoration-tree-left {
@@ -3113,7 +2994,6 @@ button .navbar-toggler-icon {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 0;
-    padding: 0 20px;
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width .laptop-card {
     width: 100%;
@@ -3124,7 +3004,7 @@ button .navbar-toggler-icon {
     position: relative;
     -webkit-box-shadow: none;
             box-shadow: none;
-    margin-top: 167px;
+    margin-top: 140px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
@@ -3169,6 +3049,7 @@ button .navbar-toggler-icon {
             justify-content: center;
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width .laptop-card .left .bottom .laptop-btn {
+    margin-right: 15px !important;
     margin-right: 30px;
     margin-top: 10px;
   }
@@ -3187,8 +3068,8 @@ button .navbar-toggler-icon {
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width .laptop-card .left .bottom .laptop-price span {
     font-family: "Roboto", sans-serif;
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 26px;
+    line-height: 32px;
     font-weight: 600;
     color: #FFFFFF;
     display: inline-block;
@@ -3219,12 +3100,12 @@ button .navbar-toggler-icon {
     height: 100%;
   }
   .laptops .prevbtn {
-    left: 3%;
+    left: 6%;
     padding: 10px;
     top: -42px;
   }
   .laptops .nextbtn {
-    right: 3%;
+    right: 6%;
     padding: 10px;
     top: -42px;
   }
@@ -3233,6 +3114,9 @@ button .navbar-toggler-icon {
 @media (min-width: 476px) and (max-width: 575.98px) {
   .laptops {
     padding: 30px 0;
+  }
+  .laptops .title {
+    margin-bottom: 0;
   }
   .laptops .decoration-tree-left {
     display: none;
@@ -3254,6 +3138,7 @@ button .navbar-toggler-icon {
   }
   .laptops .laptop-slider .slick-slide .all-items {
     width: 100%;
+    padding: 0 50px;
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row {
     -webkit-box-orient: vertical;
@@ -3261,7 +3146,6 @@ button .navbar-toggler-icon {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 0;
-    padding: 0 45px;
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width .laptop-card {
     width: 100%;
@@ -3272,7 +3156,7 @@ button .navbar-toggler-icon {
     position: relative;
     -webkit-box-shadow: none;
             box-shadow: none;
-    margin-top: 167px;
+    margin-top: 140px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
@@ -3317,6 +3201,7 @@ button .navbar-toggler-icon {
             justify-content: center;
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width .laptop-card .left .bottom .laptop-btn {
+    margin-right: 15px !important;
     margin-right: 30px;
     margin-top: 10px;
   }
@@ -3335,15 +3220,15 @@ button .navbar-toggler-icon {
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width .laptop-card .left .bottom .laptop-price span {
     font-family: "Roboto", sans-serif;
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 26px;
+    line-height: 32px;
     font-weight: 600;
     color: #FFFFFF;
     display: inline-block;
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width .laptop-card .right {
     width: 200px;
-    height: 190px;
+    height: 180px;
     border: 2px solid #C82222;
     border-radius: 10px;
     background: #FFFFFF;
@@ -3367,18 +3252,21 @@ button .navbar-toggler-icon {
     height: 100%;
   }
   .laptops .prevbtn {
-    left: 3%;
+    left: 10%;
     padding: 10px;
     top: -42px;
   }
   .laptops .nextbtn {
-    right: 3%;
+    right: 10%;
     padding: 10px;
     top: -42px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 768.98px) {
+  .laptops .title {
+    margin-bottom: 0;
+  }
   .laptops .decoration-tree-left {
     display: none;
   }
@@ -3393,12 +3281,6 @@ button .navbar-toggler-icon {
   }
   .laptops .decoration-tree-left {
     display: none;
-  }
-  .laptops .title {
-    margin-bottom: 0px;
-  }
-  .laptops .title h2 {
-    font-size: 32px;
   }
   .laptops .laptop-slider .slick-slide {
     padding: 0;
@@ -3423,7 +3305,7 @@ button .navbar-toggler-icon {
     position: relative;
     -webkit-box-shadow: none;
             box-shadow: none;
-    margin-top: 167px;
+    margin-top: 150px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
@@ -3465,18 +3347,21 @@ button .navbar-toggler-icon {
     right: 50%;
   }
   .laptops .prevbtn {
-    left: 3%;
+    left: 12%;
     padding: 10px;
-    top: -45px;
+    top: -40px;
   }
   .laptops .nextbtn {
-    right: 3%;
+    right: 12%;
     padding: 10px;
-    top: -45px;
+    top: -40px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .laptops .title {
+    margin-bottom: 0;
+  }
   .laptops .decoration-tree-left {
     display: none;
   }
@@ -3492,13 +3377,6 @@ button .navbar-toggler-icon {
   .laptops .decoration-tree-left {
     display: none;
   }
-  .laptops .title {
-    margin-bottom: 0px;
-  }
-  .laptops .title h2 {
-    font-size: 32px;
-    font-weight: 600;
-  }
   .laptops .laptop-slider .slick-slide {
     padding: 0;
   }
@@ -3506,26 +3384,15 @@ button .navbar-toggler-icon {
     width: 100%;
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 0;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    padding: 0 120px;
   }
   .laptops .laptop-slider .slick-slide .all-items .first-row .laptop-card-width .laptop-card {
-    width: 96%;
+    width: 100%;
     padding-top: 128px;
     padding-left: 20px;
     background: #C82222;
@@ -3533,7 +3400,7 @@ button .navbar-toggler-icon {
     position: relative;
     -webkit-box-shadow: none;
             box-shadow: none;
-    margin-top: 167px;
+    margin-top: 150px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
@@ -3577,16 +3444,19 @@ button .navbar-toggler-icon {
   .laptops .prevbtn {
     left: 15%;
     padding: 10px;
-    top: -47px;
+    top: -40px;
   }
   .laptops .nextbtn {
     right: 15%;
     padding: 10px;
-    top: -47px;
+    top: -40px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .laptops .title {
+    margin-bottom: 0;
+  }
   .laptops .decoration-tree-left {
     display: none;
   }
@@ -3600,7 +3470,7 @@ button .navbar-toggler-icon {
     display: none;
   }
   .laptops .laptop-slider .all-items .first-row {
-    margin-top: 50px;
+    margin-top: 60px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -3610,7 +3480,7 @@ button .navbar-toggler-icon {
     width: 450px !important;
   }
   .laptops .laptop-slider .all-items .first-row .laptop-card-width .laptop-card {
-    width: 365px;
+    width: 350px;
     padding: 25px;
     margin-top: 0;
   }
@@ -3633,6 +3503,9 @@ button .navbar-toggler-icon {
     margin-top: 20px;
     height: 60px;
   }
+  .laptops .laptop-slider .all-items .first-row .laptop-card-width .laptop-card .left .bottom .laptop-price {
+    margin-top: 10px;
+  }
   .laptops .laptop-slider .all-items .first-row .laptop-card-width .laptop-card .left .bottom .laptop-btn {
     margin-right: 30px;
     margin-top: 10px;
@@ -3648,14 +3521,14 @@ button .navbar-toggler-icon {
     height: 110px;
   }
   .laptops .prevbtn {
-    left: 15% !important;
+    left: 20% !important;
     padding: 10px 20px;
-    top: -95px;
+    top: -40px;
   }
   .laptops .nextbtn {
-    right: 15% !important;
+    right: 20% !important;
     padding: 10px 20px;
-    top: -95px;
+    top: -40px;
   }
 }
 
@@ -3730,18 +3603,22 @@ button .navbar-toggler-icon {
     display: inline-block;
   }
   .laptops .laptop-slider .all-items .first-row .laptop-card-width .laptop-card .right {
-    width: 180px;
-    height: 200px;
+    width: 190px;
+    height: 180px;
     top: 50%;
     right: 0;
   }
+  .laptops .laptop-slider .all-items .first-row .laptop-card-width .laptop-card .right .laptop-img {
+    width: 90%;
+    height: 90%;
+  }
   .laptops .prevbtn {
     top: -95px;
-    left: 15% !important;
+    left: 30% !important;
   }
   .laptops .nextbtn {
     top: -95px;
-    right: 15% !important;
+    right: 30% !important;
   }
 }
 
@@ -4957,7 +4834,7 @@ button .navbar-toggler-icon {
   }
 }
 
-@media (min-width: 576px) and (max-width: 778.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
   .title {
     text-align: center;
   }
@@ -4985,7 +4862,91 @@ button .navbar-toggler-icon {
   }
   .title h2 {
     font-family: "Berkshire Swash", cursive;
-    font-size: 28px;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #332f2f;
+  }
+  .title .title-pra {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #666666;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .title {
+    text-align: center;
+  }
+  .title .off-badge {
+    margin-bottom: 30px;
+  }
+  .title .off-badge p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #C82222;
+    display: inline-block;
+    padding: 5px 18px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 14px 44px 0px #DD3F3F59;
+            box-shadow: 0px 14px 44px 0px #DD3F3F59;
+  }
+  .title .off-badge p .img-1 {
+    padding-right: 30px;
+  }
+  .title .off-badge p .img-2 {
+    padding-left: 30px;
+  }
+  .title h2 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #332f2f;
+  }
+  .title .title-pra {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #666666;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .title {
+    text-align: center;
+  }
+  .title .off-badge {
+    margin-bottom: 30px;
+  }
+  .title .off-badge p {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #C82222;
+    display: inline-block;
+    padding: 5px 18px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 14px 44px 0px #DD3F3F59;
+            box-shadow: 0px 14px 44px 0px #DD3F3F59;
+  }
+  .title .off-badge p .img-1 {
+    padding-right: 30px;
+  }
+  .title .off-badge p .img-2 {
+    padding-left: 30px;
+  }
+  .title h2 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 40px;
     line-height: 42px;
     font-weight: 600;
     color: #332f2f;
