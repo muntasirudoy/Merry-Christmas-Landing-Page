@@ -1,0 +1,243 @@
+@import "../abstracts/mixin";
+@import "../abstracts/variables";
+
+.bg-wh-btn{
+    @include fonts($font1,16px,21px,500, $color2);
+    background: $color1;
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+.cont-btn{
+    justify-content: center;
+}
+
+.ad-ban{
+    .button{
+       margin: 0!important;
+    }
+}
+
+.mainbanner-wh-btn{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    .button{
+        display: flex;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin: 0 20px;
+        box-shadow: $shadow3;
+        transition: 0.3s;
+        a{
+            @include fonts($font1,16px,21px,500, $color1);
+            padding: 12px 25px;
+        }
+        i{
+            margin-right: 3px;
+        }
+        
+        &:hover{
+            background: $color1
+        }
+        &:hover a{
+            color: $color5
+        }
+    }
+    .active{
+        background: $color1;
+        a{
+            color: $color5
+        }
+    }
+
+    }
+
+.buy-btn-1 {
+    @include fonts($font1, 18px, 32px, 500, $color4);
+    background: $color1;
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-transform: capitalize;
+}
+
+.buy-btn-2 {
+    @include fonts($font1, 14px, 24px, 500, $color1);
+    background: $color5;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    position: relative;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    span {
+        color: $color5;
+        background: $color1;
+        border: 1px solid $color5;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+       
+
+    }
+
+    &:hover {
+        color: $color5;
+        background: $color1;
+        border: 1px solid $color5
+    }
+}
+
+.buy-btn-3 {
+    @include fonts($font1, 16px, 18px, 500, $color1);
+    background: transparent;
+    border: 1px solid $color1;
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-transform: capitalize;
+    transition: 0.3s;
+    i{
+        margin-right: 5px;
+    }
+
+    &:hover {
+        color: $color5;
+        background: $color1;
+    }
+
+}
+
+.arrow {
+    border: 2px solid $color1;
+    background: transparent;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover{
+        box-shadow: $shadow1;
+    }
+   
+}
+
+.arrow2 {
+    border: 2px solid $color5;
+    background: transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover{
+        box-shadow: $shadow1;
+       
+    }
+
+}
+
+@media (min-width: 320px) and (max-width:575.98px){
+  .ad-ban{
+      justify-content: center;
+  }
+  .mainbanner-wh-btn{
+      .button{
+        margin: 0 10px;
+        a{
+            padding: 6px 15px;
+            line-height: 29px;
+            font-size: 14px;
+        }
+      }
+  }
+}
+@media (min-width: 576px) and (max-width:767.98px){
+
+    .mainbanner-wh-btn{
+        .button{
+          margin: 0 10px;
+          a{
+              padding: 6px 15px;
+              line-height: 29px;
+          }
+        }
+    }
+    .ad-ban{
+        justify-content: center;
+    }
+
+.buy-btn-2 {
+    @include fonts($font1, 12px, 24px, 600, $color1);
+    background: $color5;
+    padding: 12px 8px;
+    text-transform: capitalize;
+    position: relative;
+
+    span {
+        color: $color5;
+        background: $color1;
+        border: 1px solid $color5;
+        border-radius: 50%;
+        width: 26px;
+        height: 26px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+
+    }
+
+    &:hover {
+        color: $color1;
+    }
+}
+}
+@media (min-width: 768px) and (max-width:991.98px){
+    .ad-ban{
+        justify-content: center;
+    }
+    .mainbanner-wh-btn{
+        .button{
+          margin: 0 10px;
+          a{
+              padding: 10px 20px;
+              line-height: 29px;
+          }
+        }
+    }
+}
+@media (min-width: 992px) and (max-width:1199.98px){
+    .mainbanner-wh-btn{
+        .button{
+          margin: 0 10px;
+          a{
+              padding: 10px 20px;
+              line-height: 29px;
+          }
+        }
+        .add-btn{
+            margin-left: 0;
+        }
+}
+
+}
+@media (min-width: 1200px) and (max-width:1399.98px){
+    .mainbanner-wh-btn{
+        margin-top: 40px;
+        .button{
+          margin: 0 10px;
+          a{
+              padding: 10px 20px;
+              line-height: 29px;
+          }
+        }
+        .add-btn{
+            margin-left: 0;
+        }
+}
+}
+

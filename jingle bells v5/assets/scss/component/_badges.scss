@@ -1,0 +1,161 @@
+
+.title{
+    text-align: center;
+    .off-badge{
+        margin-bottom: 30px;
+        p{
+            @include fonts($font1,36px,48px,600, $color1);
+            background: $color5;
+            display: inline-block;
+            padding: 6px 22px;
+            border-radius: 25px;
+            box-shadow: $shadow1;
+          
+            .img-1{
+              
+                padding-right: 30px;
+                margin-bottom: 5px;
+            }
+            .img-2{
+                padding-left: 30px;
+                margin-bottom: 5px
+                
+            }
+            
+        }
+    }
+    h2{
+        @include fonts($font3,38px,50px,600, $color4);  
+        
+    }
+    .title-pra{
+        @include fonts($font1,14px,19px,400, $color8);   
+    }
+}
+@media (min-width: 320px) and (max-width: 575.98px){
+    .title{
+        text-align: center;
+        .off-badge{
+            margin-bottom: 30px;  
+            p{
+                @include fonts($font1,18px,45px,700, $color1);
+                background: $color5;
+                display: inline-block;
+                padding: 5px 18px;
+                border-radius: 25px;
+                box-shadow: $shadow1;
+                .img-1{
+                  
+                    padding-right: 30px;
+                }
+                .img-2{
+                    padding-left: 30px;
+                    
+                }
+                
+            }
+        }
+        h2{
+            @include fonts($font3,30px,42px,600, $color4);  
+        }
+        .title-pra{
+            @include fonts($font1,14px,19px,400, $color8);   
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .title{
+        text-align: center;
+        .off-badge{
+            margin-bottom: 30px;
+            p{
+                @include fonts($font1,18px,45px,600, $color1);
+                background: $color5;
+                display: inline-block;
+               padding: 5px 18px;
+                border-radius: 25px;
+                box-shadow: $shadow1;
+                .img-1{
+                  
+                    padding-right: 30px;
+                }
+                .img-2{
+                    padding-left: 30px;
+                    
+                }
+                
+            }
+        }
+        h2{
+            @include fonts($font3,32px,42px,600, $color4);  
+        }
+        .title-pra{
+            @include fonts($font1,14px,19px,400, $color8);   
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .title{
+        text-align: center;
+        .off-badge{
+            margin-bottom: 30px;
+            p{
+                @include fonts($font1,20px,45px,600, $color1);
+                background: $color5;
+                display: inline-block;
+               padding: 5px 18px;
+                border-radius: 25px;
+                box-shadow: $shadow1;
+                .img-1{
+                  
+                    padding-right: 30px;
+                }
+                .img-2{
+                    padding-left: 30px;
+                    
+                }
+                
+            }
+        }
+        h2{
+            @include fonts($font3,36px,42px,600, $color4);  
+        }
+        .title-pra{
+            @include fonts($font1,14px,19px,400, $color8);   
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .title{
+        text-align: center;
+        .off-badge{
+            margin-bottom: 30px;
+            p{
+                @include fonts($font1,22px,45px,600, $color1);
+                background: $color5;
+                display: inline-block;
+               padding: 5px 18px;
+                border-radius: 25px;
+                box-shadow: $shadow1;
+                .img-1{
+                  
+                    padding-right: 30px;
+                }
+                .img-2{
+                    padding-left: 30px;
+                    
+                }
+                
+            }
+        }
+        h2{
+            @include fonts($font3,40px,42px,600, $color4);  
+        }
+        .title-pra{
+            @include fonts($font1,14px,19px,400, $color8);   
+        }
+    }
+}
