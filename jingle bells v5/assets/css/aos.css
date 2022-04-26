@@ -4,8 +4,8 @@ body[data-aos-duration='50'] [data-aos], [data-aos][data-aos][data-aos-duration=
 }
 
 body[data-aos-delay='50'] [data-aos], [data-aos][data-aos][data-aos-delay='50'] {
-  -webkit-transition-delay: 0.0001;
-  transition-delay: 0.0001;
+  -webkit-transition-delay: 0.0001ms;
+  transition-delay:  0.0001ms;
 }
 
 body[data-aos-delay='50'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='50'].aos-animate {
