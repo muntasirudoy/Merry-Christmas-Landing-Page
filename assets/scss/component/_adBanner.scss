@@ -15,7 +15,7 @@
 .decoration-bottom{
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -60px;
     width:100%;
 }
 .decoration-box-right{
@@ -402,6 +402,69 @@
             position: absolute;
             left: 111px;
             bottom: 30px;
+            width: 125px;
+        
+        }
+        .ad_slider{
+            .inn-slider{
+                     padding: 15px 0;
+                     .text{
+                        h3{
+                            font-size: 48px;
+                            line-height: 48px;
+                        }
+                        margin-left: 90px !important;
+
+                        .price{
+                            font-size: 32px;
+                        }
+                    }
+                        .product-img {
+                        width: 400px;
+                        margin-right: 90px;
+                        margin-top: 0;
+                        }
+                    }
+
+                }
+                .prevbtn{
+                    top: 50%;
+                   font-size: 22px;
+                   z-index: 111;
+                  transform: translateY(-50%);
+                  padding: 10px 20px;
+                  i{
+                      color: $color1;
+                  }
+                }
+                .nextbtn{
+                    padding: 10px 20px;
+                    font-size: 22px;
+                    top: 50%;
+                    color: $color1;
+                    z-index: 111;
+                    transform: translateY(-50%);
+                    i{
+                      color: $color1;
+                  }
+                }
+            } 
+}
+@media (min-width: 1400px) and (max-width: 1599.98px){
+    .adBanner{
+        height: 100%;
+        width: 100%;
+        padding:50px 0 150px;
+        .decoration-bottom{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width:100%;
+        }
+        .decoration-box-right{
+            position: absolute;
+            left: 160px;
+            bottom: 40px;
             width: 125px;
         
         }

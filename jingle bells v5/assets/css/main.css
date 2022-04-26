@@ -2453,6 +2453,11 @@ button .navbar-toggler-icon {
   margin-top: 50px;
 }
 
+.gift .all-banner .my-venu-image {
+  width: 100%;
+  height: 100%;
+}
+
 .gift .all-banner .long-banner {
   width: 100%;
   height: 625px;
@@ -2473,23 +2478,6 @@ button .navbar-toggler-icon {
 .gift .all-banner .long-banner:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-}
-
-.gift .all-banner .long-banner::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.234);
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.gift .all-banner .long-banner:hover::after {
-  opacity: 1;
 }
 
 .gift .all-banner .short-banner {
@@ -2513,23 +2501,6 @@ button .navbar-toggler-icon {
           transform: scale(1.1);
 }
 
-.gift .all-banner .short-banner::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.234);
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.gift .all-banner .short-banner:hover::after {
-  opacity: 1;
-}
-
 .gift .all-banner .short-banner-log-width {
   margin-top: 25px;
   width: 100%;
@@ -2550,23 +2521,6 @@ button .navbar-toggler-icon {
 .gift .all-banner .short-banner-log-width:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-}
-
-.gift .all-banner .short-banner-log-width::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.234);
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.gift .all-banner .short-banner-log-width:hover::after {
-  opacity: 1;
 }
 
 @media (min-width: 320px) and (max-width: 474.98px) {
@@ -4178,7 +4132,7 @@ button .navbar-toggler-icon {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  max-height: 700px;
+  height: 750px;
   background: url(../images/guide/bg1.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -4957,7 +4911,7 @@ button .navbar-toggler-icon {
 .adBanner .decoration-bottom {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -60px;
   width: 100%;
 }
 
@@ -5350,6 +5304,67 @@ button .navbar-toggler-icon {
     position: absolute;
     left: 111px;
     bottom: 30px;
+    width: 125px;
+  }
+  .adBanner .ad_slider .inn-slider {
+    padding: 15px 0;
+  }
+  .adBanner .ad_slider .inn-slider .text {
+    margin-left: 90px !important;
+  }
+  .adBanner .ad_slider .inn-slider .text h3 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .adBanner .ad_slider .inn-slider .text .price {
+    font-size: 32px;
+  }
+  .adBanner .ad_slider .inn-slider .product-img {
+    width: 400px;
+    margin-right: 90px;
+    margin-top: 0;
+  }
+  .adBanner .prevbtn {
+    top: 50%;
+    font-size: 22px;
+    z-index: 111;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    padding: 10px 20px;
+  }
+  .adBanner .prevbtn i {
+    color: #FFFFFF;
+  }
+  .adBanner .nextbtn {
+    padding: 10px 20px;
+    font-size: 22px;
+    top: 50%;
+    color: #FFFFFF;
+    z-index: 111;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .adBanner .nextbtn i {
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  .adBanner {
+    height: 100%;
+    width: 100%;
+    padding: 50px 0 150px;
+  }
+  .adBanner .decoration-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .adBanner .decoration-box-right {
+    position: absolute;
+    left: 160px;
+    bottom: 40px;
     width: 125px;
   }
   .adBanner .ad_slider .inn-slider {

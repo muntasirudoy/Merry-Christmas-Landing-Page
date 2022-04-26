@@ -16,8 +16,10 @@
 <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 <!-- slick slider css -->
 <link rel="stylesheet" href="./assets/css/slick.css">
-<!-- ======= -->
+<!-- aos animation -->
 <link rel="stylesheet" href="./assets/css/aos.css">
+<!-- venubox -->
+<link rel="stylesheet" href="./assets/css/venobox.min.css" type="text/css" media="screen" />
 <!-- font awesome css -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 <!-- up button plugin -->
@@ -30,22 +32,19 @@
 </head>
 
 <body>
-  <!-- 
-<div class="ploader">
-  <div class="loader"></div>
-</div> -->
-
 
   <!-- =================================
                  navbar start
-       ================================= -->
+  ================================= -->
   <nav class="navbar navbar-expand-lg main-navbar main-menu">
     <div class="container">
       <a class="navbar-brand logo" href="#"> <img src="./assets/images/navbar/logo.svg" alt=""> </a>
+      <!-- nav toggler button for mobile -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
       </button>
+      <!-- nav toggler button end -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -76,14 +75,16 @@
       </div>
     </div>
   </nav>
-  <!-- =================================
-                navbar end
-       ================================= -->
-  <!-- =================================
-               mainBanner start
-       ================================= -->
 
-  <section class="mainBanner snow">
+<!-- ========================================================================
+                navbar end
+============================================================================ -->
+
+<!-- ==========================================================================
+               mainBanner start
+ ========================================================================== -->
+
+<section class="mainBanner snow">
     <!-- // decoration png start -->
     <img class="decoration-image-bottom" src="./assets/images/banner/bootom-grasss.png" alt="grass">
     <img class="decoration-flak1" src="./assets/images/banner/snowflake-1.png" alt="grass">
@@ -139,13 +140,17 @@
       </div>
     </div>
   </section>
-  <!-- =================================
+
+<!-- ================================================================================
                 mainBanner end
-       ================================= -->
-  <!-- =================================
+ ================================================================================ -->
+
+
+<!-- ================================================================================
                 about start
-       ================================= -->
-  <section class="about section-padding" id="about">
+================================================================================= -->
+
+<section class="about section-padding" id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-sm-12 col-md-12">
@@ -198,12 +203,13 @@
     </div>
   </section>
 
-  <!-- =================================
+ <!-- =========================================================================
                 about end
-       ================================= -->
-  <!-- =================================
+      ======================================================================-->
+
+<!-- =========================================================================
                 adBanner start
-       ================================= -->
+============================================================================ -->
   <div class="adBanner ">
     <img class="decoration-right" src="./assets/images/adbanner/decoration-right.png" alt="decoration">
     <img class="decoration-bottom" src="./assets/images/adbanner/home-bg-4.png" alt="decoration">
@@ -741,6 +747,7 @@
        ================================= -->
   <div class="gift">
     <div class="container">
+      <!-- title start -->
       <div class="title">
         <div class="off-badge">
           <p><img class="img-1" src="./assets/images/mobile/ellipse.svg" alt="ellipse"> 65% OFF <img class="img-2"
@@ -748,29 +755,31 @@
         </div>
         <h2>Fabulous Gifts </h2>
       </div>
+      <!-- title end -->
       <div class="row  all-banner">
-        <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="col-lg-4 col-md-12 col-sm-12 venu-col ">
           <div class="long-banner">
-            <img src="./assets/images/adbanner-short/b1.jpg" alt="">
+            <a  class="my-venu-image" data-gall="gallery01" href="./assets/images/adbanner-short/b1.jpg"><img src="./assets/images/adbanner-short/b1.jpg" alt="gift image"></a>
           </div>
         </div>
-        <div class="col-lg-8 ">
+        <div class="col-lg-8 venu-col">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="short-banner">
-                <img src="./assets/images/adbanner-short/b4.jpg" alt="">
+              <div class="short-banner venu">
+                <a  class="my-venu-image" data-gall="gallery02" href="./assets/images/adbanner-short/b4.jpg"><img src="./assets/images/adbanner-short/b4.jpg" alt="gift image"></a>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="short-banner">
-                <img src="./assets/images/adbanner-short/b3.jpg" alt="">
+            <div class="col-lg-6 col-md-6 col-sm-12 venu-col">
+              <div class="short-banner venu">
+                <a  class="my-venu-image" data-gall="gallery03" href="./assets/images/adbanner-short/b3.jpg"><img src="./assets/images/adbanner-short/b3.jpg" alt="gift image"></a>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-              <div class="short-banner-log-width">
-                <img src="./assets/images/adbanner-short/b5.jpg" alt="">
+            <div class="col-lg-12 col-md-12 col-sm-12 venu-col">
+              <div class="short-banner-log-width venu">
+                <a  class="my-venu-image" data-gall="gallery04" href="./assets/images/adbanner-short/b5.jpg"><img src="./assets/images/adbanner-short/b5.jpg" alt="gift image"></a>
+
               </div>
             </div>
           </div>
@@ -1140,14 +1149,14 @@
           <div class="all-items gallery">
             <h3>Our Gallery</h3>
             <ul>
-              <li> <a href=""><img src="./assets/images/gallery/01.jpg" alt="gallery"></a> </li>
-              <li> <a href=""><img src="./assets/images/gallery/02.jpg" alt="gallery"></a> </li>
-              <li> <a href=""><img src="./assets/images/gallery/03.jpg" alt="gallery"></a> </li>
-              <li> <a href=""><img src="./assets/images/gallery/04.jpg" alt="gallery"></a> </li>
-              <li> <a href=""><img src="./assets/images/gallery/05.jpg" alt="gallery"></a> </li>
-              <li> <a href=""><img src="./assets/images/gallery/06.jpg" alt="gallery"></a> </li>
-              <li> <a href=""><img src="./assets/images/gallery/07.jpg" alt="gallery"></a> </li>
-              <li> <a href=""><img src="./assets/images/gallery/08.jpg" alt="gallery"></a> </li>
+              <li> <a class="my-venu-gallery-image" data-gall="gallery00" href="./assets/images/adbanner-short/b1.jpg"><img src="./assets/images/adbanner-short/b1.jpg" alt="gallery"></a> </li>
+              <li> <a class="my-venu-gallery-image" data-gall="gallery001" href="./assets/images/adbanner-short/b2.jpg"><img src="./assets/images/adbanner-short/b2.jpg" alt="gallery"></a> </li>
+              <li> <a class="my-venu-gallery-image" data-gall="gallery002" href="./assets/images/adbanner-short/b3.jpg"><img src="./assets/images/adbanner-short/b3.jpg" alt="gallery"></a> </li>
+              <li> <a class="my-venu-gallery-image" data-gall="gallery003" href="./assets/images/adbanner-short/b4.jpg"><img src="./assets/images/adbanner-short/b4.jpg" alt="gallery"></a> </li>
+              <li> <a class="my-venu-gallery-image" data-gall="gallery004" href="./assets/images/adbanner-short/b5.jpg"><img src="./assets/images/adbanner-short/b5.jpg" alt="gallery"></a> </li>
+              <li> <a class="my-venu-gallery-image" data-gall="gallery005" href="./assets/images/adbanner-short/b1.jpg"><img src="./assets/images/adbanner-short/b1.jpg" alt="gallery"></a> </li>
+              <li> <a class="my-venu-gallery-image" data-gall="gallery006" href="./assets/images/adbanner-short/b2.jpg"><img src="./assets/images/adbanner-short/b2.jpg" alt="gallery"></a> </li>
+              <li> <a class="my-venu-gallery-image" data-gall="gallery007" href="./assets/images/adbanner-short/b3.jpg"><img src="./assets/images/adbanner-short/b3.jpg" alt="gallery"></a> </li>          
             </ul>
           </div>
         </div>
@@ -1155,6 +1164,7 @@
     </div>
     <div class="copywrite"> All right reserved @abc.com</div>
   </footer>
+
   <!-- =================================
                  footer end
        ================================= -->
@@ -1174,16 +1184,21 @@
   <script src="./assets/js/waypoints.min.js"></script>
   <!-- Up Bottom Button -->
   <script src="./assets/js/up_btn.js"></script>
+  <!-- venobox -->
+  <script src="./assets/js/venobox.min.js"></script>
   <!-- Main script -->
   <script src="./assets/js/script.js"></script>
 
+  <script>
+     new VenoBox({
+        selector: ".gift .my-venu-image, .my-venu-gallery-image",
+        numeration: true,
+        infinigall: true,
+        share: true,
+        spinner: 'rotating-plane'
+    });
 
-
-  <!-- <script>
-       window.onload = function(){ document.querySelector(".ploader").style.display = "none"; }
-
-  </script> -->
-
+  </script>
   <!-- call snow -->
   <script>
     $.letItSnow('.snow', {
@@ -1202,8 +1217,6 @@
       whenShow: 500,
     });
   </script>
-
-
 </body>
 
 </html>
