@@ -4,8 +4,8 @@ body[data-aos-duration='50'] [data-aos], [data-aos][data-aos][data-aos-duration=
 }
 
 body[data-aos-delay='50'] [data-aos], [data-aos][data-aos][data-aos-delay='50'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+  transition-delay: 0.0001;
 }
 
 body[data-aos-delay='50'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='50'].aos-animate {
@@ -19,8 +19,8 @@ body[data-aos-duration='100'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='100'] [data-aos], [data-aos][data-aos][data-aos-delay='100'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='100'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='100'].aos-animate {
@@ -34,8 +34,8 @@ body[data-aos-duration='150'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='150'] [data-aos], [data-aos][data-aos][data-aos-delay='150'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='150'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='150'].aos-animate {
@@ -49,8 +49,8 @@ body[data-aos-duration='200'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='200'] [data-aos], [data-aos][data-aos][data-aos-delay='200'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='200'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='200'].aos-animate {
@@ -64,8 +64,8 @@ body[data-aos-duration='250'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='250'] [data-aos], [data-aos][data-aos][data-aos-delay='250'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='250'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='250'].aos-animate {
@@ -79,8 +79,8 @@ body[data-aos-duration='300'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='300'] [data-aos], [data-aos][data-aos][data-aos-delay='300'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay:0.0001;
 }
 
 body[data-aos-delay='300'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='300'].aos-animate {
@@ -94,8 +94,8 @@ body[data-aos-duration='350'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='350'] [data-aos], [data-aos][data-aos][data-aos-delay='350'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='350'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='350'].aos-animate {
@@ -109,8 +109,8 @@ body[data-aos-duration='400'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='400'] [data-aos], [data-aos][data-aos][data-aos-delay='400'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='400'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='400'].aos-animate {
@@ -124,8 +124,8 @@ body[data-aos-duration='450'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='450'] [data-aos], [data-aos][data-aos][data-aos-delay='450'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='450'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='450'].aos-animate {
@@ -139,8 +139,8 @@ body[data-aos-duration='500'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='500'] [data-aos], [data-aos][data-aos][data-aos-delay='500'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='500'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='500'].aos-animate {
@@ -154,8 +154,8 @@ body[data-aos-duration='550'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='550'] [data-aos], [data-aos][data-aos][data-aos-delay='550'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='550'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='550'].aos-animate {
@@ -169,8 +169,8 @@ body[data-aos-duration='600'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='600'] [data-aos], [data-aos][data-aos][data-aos-delay='600'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='600'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='600'].aos-animate {
@@ -184,8 +184,8 @@ body[data-aos-duration='650'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='650'] [data-aos], [data-aos][data-aos][data-aos-delay='650'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='650'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='650'].aos-animate {
@@ -199,8 +199,8 @@ body[data-aos-duration='700'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='700'] [data-aos], [data-aos][data-aos][data-aos-delay='700'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='700'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='700'].aos-animate {
@@ -214,8 +214,8 @@ body[data-aos-duration='750'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='750'] [data-aos], [data-aos][data-aos][data-aos-delay='750'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='750'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='750'].aos-animate {
@@ -229,8 +229,8 @@ body[data-aos-duration='800'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='800'] [data-aos], [data-aos][data-aos][data-aos-delay='800'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay:0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='800'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='800'].aos-animate {
@@ -244,8 +244,8 @@ body[data-aos-duration='850'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='850'] [data-aos], [data-aos][data-aos][data-aos-delay='850'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='850'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='850'].aos-animate {
@@ -259,8 +259,8 @@ body[data-aos-duration='900'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='900'] [data-aos], [data-aos][data-aos][data-aos-delay='900'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='900'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='900'].aos-animate {
@@ -274,8 +274,8 @@ body[data-aos-duration='950'] [data-aos], [data-aos][data-aos][data-aos-duration
 }
 
 body[data-aos-delay='950'] [data-aos], [data-aos][data-aos][data-aos-delay='950'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='950'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='950'].aos-animate {
@@ -289,8 +289,8 @@ body[data-aos-duration='1000'] [data-aos], [data-aos][data-aos][data-aos-duratio
 }
 
 body[data-aos-delay='1000'] [data-aos], [data-aos][data-aos][data-aos-delay='1000'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='1000'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='1000'].aos-animate {
@@ -304,8 +304,8 @@ body[data-aos-duration='1050'] [data-aos], [data-aos][data-aos][data-aos-duratio
 }
 
 body[data-aos-delay='1050'] [data-aos], [data-aos][data-aos][data-aos-delay='1050'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='1050'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='1050'].aos-animate {
@@ -319,8 +319,8 @@ body[data-aos-duration='1100'] [data-aos], [data-aos][data-aos][data-aos-duratio
 }
 
 body[data-aos-delay='1100'] [data-aos], [data-aos][data-aos][data-aos-delay='1100'] {
-  -webkit-transition-delay: 0;
-          transition-delay: 0;
+  -webkit-transition-delay: 0.0001;
+          transition-delay: 0.0001;
 }
 
 body[data-aos-delay='1100'] [data-aos].aos-animate, [data-aos][data-aos][data-aos-delay='1100'].aos-animate {
