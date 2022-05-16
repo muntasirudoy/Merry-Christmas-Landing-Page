@@ -2,9 +2,8 @@
 @import "../abstracts/variables";
 
 footer{
-    background: $color5;
     border-top: 1px solid $color1;
-
+   background: $color5;
  .footer-content{
      padding: 60px 0;
     .gallery{
@@ -95,7 +94,22 @@ footer{
     padding: 5px 0;
     font-family: $font1;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .list-inline{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-bottom: 0;
+        a{
+            color: rgb(255, 217, 0);
+            margin: 0 5px;
+        }
     }
+    }
+
 }
 // Responsive 320px - 575px 
 @media (min-width: 320px) and (max-width: 575.98px){
